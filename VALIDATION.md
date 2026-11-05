@@ -34,14 +34,16 @@ Evidence: `work/first-session-evidence/` (commands, captures, native crafting an
 
 ## Release and hosted checks
 
-The later Windows convenience download `michaels-modpack-1.0.2-windows-easy.zip` has SHA256 `3d9f94e5e0831b8949190aa1ebd2d74ec247bdf69e46ecb559a3b2cbd85a6ce5`. It changes only the launcher's filename to **CLICK HERE TO INSTALL AND PLAY.cmd** and the accompanying short instructions. The command contents and every other archive file are byte-identical to the reviewed Windows starter; the core pack is unchanged.
+The friends download `michaels-modpack-1.0.2-windows-easy.zip` has SHA256 `81ee9db2fe92b7224a408cc7d35b7a6c20f9dce1391089ba2b054771b4463e07`. It renames the launch script to **CLICK HERE TO INSTALL AND PLAY.cmd** and removes the friend-facing readme. All retained files and the launch script contents are byte-identical to the reviewed Windows starter; the core pack is unchanged.
 
 
 Windows starter SHA256: `f29e9aa658dd62ba649814f60e60091a5ec0f71b0c64b7606ac5868713651120`. Matching GPL source ZIP SHA256: `e69afb58157afcc8fa5dc4c494406804a7c3ce9f8a37c5fb7bdf0ed876db7c2a`.
 
 A separate GPT-6.1 Sol extra-high artifact/source review confirmed all96 total publisher files (93 client-supported), exactly90 client jars, and all39 preexisting class files unchanged from1.0.1. Only the first-join cleanup and geology-default classes were added. All upstream publisher archives remain unchanged. The actual published packwiz hash graph passed288 file hashes and93 publisher pins. Its automatic installer completed; the installed result matched all195 override files, all93 supported publisher archives, the90-jar client, original thumbnail, normal master volume and enabled shader.
 
-The paid server downloaded back the exact new jar through its normal file panel and SHA256-matched it. Its previous own jar is disabled. It booted with all76 expected server mod files and answers the external1.20.1/Forge3/six-slot status check. Existing-world pause settings were read back, and game time remained0 after startup. Seed, natural wilderness spawn and terrain remain unchanged; no test inventory/entities were added to production. Final2000x2000block pregeneration is scheduled for8:40PM Pacific after all pack changes.
+The paid server downloaded back the exact new jar through its normal file panel and SHA256-matched it. Its previous own jar is disabled. It booted with all76 expected server mod files and answered the external1.20.1/Forge3/six-slot status check. Existing-world pause settings were read back, and game time remained0 after startup. The seed and original natural wilderness spawn are retained; no test inventory/entities were added to production.
+
+The requested **2000×2000-block pregeneration is complete** around original spawn(-304,72,160). Forge finished at04:50:51UTC on November5 (8:50:51PM Pacific on November4), generating15,096 new chunks within the125×125-chunk selection of15,625 chunks. With zero players, game time was still0 at04:51:09UTC. A normal `save-all flush` confirmed every dimension saved at04:53:30UTC. A caught Supplementaries sign-text fallback during generation was cosmetic and non-blocking; no mods were changed.
 
 An authenticated account joining the paid remote server remains a first-player check; all joined test-user checks above were local. The earlier118FPS shader and active-mob samples below use an RTX5070Ti and muted game audio, not the unknown weakest friend's PC or normal-volume SoundPhysics overhead.
 
@@ -207,3 +209,5 @@ The installed TaCZ application-level R event path was also exercised without OS 
 Native window monitoring recorded 390 samples, all hidden and never foreground. Both owned test processes stopped normally afterward. Core and Windows starter archive hashes remained unchanged. Evidence is retained privately in busy-scene-review.md, busy-scene-result.json, and the associated screenshots/command/state captures.
 
 The production hosted world was subsequently restored to the untouched world folder, reported game time 0, and answered the external Minecraft status request with version 1.20.1, six slots and Forge network 3. An authenticated hosted player join remains a first-player/final deployment check; it is not claimed completed here.
+
+The final friends wrapper removes READ ME FIRST.txt entirely at the user's request. Every retained file is byte-identical to the previously checked convenience wrapper. Final friends ZIP SHA256: `81ee9db2fe92b7224a408cc7d35b7a6c20f9dce1391089ba2b054771b4463e07`. The core modpack remains unchanged.
