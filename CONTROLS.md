@@ -20,13 +20,14 @@ Ordinary Minecraft movement, inventory, jumping, sneaking and item pickup stay t
 | New waypoint | **N** |
 | Waypoint list | **U** |
 | Minimap settings / enlarged map | **Y** / **F9** |
+| Advanced geology overlay (starts off) | **F4** |
 | Storage remote (when available) | **I** |
 | Backrooms guide | **F8** |
 
 Shader reload, toggle and selection hotkeys are unbound, so they cannot intercept gun controls. Shaders start enabled; change them through **Options → Video Settings → Shader Packs**.
 
-In inventories, JEI uses **R** for recipes and **U** for uses when hovering an item. Look up gun ammunition there. Extra mod abilities use modifier combinations shown in item tips and **Options → Controls**; for example Cataclysm abilities use Alt combinations. Disabled SCP inventory/blink controls are unbound.
+In inventories, JEI uses **R** for recipes and **U** for uses when hovering an item. Guns use the Gun-Smith Table; ammunition uses the separate Ammo Workbench. Look up both in JEI. Extra mod abilities use modifier combinations shown in item tips and **Options → Controls**; for example Cataclysm abilities use Alt combinations. Disabled SCP inventory/blink controls are unbound.
 
 Import the new pack as its own instance to receive these defaults. An older instance can retain its old personal key settings.
 
-While holding a gun, right-click aims. Use **O** to interact, or switch to another held item for ordinary right-click interactions.
+The minimap starts small, with all entity radar, tracked players and coordinate/status rows hidden. **M** opens the full map. The advanced geology overlay starts off; **F4** toggles it.

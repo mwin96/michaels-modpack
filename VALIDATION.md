@@ -1,3 +1,25 @@
+# 1.0.2 final polish and first-session checks
+
+The exact 1.0.2 client reconstructed from the release joined the matching local server. The independent Astra high reviewer reported a genuinely new test player with **empty server inventory and an empty client hotbar**, a saved first-join marker, and a later earned bestiary retained normally. The small minimap showed no mob radar or information rows. The advanced geology overlay started off and its existing F4 action toggled on/off. Release defaults retain normal master volume1 and the default-on minimal shader.
+
+Core MRpack SHA256: `9376c18bce770460d8aef7c5fec600fe748e4471ab4271eb681dced8d002c4fd`. Own jar SHA256: `2fbfc115ce1683c3f0a6436d4561dcdb28423b39ae71178fc58d272c35f9d49c`. Windows starter SHA256: `f29e9aa658dd62ba649814f60e60091a5ec0f71b0c64b7606ac5868713651120`. Corresponding source ZIP SHA256: `e69afb58157afcc8fa5dc4c494406804a7c3ce9f8a37c5fb7bdf0ed876db7c2a`.
+
+A separate GPT-6.1 Sol extra-high artifact/source audit confirmed all96 pinned publisher files (93 client-supported), exactly90 client jars, and all39 existing class files unchanged from1.0.1. Only the two intended classes for first-join cleanup and geology-overlay default were added. All published upstream archives remain unchanged.
+
+The first-session tour used a fresh local copy with the hosted world's exact seed and generator. Natural snowy taiga, plains/coastal forest terrain, an IDAS/pillager compound, Valhelsia house, tavern site, dungeon towers and SCP facility were inspected in game. The actual map opened and terrain/ocean rendering worked. The original wilderness spawn is retained; the proposed village spawn was rejected at the user's request. A30-second unarmored survival check at the original spawn retained20health; a hostile compound is nearby, so the start is not a protected hub.
+
+A natural Lootr chest produced an AK47 with60matching7.62x39 rounds, transferred through the actual chest menu. A normal-health iron-kit Knocker encounter fired25successful native gun shots and left the player at17.17health; the creature vanished, and this test does not distinguish a kill from scripted despawn. An idle melee attempt died; respawn and recovery of the dropped gun/ammo worked. These are bounded gameplay probes with test positioning and spawned encounters, not a human skill study or an entire survival run.
+
+**Crafting:** the native gun-smith table consumed16iron and produced a Glock. The separate ammo workbench consumed10copper and2gunpowder and produced50tagged9mm rounds. Both workbench recipes exist and use ordinary Minecraft ingredients. All173 loaded station recipes resolved their ingredients. A gun-smith table costs13iron plus3logs; the ammo workbench costs2copper,1iron and an iron ammo box (7planks plus1iron). No extra dimension is required for this route.
+
+**Hosted deployment:** the76-mod server booted the new own jar, downloaded back through the panel and SHA256-matched to the tested file. The previous own jar is disabled. The world-specific pause config was verified; external Minecraft status reports1.20.1, six slots and Forge network3. At04:25:05UTC the empty production world reported gametime0. The wilderness seed, terrain and spawn are unchanged. Final2000x2000block pregeneration is planned to start at8:40PM Pacific as requested.
+
+**Practical limits:** all new runtime work used a local joined test player; an authenticated account joining the paid remote server remains a first-player check. Four-human pacing, overnight stability and unknown weaker-PC FPS remain unmeasured. The previous118FPS shader and active-mob samples below are on the RTX5070Ti test machine, not the friend's unknown hardware. Tests were muted while release audio remains normal; normal-volume Sound Physics CPU overhead was not separately measured. The evidence supports a monitored private group playtest.
+
+The1.0.1 and original1.0.0 evidence below remains historical and refers to its own exact artifacts.
+
+---
+
 # Independent 1.0.1 follow-up — first-hour friction
 
 **Verdict: GO for the private group's monitored pilot.** Exact reconstructed release joined the local server and passed the focused checks below. Core SHA256: `437662e20d304a0cf53f964bf39276ee88621fbe0e7e8a843dd51397c36e8b2b`. Windows starter SHA256: `a21fe86a3702894244948ae76244d5b6bc816ee5e3f8a409347cb98ab3db5c76`. Compatibility jar SHA256: `8807c6bacb7189555a97655b25303f4fe57ccef2c192ee12a791496ac8bc4dc9`.

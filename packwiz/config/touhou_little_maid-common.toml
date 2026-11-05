@@ -111,9 +111,9 @@
 	#Range: 0.0 ~ 5.0
 	PlayerDeathLossPowerPoint = 1.0
 	#Give a soul spell item for player first join
-	GiveSoulSpell = true
+	GiveSoulSpell = false
 	#Give the Memorizable Gensokyo book item for player first join
-	GivePatchouliBook = true
+	GivePatchouliBook = false
 	#Shrine Lamp Effect Cost (Power Point/Per Hour)
 	#Range: 0.0 ~ 1.7976931348623157E308
 	ShrineLampEffectCost = 0.9
@@ -158,7 +158,7 @@
 
 [ai]
 	#Whether or not to enable the AI LLM feature
-	LLMEnabled = false
+	LLMEnabled = true
 	#Whether to automatically generate the maid's settings
 	AutoGenSettingEnabled = true
 	#LLM AI Proxy Address, such as 127.0.0.1:1080, empty is no proxy, SOCKS proxies are not supported

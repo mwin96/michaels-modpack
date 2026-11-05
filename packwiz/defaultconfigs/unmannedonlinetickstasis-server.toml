@@ -8,5 +8,5 @@
 
 ["Command Whitelist"]
 	#List of commands that can be executed from console while the server is paused. Supports wildcard '*' at the end. Example: ["say", "list", "stop"]
-	commandWhitelist = ["say", "list", "stop", "save-all", "whitelist", "op", "deop"]
+	commandWhitelist = ["say", "list", "stop", "time", "data", "michaelspack", "save-all", "spark", "forge", "whitelist", "op", "deop"]
 

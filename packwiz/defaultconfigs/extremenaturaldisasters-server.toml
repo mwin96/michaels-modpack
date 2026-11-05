@@ -21,7 +21,7 @@
 	announceApocalypses = true
 	#Notifies a player when they enter or leave a tectonic or active-disaster zone.
 	#This does not affect disaster-spawn or apocalypse announcements. Default: true.
-	announceZones = true
+	announceZones = false
 	#Global multiplier applied to all per-disaster construction speed settings.
 	#2.0 = twice as fast, 0.5 = half speed, 1.0 = no change. Default: 1.0.
 	#Range: 0.01 ~ 100.0

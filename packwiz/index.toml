@@ -738,7 +738,7 @@ preserve = true
 
 [[files]]
 file = "config/touhou_little_maid-common.toml"
-hash = "11ee2b91181ca964c9938a575992f3e6020a0b79248603d6138c09bc4f314210"
+hash = "7cb40fb62c58fb9f93ab4507b7f0f680d217251b222bf5ac81a9c15c4b28c630"
 preserve = true
 
 [[files]]
@@ -817,6 +817,31 @@ hash = "6b7a8db6d09309c43fc97b5923bd35e879aa2ee12163a888f44b94af53d6c800"
 preserve = true
 
 [[files]]
+file = "config/xaero/minimap/client.cfg"
+hash = "23245a551b7fa49e4689b2cf7beacbaa4c40f5c0f5567e0fe737a6feed59d1ad"
+preserve = true
+
+[[files]]
+file = "config/xaero/minimap/profiles/default.cfg"
+hash = "29b8c6038bec900ac7672cb4b172ed1c8ebb54565b121072dcb86cbd5df9c79f"
+preserve = true
+
+[[files]]
+file = "config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
+hash = "e9ce89ad2efb8d333caaf971b2e9b3424c11e6be1119719e301705286db27c0b"
+preserve = true
+
+[[files]]
+file = "config/xaero/world-map/client.cfg"
+hash = "c20dbb9ea5dd0b0cc9040af45a25c5b28e49d3f6ea2c29747843527edd5be049"
+preserve = true
+
+[[files]]
+file = "config/xaero/world-map/profiles/default.cfg"
+hash = "b55dc82657d729625dc205eb0b5356ac315f13bf00113b0f4cab8c17dab98a46"
+preserve = true
+
+[[files]]
 file = "config/yacl.json5"
 hash = "d26a63d3cdf326412ba86dcc2781060bc53ed6c74ac7808e65325452e264e820"
 preserve = true
@@ -848,7 +873,7 @@ preserve = true
 
 [[files]]
 file = "defaultconfigs/extremenaturaldisasters-server.toml"
-hash = "5ed3eb3fdf734dcc3b92248822cf17552aee191daf69969ebc49f03efa7dbe53"
+hash = "431c0fa317788454ad8ecd30679e41606d4cd85b184c536fcf975f1691d93a2d"
 preserve = true
 
 [[files]]
@@ -883,7 +908,7 @@ preserve = true
 
 [[files]]
 file = "defaultconfigs/unmannedonlinetickstasis-server.toml"
-hash = "466140deefcbde19b96e4588977fff5897e40419bc03abda5bdd50d6727e8aaf"
+hash = "bde7d7efdc2c99c8ad8efc1a2a7019410a3ac5c0c87efafc88456d78834eef46"
 preserve = true
 
 [[files]]
@@ -892,8 +917,8 @@ hash = "57f35da9a2854ee2e906d1f3b5aa4139a549e1563ee0cae9e99efd83b8c7475f"
 preserve = true
 
 [[files]]
-file = "michaels-pack-tweaks-1.0.1-source.zip"
-hash = "aa761987441596b1150cb3d8362b5060406298a65485d8747947d110171eaa0f"
+file = "michaels-pack-tweaks-1.0.2-source.zip"
+hash = "e69afb58157afcc8fa5dc4c494406804a7c3ce9f8a37c5fb7bdf0ed876db7c2a"
 
 [[files]]
 file = "MICHAELS-PACK-TWEAKS-LICENSE.txt"
@@ -1115,8 +1140,8 @@ hash = "855f03769c3e0f8e80dbc2a66930906f4ebe9b528bf137956b97ca8e7ec5aca9"
 metafile = true
 
 [[files]]
-file = "mods/michaels-pack-tweaks-1.0.1.jar"
-hash = "8807c6bacb7189555a97655b25303f4fe57ccef2c192ee12a791496ac8bc4dc9"
+file = "mods/michaels-pack-tweaks-1.0.2.jar"
+hash = "2fbfc115ce1683c3f0a6436d4561dcdb28423b39ae71178fc58d272c35f9d49c"
 
 [[files]]
 file = "mods/modernfix-forge-5.27.91+mc1.20.1.jar.pw.toml"
