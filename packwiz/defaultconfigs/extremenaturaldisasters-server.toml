@@ -1,0 +1,780 @@
+
+[general]
+	#Disables the server watchdog (sets max-tick-time to -1) on server start.
+	#Recommended: true. Volcano construction shifts many blocks per tick and can
+	#exceed the default 60-second watchdog, causing a server crash. Singleplayer
+	#has no watchdog and is unaffected regardless of this setting.
+	disableServerWatchdog = true
+	#Default Y level used when spawning disasters (e.g. via the command without specifying Y).
+	#In 1.18+ the build limit extends to y=-64; -59 is recommended to stay above bedrock.
+	#Range: -64 ~ 320
+	defaultDisasterY = -59
+	#--- Chat announcements ---
+	#Master switch for every automatic chat message sent by Extreme Disasters.
+	#When disabled, the mod is silent except for direct command responses. Default: true.
+	enableChatMessages = true
+	#Broadcasts a message to all online players whenever a disaster spawns.
+	#Includes the disaster type and approximate coordinates. Default: true.
+	announceDisasters = true
+	#Broadcasts a message when an apocalypse begins.
+	#Also governs stage-transition announcements for the Flood Apocalypse. Default: true.
+	announceApocalypses = true
+	#Notifies a player when they enter or leave a tectonic or active-disaster zone.
+	#This does not affect disaster-spawn or apocalypse announcements. Default: true.
+	announceZones = true
+	#Global multiplier applied to all per-disaster construction speed settings.
+	#2.0 = twice as fast, 0.5 = half speed, 1.0 = no change. Default: 1.0.
+	#Range: 0.01 ~ 100.0
+	constructionSpeedMultiplier = 1.0
+	#Radius in blocks around a disaster's origin within which players receive
+	#zone entry/leave notifications in chat, showing the disaster type and progress.
+	#Default: 256.
+	#Range: 1 ~ 4096
+	disasterZoneNotificationRadius = 256
+	#Global cap on the total number of terrain columns edited per server tick, summed
+	#across ALL active disasters (volcanoes, fault lines, etc.) to help reduce lag.
+	#Each tick this budget is shared between every running disaster; once it runs out,
+	#the remaining column edits are deferred to the next tick. Individual disasters still
+	#respect their own per-disaster columnsPerTick limits — this only adds a combined ceiling.
+	#0 = unlimited (disabled). Default: 0.
+	#Range: 0 ~ 100000
+	maxColumnsPerTick = 0
+	#Default number of queued terrain columns edited per server tick.
+	#Used by volcano, sinkhole, and fault construction. Runtime commands are temporary.
+	#Default: 1.
+	#Range: 1 ~ 5000
+	defaultColumnsPerTick = 1
+
+[sinkhole]
+	#Minimum radius (in blocks) of the circular sinkhole pit.
+	#Range: 1 ~ 200
+	minRadius = 1
+	#Maximum radius (in blocks) of the circular sinkhole pit.
+	#Range: 1 ~ 200
+	maxRadius = 25
+	#Minimum distance in blocks from the triggering player at which a sinkhole can spawn.
+	#The actual spawn position is chosen randomly between min and max. Default: 16.
+	#Range: 0 ~ 2048
+	spawnDistanceMin = 16
+	#Maximum distance in blocks from the triggering player at which a sinkhole can spawn.
+	#Default: 96.
+	#Range: 1 ~ 4096
+	spawnDistanceMax = 96
+	#Minimum Y level water begins rising from inside a sinkhole pit after digging finishes.
+	#Default: -63.
+	#Range: -64 ~ 320
+	waterMinY = -63
+	#Maximum Y level water rises to inside a sinkhole pit. Default: -32.
+	#Range: -64 ~ 320
+	waterMaxY = -32
+	#Maximum blocks filled with water per server tick during the sinkhole water-rise phase.
+	#Default: 50.
+	#Range: 1 ~ 1000
+	waterColumnsPerTick = 50
+
+[earthquake]
+	#Earthquake magnitude profiles: magnitude, chancePercent, radiusBlocks, durationTicks, fallingBlocksPerTick.
+	#Chance values are relative weights and are shown explicitly here; defaults total 100%.
+	#Higher magnitudes are intentionally much rarer and progressively wider, longer, and more destructive.
+	magnitudeProfiles = ["1,50.0,12,40,0", "2,30.0,20,60,1", "3,12.0,32,100,2", "4,5.0,48,140,4", "5,2.0,72,200,7", "6,0.7,104,280,12", "7,0.25,144,400,20", "8,0.05,192,600,32"]
+	#Minimum radius in blocks of the shaking area around the epicenter.
+	#Range: 1 ~ 512
+	radiusMin = 20
+	#Maximum radius in blocks of the shaking area around the epicenter.
+	#Range: 1 ~ 512
+	radiusMax = 60
+	#Minimum duration in ticks of the ground-shaking effect.
+	#Range: 1 ~ 12000
+	durationMin = 80
+	#Maximum duration in ticks of the ground-shaking effect.
+	#Range: 1 ~ 12000
+	durationMax = 600
+	#Minimum number of surface blocks converted to falling entities per tick during shaking.
+	#Range: 0 ~ 200
+	fallingBlockMin = 1
+	#Maximum number of surface blocks converted to falling entities per tick during shaking.
+	#Range: 0 ~ 200
+	fallingBlockMax = 50
+	#Minimum distance in blocks from the triggering player at which an earthquake can spawn.
+	#Default: 32.
+	#Range: 0 ~ 2048
+	spawnDistanceMin = 32
+	#Maximum distance in blocks from the triggering player at which an earthquake can spawn.
+	#Default: 160.
+	#Range: 1 ~ 4096
+	spawnDistanceMax = 160
+
+[volcano]
+	#Volcano types: name, chanceWeight, minWidthRadius, maxWidthRadius, minHeight, maxHeight.
+	#Valid names are small, normal, and large. Chances are relative weights.
+	types = ["small,50,12,60,5,60", "normal,35,61,150,61,100", "large,15,150,300,100,250"]
+	#Maximum lifetime in ticks for in-flight volcanic bombs.
+	#Overrides the vanilla FallingBlockEntity 600-tick auto-despawn for the duration of flight.
+	#While tracked, a bomb has its despawn timer reset each tick so it can travel any distance.
+	#Once this limit is reached, the bomb stops being tracked and the vanilla timer resumes,
+	#allowing it to despawn naturally rather than stay in the world forever.
+	#Default: 6000 ticks (5 minutes at 20 TPS). Must be > 600 (vanilla limit).
+	#Range: 601 ~ 72000
+	maxBombLifetimeTicks = 6000
+	#Y-block spacing between smoke particle layers in the eruption column.
+	#Smaller values produce a denser column but more particles per tick.
+	#Default: 6 (one layer every 6 blocks).
+	#Range: 1 ~ 64
+	smokeColumnSpacing = 6
+	#Total height in blocks of the eruption smoke column above the crater surface.
+	#Default: 64.
+	#Range: 8 ~ 512
+	smokeColumnHeight = 64
+	#Minimum fraction (0.0–1.0) of crater columns that must have a non-air block at the
+	#spawn Y level before the volcano is placed. If fewer columns are solid, the origin Y
+	#is lowered by 1 each step until the threshold is met or bedrock is reached.
+	#Default: 0.5 (50%). Set to 0.0 to disable the adjustment.
+	#Range: 0.0 ~ 1.0
+	groundThreshold = 0.5
+	#Minimum fraction (0.0–1.0) of the crater-edge ring that must be non-air and non-liquid
+	#for the eruption lava cylinder to extend to that Y level.
+	#Scanning starts at y275 and continues upward one block at a time until fewer than this
+	#fraction of ring blocks are solid. This makes the lava height match the actual cone.
+	#Default: 0.5 (50%).
+	#Range: 0.0 ~ 1.0
+	coneThreshold = 0.1
+	#Height of the wall section sampled around the rising lava tube.
+	#A taller sample prevents small caves and air pockets from stopping the eruption. Default: 24.
+	#Range: 1 ~ 64
+	coneWallScanHeight = 24
+	#Number of wall rings sampled outside the lava tube. Default: 3.
+	#Range: 1 ~ 16
+	coneWallScanThickness = 3
+	#Maximum air-to-total-block ratio allowed in the sampled wall section.
+	#Higher values tolerate larger caves; tall tubes gain up to 0.08 extra tolerance. Default: 0.90.
+	#Range: 0.0 ~ 1.0
+	coneWallMaxAirRatio = 0.9
+	#Number of extra lava layers the eruption rises above the constructed volcano peak.
+	#The result is always clamped to the world's build limit. Default: 12.
+	#Range: 0 ~ 1024
+	eruptionExtraLayers = 12
+	#List of volcanic bomb types. Each entry is a comma-separated string with exactly 14 fields:
+	#  bombBlock, weight, debrisBlock, debrisMin, debrisMax,
+	#  debrisMaxHorizVel, debrisMaxVertVel, explosionSize,
+	#  minHorizVel, maxHorizVel, minVertVel, maxVertVel,
+	#  trailParticle, trailCount
+	#
+	#Field descriptions:
+	#  bombBlock         — block ID for the flying projectile (e.g. minecraft:obsidian)
+	#  weight            — relative spawn probability; higher = more common
+	#  debrisBlock       — block scattered on impact
+	#  debrisMin/Max     — number of debris blocks spawned on impact
+	#  debrisMaxHorizVel — max horizontal speed of debris (blocks/tick)
+	#  debrisMaxVertVel  — max vertical speed of debris (blocks/tick)
+	#  explosionSize     — TNT explosion power at landing site (vanilla TNT = 4)
+	#  minHorizVel/maxHorizVel — horizontal launch speed range (blocks/tick)
+	#  minVertVel/maxVertVel   — vertical launch speed range (blocks/tick)
+	#  trailParticle     — particle ID emitted as a trail during flight (e.g. minecraft:flame)
+	#  trailCount        — number of trail particles emitted per tick
+	#
+	#Velocity guide: gravity is 0.04 blocks/tick². vy=1 → ~25 block peak, vy=2 → ~50 block peak.
+	#Horizontal distance ≈ horizVel × (2×vertVel/0.04) ticks. Add more entries to add more types.
+	bombTypes = ["minecraft:obsidian,60,minecraft:basalt,8,16,0.5,1.0,12.0,1.0,15.0,5.0,20.0,extremenaturaldisasters:fire_trail,3", "minecraft:magma_block,30,minecraft:magma_block,12,24,0.6,1.2,15.0,1.0,20.0,5.0,30.0,extremenaturaldisasters:fire_trail,3", "minecraft:cobblestone,10,minecraft:gravel,20,35,0.8,1.5,7.5,0.5,10.0,3.0,18.0,extremenaturaldisasters:fire_trail,3", "minecraft:lava,5,minecraft:lava,3,8,1.2,2.0,21.0,2.0,30.0,10.0,40.0,extremenaturaldisasters:fire_trail,6", "minecraft:lava,1,minecraft:lava,50,50,8.0,15.0,50.0,2.0,30.0,10.0,40.0,extremenaturaldisasters:fire_trail,15"]
+	#Minimum distance in blocks from the triggering player at which a volcano can spawn.
+	#Default: 64.
+	#Range: 0 ~ 2048
+	spawnDistanceMin = 64
+	#Maximum distance in blocks from the triggering player at which a volcano can spawn.
+	#Default: 256.
+	#Range: 1 ~ 4096
+	spawnDistanceMax = 256
+	#Minimum cone structure radius (in blocks) of a newly spawned volcano.
+	#Should be slightly larger than craterRadiusMin. Default: 12.
+	#Range: 1 ~ 500
+	widthMin = 12
+	#Maximum cone structure radius (in blocks) of a newly spawned volcano.
+	#Should be slightly larger than craterRadiusMax. Default: 600.
+	#Range: 1 ~ 1000
+	widthMax = 600
+	#Minimum height (in blocks) of the volcano cone above its base Y.
+	#Allows very short volcanoes. Default: 5.
+	#Range: 1 ~ 500
+	heightMin = 5
+	#Maximum height (in blocks) of the volcano cone above its base Y.
+	#Clamped to available vertical space below the build limit.
+	#Default: 420.
+	#Range: 1 ~ 1000
+	heightMax = 420
+	#Minimum radius (in blocks) of the surface crater hole dug by the volcano.
+	#Also controls the lava tube radius — lava fills through this same hole.
+	#Default: 4.
+	#Range: 1 ~ 200
+	craterRadiusMin = 4
+	#Maximum radius (in blocks) of the surface crater hole. Default: 8.
+	#Also controls the lava tube radius — lava fills through this same hole.
+	#Range: 1 ~ 200
+	craterRadiusMax = 8
+	#Minimum Y level at which the magma chamber lava fill is placed at the base of lifted columns.
+	#When a column is lifted, the bottom gap is filled with lava; lava is not placed below this Y.
+	#Default: -62 (just above bedrock in 1.20+ worlds).
+	#Range: -64 ~ 320
+	magmaChamberMinY = -62
+	#Vertical offset added to sea level when drying seagrass and waterlogged blocks during lift.
+	#Drying threshold is y >= seaLevel + this offset.
+	#Default: 0 (one block lower than previous behavior, which was seaLevel + 1).
+	#Range: -64 ~ 64
+	seagrassDryYOffset = 0
+	#Extra distance (blocks) added on top of both volcanoes' radii when preventing overlap.
+	#A new volcano is rejected if: distance < radius_new + radius_existing + this value.
+	#Set to 0 to allow volcanoes whose cones just barely touch. Default: 32.
+	#Range: 0 ~ 10000
+	minExtraSeparation = 32
+	#Maximum terrain columns the volcano lifts per server tick during construction.
+	#Higher values build the volcano faster but increase chunk-dirty pressure per tick.
+	#Scaled by constructionSpeedMultiplier. Default: 300.
+	#Range: 1 ~ 5000
+	columnsPerTick = 150
+	#How many lava rings are processed per lava-fill update.
+	#Lower values reduce lag and make lava movement visibly slower.
+	#Default: 1 ring per update.
+	#Range: 1 ~ 64
+	lavaRingsPerStep = 1
+	#Minimum duration of the ERUPTING stage in Minecraft days.
+	#Default: 2 days.
+	#Range: 1 ~ 365
+	eruptingDurationMinDays = 2
+	#Maximum duration of the ERUPTING stage in Minecraft days.
+	#Default: 7 days.
+	#Range: 1 ~ 365
+	eruptingDurationMaxDays = 7
+	#Minimum duration of the DORMANT stage in Minecraft days.
+	#Default: 5 days.
+	#Range: 1 ~ 3650
+	dormantDurationMinDays = 5
+	#Maximum duration of the DORMANT stage in Minecraft days.
+	#Default: 14 days.
+	#Range: 1 ~ 3650
+	dormantDurationMaxDays = 14
+
+[faultline]
+	#Maximum terrain uplift in blocks applied to columns directly on the fault line.
+	#Each liftColumn() call raises the surface by 1; columns near the fault get this many calls.
+	#Default: 6.
+	#Range: 1 ~ 200
+	maxLift = 12
+	#Minimum terrain uplift in blocks. Each fault-line event picks a random peak
+	#in [minLift, maxLift]. Default: 2.
+	#Range: 1 ~ 200
+	minLift = 2
+	#Minimum width in blocks of the curved slope on the uplifted side of the fault.
+	#Each fault-line occurrence picks a random width between min and max. Default: 20.
+	#Range: 1 ~ 500
+	curveWidthMin = 20
+	#Maximum width in blocks of the curved slope on the uplifted side of the fault.
+	#Larger = broader, more gradual slope. Smaller = sharper, tighter scarp. Default: 60.
+	#Range: 1 ~ 500
+	curveWidthMax = 120
+	#Minimum distance in blocks from the triggering player at which a fault line can spawn.
+	#Default: 32.
+	#Range: 0 ~ 2048
+	spawnDistanceMin = 32
+	#Maximum distance in blocks from the triggering player at which a fault line can spawn.
+	#Default: 200.
+	#Range: 1 ~ 4096
+	spawnDistanceMax = 200
+	#Maximum length in blocks of terrain uplifted along a fault line.
+	#The fault is clipped symmetrically around the origin point on the boundary,
+	#preventing very large boundaries from generating excessive columns and lagging the server.
+	#Default: 500.
+	#Range: 10 ~ 100000
+	maxLength = 500
+	#Maximum number of terrain columns the fault line lifts per server tick.
+	#Each column lift iterates the full height of the terrain (~150 block updates),
+	#so lowering this reduces chunk dirty pressure and prevents world-save freezes.
+	#Higher values = faster fault construction but more server lag. Default: 50.
+	#Range: 1 ~ 1000
+	columnsPerTick = 25
+
+[convergentfault]
+	#Maximum uplift in blocks applied to the overriding plate at the fault.
+	#Columns on the fault itself get this many lifts; further columns taper via cos².
+	#Default: 9.
+	#Range: 1 ~ 200
+	maxLift = 18
+	#Minimum uplift in blocks. Each convergent-fault event picks a random peak
+	#in [minLift, maxLift]. Default: 3.
+	#Range: 1 ~ 200
+	minLift = 3
+	#Minimum width in blocks of the uplifted scarp on both sides of the fault. Default: 30.
+	#Range: 1 ~ 500
+	curveWidthMin = 30
+	#Maximum width in blocks of the uplifted scarp on both sides of the fault. Default: 80.
+	#Range: 1 ~ 500
+	curveWidthMax = 160
+	#Maximum length in blocks of the affected boundary section. Default: 500.
+	#Range: 10 ~ 100000
+	maxLength = 500
+	#Minimum spawn distance from the triggering player. Default: 32.
+	#Range: 0 ~ 2048
+	spawnDistanceMin = 32
+	#Maximum spawn distance from the triggering player. Default: 200.
+	#Range: 1 ~ 4096
+	spawnDistanceMax = 200
+	#Maximum columns processed per server tick. Default: 50.
+	#Range: 1 ~ 1000
+	columnsPerTick = 25
+
+[divergentfault]
+	#Maximum terrain sink in blocks applied to columns directly on the fault line.
+	#Columns near the fault get this many sinks; further columns taper via cos².
+	#Default: 12.
+	#Range: 1 ~ 200
+	maxSink = 48
+	#Minimum terrain sink in blocks. Each divergent-fault event picks a random depth
+	#in [minSink, maxSink]. Default: 4.
+	#Range: 1 ~ 200
+	minSink = 8
+	#Minimum width in blocks of the rift valley on each side of the fault. Default: 20.
+	#Range: 1 ~ 500
+	curveWidthMin = 20
+	#Maximum width in blocks of the rift valley on each side of the fault. Default: 60.
+	#Range: 1 ~ 500
+	curveWidthMax = 120
+	#Maximum length in blocks of the affected boundary section. Default: 500.
+	#Range: 10 ~ 100000
+	maxLength = 500
+	#Minimum spawn distance from the triggering player. Default: 32.
+	#Range: 0 ~ 2048
+	spawnDistanceMin = 32
+	#Maximum spawn distance from the triggering player. Default: 200.
+	#Range: 1 ~ 4096
+	spawnDistanceMax = 200
+	#Maximum columns processed per server tick. Default: 50.
+	#Range: 1 ~ 1000
+	columnsPerTick = 25
+	#Minimum fissure half-width in bands (from each side of the fault). Default: 1.
+	#Range: 1 ~ 50
+	fissureWidthMin = 1
+	#Maximum fissure half-width in bands (from each side of the fault). Default: 3.
+	#Range: 1 ~ 50
+	fissureWidthMax = 3
+	#Minimum full divergent-fault width in blocks required to open a lava fissure. Default: 80.
+	#Range: 1 ~ 1000
+	lavaMinFaultSize = 80
+
+#[EXPERIMENTAL] The Solar Apocalypse is experimental and may change significantly in future versions.
+#Behavior, balance, and block conversions are subject to revision.
+[solarapocalypse]
+	#Duration in ticks of Stage 1 (Warning). Default: 240000 = 10 in-game days.
+	#Range: > 1
+	durationWarning = 240000
+	#Duration in ticks of Stage 2 (Heat Wave). Default: 360000 = 15 in-game days.
+	#Range: > 1
+	durationHeatWave = 360000
+	#Duration in ticks of Stage 3 (Drying). Default: 360000 = 15 in-game days.
+	#Range: > 1
+	durationDrying = 360000
+	#Duration in ticks of Stage 4 (Solar Flares). Default: 360000 = 15 in-game days.
+	#Range: > 1
+	durationSolarFlares = 360000
+	#Duration in ticks of Stage 5 (Scorching). Default: 360000 = 15 in-game days.
+	#Range: > 1
+	durationScorching = 360000
+	#Duration in ticks of Stage 6 (Igniting). Default: 240000 = 10 in-game days.
+	#Range: > 1
+	durationIgniting = 240000
+	#Duration in ticks of Stage 7 (Melting). Default: 240000 = 10 in-game days.
+	#Range: > 1
+	durationMelting = 240000
+	#Duration in ticks of Stage 8 (Inferno). Default: 240000 = 10 in-game days.
+	#Range: > 1
+	durationInferno = 240000
+	#Fixed total block conversions applied per tick across all loaded chunks.
+	#Unlike the old per-chunk setting, this does NOT scale with chunk count,
+	#keeping world transformation gradual regardless of how many chunks are loaded.
+	#Stage multiplier (×2 for Melting/Inferno) is still applied. Default: 4.
+	#Range: > 1
+	conversionsPerTick = 4
+	#Starting radius (in blocks) of each expanding water-evaporation bubble.
+	#The bubble grows by 1 each tick step until it reaches waterBubbleMaxRadius, then resets.
+	#Default: 5.
+	#Range: 1 ~ 64
+	waterBubbleMinRadius = 5
+	#Maximum radius (in blocks) the water-evaporation bubble expands to before a new
+	#centre is chosen. Larger values evaporate bigger water bodies per cycle.
+	#Default: 32.
+	#Range: 1 ~ 64
+	waterBubbleMaxRadius = 32
+	#Ticks between each per-chunk bubble evaporation roll.
+	#Every this many ticks, each loaded chunk has a waterBubbleChancePerChunk probability
+	#of spawning one evaporation bubble. Lower = more frequent. Default: 200.
+	#Range: > 1
+	waterBubbleIntervalTicks = 200
+	#Probability (0.0–1.0) that a given loaded chunk spawns a bubble each interval.
+	#Expected bubbles per interval = loadedChunks × chance. Default: 0.01 (1%).
+	#Example: 100 chunks × 0.01 = ~1 bubble per interval.
+	#Range: 0.0 ~ 1.0
+	waterBubbleChancePerChunk = 0.01
+	#Relative weight of the Solar Apocalypse in the shared apocalypse roll. Default: 10.
+	#Range: > 1
+	weight = 10
+	#Minimum world age in in-game days before the Solar Apocalypse may begin. Default: 200.
+	#Range: > 0
+	minDays = 200
+	#Biome applied to all chunks during the Solar Apocalypse.
+	#Default: minecraft:plains.
+	biome = "minecraft:plains"
+
+	[solarapocalypse.heatwave]
+		#Blocks that melt into water during the Heat Wave (and later stages).
+		#Each entry is a full block ID, e.g. "minecraft:ice". Modded blocks are supported.
+		iceMeltBlocks = ["minecraft:ice", "minecraft:packed_ice", "minecraft:blue_ice", "minecraft:frosted_ice", "minecraft:snow_block"]
+		#Blocks that melt into air (disappear) during the Heat Wave (and later stages).
+		#Intended for thin-snow-like blocks. Default: minecraft:snow.
+		snowMeltBlocks = ["minecraft:snow"]
+
+	[solarapocalypse.drying]
+		#Blocks that evaporate into air during the Drying stage (and later stages).
+		#Default: minecraft:water.
+		evaporateBlocks = ["minecraft:water"]
+		#Gravel-like blocks that compact into cobblestone during Drying.
+		#Default: minecraft:gravel.
+		gravelCompactBlocks = ["minecraft:gravel"]
+		#Clay blocks that fire into terracotta during Drying.
+		#Default: minecraft:clay.
+		clayFireBlocks = ["minecraft:clay"]
+
+	[solarapocalypse.solarflares]
+		#Terracotta blocks that melt into stone during Solar Flares.
+		#Default: all vanilla terracotta variants.
+		terracottaMeltBlocks = ["minecraft:terracotta", "minecraft:white_terracotta", "minecraft:orange_terracotta", "minecraft:magenta_terracotta", "minecraft:light_blue_terracotta", "minecraft:yellow_terracotta", "minecraft:lime_terracotta", "minecraft:pink_terracotta", "minecraft:gray_terracotta", "minecraft:light_gray_terracotta", "minecraft:cyan_terracotta", "minecraft:purple_terracotta", "minecraft:blue_terracotta", "minecraft:brown_terracotta", "minecraft:green_terracotta", "minecraft:red_terracotta", "minecraft:black_terracotta"]
+		#Cobblestone-like blocks that fuse back into stone during Solar Flares.
+		#Default: minecraft:cobblestone and minecraft:mossy_cobblestone.
+		cobbleFuseBlocks = ["minecraft:cobblestone", "minecraft:mossy_cobblestone"]
+
+	[solarapocalypse.scorching]
+		#Soil blocks that scorch into coarse dirt during Scorching (and later stages).
+		#Blocks already in the hardcoded soil chain (grass, dirt, etc.) are ignored.
+		#Default: grass_block, mycelium, podzol.
+		soilScorchBlocks = ["minecraft:grass_block", "minecraft:mycelium", "minecraft:podzol"]
+		#Leaf blocks that burn away into air (50% chance of fire above) during Scorching.
+		#Default: all vanilla leaf types.
+		leafScorchBlocks = ["minecraft:oak_leaves", "minecraft:birch_leaves", "minecraft:spruce_leaves", "minecraft:jungle_leaves", "minecraft:acacia_leaves", "minecraft:dark_oak_leaves", "minecraft:mangrove_leaves", "minecraft:cherry_leaves", "minecraft:azalea_leaves", "minecraft:flowering_azalea_leaves"]
+
+	[solarapocalypse.igniting]
+		#Igneous rock blocks that melt directly into lava during the Igniting stage.
+		#Default: diorite, granite, andesite.
+		igneousMeltBlocks = ["minecraft:diorite", "minecraft:granite", "minecraft:andesite"]
+
+#[EXPERIMENTAL] All apocalypse types are experimental. Their mechanics, weights, and triggers
+#are subject to change in future versions.
+[apocalypse]
+	#Whether apocalypses can spawn automatically (not just via /endisaster spawn command).
+	#Disabled by default — apocalypses are global, rare, and very impactful. Default: false.
+	autoSpawn = false
+	#When enabled, each apocalypse temporarily overrides all chunk biomes to a themed biome
+	#(configured per apocalypse type as 'biome'). This affects precipitation appearance, mob
+	#spawning, and other biome-dependent mechanics for the duration of the apocalypse.
+	#Disable if you experience chunk-biome related issues or just want default biome behavior.
+	#Default: true.
+	biomeConversion = true
+	#Ticks between each apocalypse roll when autoSpawn is true.
+	#Default: 1440000 = 60 in-game days.
+	#Range: > 1
+	checkInterval = 1440000
+	#Relative weight of Apocalypse_None (quiet period) in the shared roll.
+	#Higher = real apocalypses are rarer. Default: 90.
+	#Range: > 1
+	noneWeight = 90
+
+#[EXPERIMENTAL] The Flood Apocalypse (water and lava) is experimental and may change significantly.
+[floodapocalypse]
+	#Minimum ticks between each Y-level rise of the flood.
+	#The flood also waits for all loaded chunks to be filled before rising,
+	#so actual time per layer = max(this value, time to fill all chunks).
+	#Budget per tick = max(1, ceil(loadedChunks / blockCooldown)).
+	#Default: 6000 (5 minutes per layer at 20 TPS).
+	#Range: 1 ~ 72000
+	blockCooldown = 6000
+	#Biome applied to all chunks during any Flood Apocalypse (water or lava).
+	#A warm biome causes precipitation to appear as rain on clients.
+	#Default: minecraft:plains.
+	biome = "minecraft:plains"
+
+#[EXPERIMENTAL] The Water Flood Apocalypse is experimental.
+[waterfloodapocalypse]
+	#Relative weight of the Water Flood Apocalypse in the shared apocalypse roll.
+	#Higher = more likely to be selected. Default: 5.
+	#Range: > 1
+	weight = 5
+	#Absolute Y level the water flood rises toward (starting from sea level).
+	#Default: 300.
+	#Range: -64 ~ 320
+	maxFloodY = 300
+
+#[EXPERIMENTAL] The Lava Flood Apocalypse is experimental.
+[lavafloodapocalypse]
+	#Relative weight of the Lava Flood Apocalypse in the shared apocalypse roll.
+	#Higher = more likely to be selected. Default: 3.
+	#Range: > 1
+	weight = 3
+	#Absolute Y level the lava flood rises toward (starting from sea level).
+	#Default: 300.
+	#Range: -64 ~ 320
+	maxFloodY = 300
+
+#[EXPERIMENTAL] The Snow Apocalypse is experimental.
+[snowapocalypse]
+	#Relative weight of the Snow Apocalypse in the shared apocalypse roll.
+	#Higher = more likely to be selected. Default: 4.
+	#Range: > 1
+	weight = 4
+	#Maximum snow accumulation depth in snow-layer units (1/8 block each).
+	#8 = one full snow block; 32 = four full snow blocks. Default: 32.
+	#Range: 1 ~ 512
+	maxSnowDepth = 32
+	#Total duration of the Snow Apocalypse in ticks before it ends.
+	#Default: 144000 (2 in-game hours at 20 TPS).
+	#Range: > 1
+	durationTicks = 2304000
+	#Biome applied to all chunks during the Snow Apocalypse.
+	#A cold biome causes precipitation to appear as snow on clients.
+	#Default: minecraft:snowy_slopes.
+	biome = "minecraft:snowy_slopes"
+	#Block IDs or block tags (prefix with #) that snow layers may replace.
+	#Example: ["minecraft:air", "#minecraft:replaceable"]
+	#Default: ["minecraft:air"] — snow only places into air.
+	replaceableBlocks = ["minecraft:air"]
+
+[meteor]
+	#List of meteor types. Same 14-field CSV format as bombTypes:
+	#  meteorBlock, weight, debrisBlock, debrisMin, debrisMax,
+	#  debrisMaxHorizVel, debrisMaxVertVel, explosionSize,
+	#  minHorizVel, maxHorizVel, minDownVel, maxDownVel,
+	#  trailParticle, trailCount
+	#
+	#Field notes:
+	#  meteorBlock        — block the falling entity is rendered as
+	#  weight             — relative frequency; higher = more common
+	#  minHorizVel/maxHorizVel — horizontal drift speed (blocks/tick); creates angled approach
+	#  minDownVel/maxDownVel   — downward entry speed (blocks/tick); larger = faster impact
+	#  explosionSize      — crater blast power (vanilla TNT = 4)
+	#  trailParticle      — particle ID emitted as a trail during flight (e.g. minecraft:flame)
+	#  trailCount         — number of trail particles emitted per tick
+	#
+	#Meteor spawns at spawnHeight and travels toward a random point within impactRadius of the
+	#disaster origin. Use minHorizVel=0/maxHorizVel=0 for perfectly vertical meteors.
+	meteorTypes = ["minecraft:stone,40,minecraft:gravel,5,12,1.0,1.5,6.0,0.3,1.5,3.0,6.0,extremenaturaldisasters:fire_trail,3", "minecraft:raw_iron_block,30,minecraft:gravel,8,15,0.8,1.2,8.0,0.2,1.0,4.0,8.0,extremenaturaldisasters:fire_trail,2", "minecraft:obsidian,20,minecraft:obsidian,3,8,0.5,1.0,10.0,0.1,0.8,5.0,10.0,extremenaturaldisasters:fire_trail,3", "minecraft:netherrack,10,minecraft:fire,2,5,1.2,2.0,12.0,0.4,2.0,6.0,12.0,extremenaturaldisasters:fire_trail,6"]
+	#Minimum number of meteors spawned in a single shower event.
+	#Default: 15.
+	#Range: 1 ~ 100
+	countMin = 15
+	#Maximum number of meteors spawned in a single shower event.
+	#Default: 40.
+	#Range: 1 ~ 200
+	countMax = 40
+	#Minimum ticks between each individual meteor launch within a shower.
+	#Default: 200 ticks (10 seconds at 20 TPS).
+	#Range: 1 ~ 72000
+	intervalMinTicks = 200
+	#Maximum ticks between each individual meteor launch within a shower.
+	#Default: 600 ticks (30 seconds at 20 TPS).
+	#Range: 1 ~ 72000
+	intervalMaxTicks = 600
+	#Absolute Y level at which meteor entities are spawned.
+	#They fall downward from this point toward the target location.
+	#Must be above the world height of likely impact zones. Default: 280.
+	#Range: 64 ~ 320
+	spawnHeight = 280
+	#Radius in blocks around the disaster origin within which meteors can land.
+	#Larger values spread the shower over a wider area. Default: 64.
+	#Range: 1 ~ 1024
+	impactRadius = 64
+	#Minimum number of in-game days that must have passed in the world save before
+	#meteor showers can begin to spawn. Meteors will not roll on younger worlds.
+	#Default: 14 days.
+	#Range: > 0
+	minDaysRequired = 14
+	#Minimum distance in blocks from the triggering player at which a meteor shower origin spawns.
+	#Default: 64.
+	#Range: 0 ~ 2048
+	spawnDistanceMin = 64
+	#Maximum distance in blocks from the triggering player at which a meteor shower origin spawns.
+	#Default: 256.
+	#Range: 1 ~ 4096
+	spawnDistanceMax = 256
+
+[tectonicplates]
+	#Radius in blocks from a tectonic boundary or aquifer point within which loaded chunks
+	#are eligible to spawn their related disaster (if their inhabited time also meets the
+	#minimum age). This is also the radius used for tectonic zone entry/leave notifications.
+	#Default: 128 blocks (~8 chunks).
+	#Larger values allow more chunks to participate in each disaster roll.
+	#Range: 1 ~ 1024
+	proximityRadius = 64
+	#Minimum vanilla chunk inhabited time (ticks) required before a tectonic disaster
+	#can spawn in that chunk. Inhabited time accumulates while any player is within
+	#simulation distance of the chunk (via vanilla's ChunkAccess#getInhabitedTime).
+	#Default: 24000 (1 Minecraft day = 24000 ticks).
+	#Set higher to require longer habitation; set lower for quicker disaster triggering.
+	#Range: > 1
+	minChunkAgeTicks = 24000
+	#Width and height in blocks of each tectonic plate grid cell.
+	#Smaller values produce tighter, denser plate boundaries closer together.
+	#Larger values spread boundaries further apart across the world.
+	#Original full-scale value: 6000. Default: 2400.
+	#Changing this value while using the same world seed will regenerate the plate layout.
+	#Range: 100 ~ 30000
+	plateCellSize = 2400
+	#Number of unstable aquifer points scattered across the world.
+	#Higher values = more points = sinkholes can form in more locations.
+	#Original default: 8. Default: 40 (5× more common).
+	#Changing this value while using the same world seed will regenerate aquifer positions.
+	#Range: 0 ~ 10000
+	aquiferCount = 40
+	#Number of mantle-plume hotspot points out of every 4x4 (16) plate cells.
+	#Hotspots sit at the pole of inaccessibility of a plate (farthest from all boundaries).
+	#Like aquifers, hotspots trigger volcanoes only within the tectonic proximity radius.
+	#Default: 1 (≈6% of plates). Set to 0 to disable hotspots entirely.
+	#Changing this value while using the same world seed will regenerate hotspot positions.
+	#Range: 0 ~ 10000
+	hotspotCount = 1
+	#Map color for hotspot points. Default: yellow.
+	hotspotColor = "yellow"
+	#Map color for Convergent Boundary lines drawn by /endisaster tectonicmap.
+	#Valid values: purple, blue, red, white, black, yellow, green, cyan, orange,
+	#pink, brown, gray, light_gray, magenta, light_blue. Default: purple.
+	convergentColor = "purple"
+	#Map color for Divergent Boundary lines. Default: blue.
+	divergentColor = "blue"
+	#Map color for Transform Boundary lines. Default: red.
+	transformColor = "red"
+	#Map color for Unstable Aquifer points. Default: cyan.
+	aquiferColor = "cyan"
+
+["disaster spawn"]
+	#Base tick interval for the global chunk-based disaster spawn roll.
+	#The effective interval scales inversely with loaded chunks:
+	#  effectiveInterval = baseInterval × chunkScaleBase / max(1, loadedChunks).
+	#At exactly chunkScaleBase loaded chunks this equals the configured value.
+	#Lower = more frequent rolls. Default: 2400 ticks (2 Minecraft minutes).
+	#Range: > 1
+	baseInterval = 24000
+	#Loaded-chunk count that represents a 1× disaster roll rate.
+	#289 = 17×17 (default simulation distance of 8 produces a 17×17 loaded grid).
+	#Example: 600 chunks loaded → effectiveInterval ≈ baseInterval × 289/600 ≈ 0.48×.
+	#Change this if your server uses a non-standard simulation distance. Default: 289.
+	#Range: > 1
+	chunkScaleBase = 289
+	#Minimum horizontal block distance a new disaster spawn must keep from any existing
+	#active disaster occurrence of any type (cross-type exclusion zone).
+	#Set to 0 to disable. Default: 128.
+	#Range: 0 ~ 65536
+	globalMinSeparationBlocks = 128
+
+["disaster enabled"]
+	#Whether FaultLine may spawn. Disabling this does not delete occurrences already in progress.
+	FaultLine = true
+	#Whether VolcanoBombTest may spawn. Disabling this does not delete occurrences already in progress.
+	VolcanoBombTest = true
+	#Whether SnowApocalypse may spawn. Disabling this does not delete occurrences already in progress.
+	SnowApocalypse = true
+	#Whether MeteorShower may spawn. Disabling this does not delete occurrences already in progress.
+	MeteorShower = true
+	#Whether DivergentFault may spawn. Disabling this does not delete occurrences already in progress.
+	DivergentFault = true
+	#Whether SolarApocalypse may spawn. Disabling this does not delete occurrences already in progress.
+	SolarApocalypse = true
+	#Whether Volcano may spawn. Disabling this does not delete occurrences already in progress.
+	Volcano = true
+	#Whether Earthquake may spawn. Disabling this does not delete occurrences already in progress.
+	Earthquake = true
+	#Whether FloodWaterApocalypse may spawn. Disabling this does not delete occurrences already in progress.
+	FloodWaterApocalypse = true
+	#Whether ConvergentFault may spawn. Disabling this does not delete occurrences already in progress.
+	ConvergentFault = true
+	#Whether FloodLavaApocalypse may spawn. Disabling this does not delete occurrences already in progress.
+	FloodLavaApocalypse = true
+	#Whether Sinkhole may spawn. Disabling this does not delete occurrences already in progress.
+	Sinkhole = true
+
+["disaster max concurrent count"]
+	#Maximum concurrent active occurrences of FaultLine at 289 loaded chunks (1× reference).
+	#Effective cap = ceil(max × loadedChunks / chunkScaleBase), minimum 1.
+	#Set to 0 to allow unlimited. Default: 1.
+	#Range: 0 ~ 1000
+	FaultLine = 1
+	#Maximum concurrent active occurrences of MeteorShower at 289 loaded chunks (1× reference).
+	#Effective cap = ceil(max × loadedChunks / chunkScaleBase), minimum 1.
+	#Set to 0 to allow unlimited. Default: 2.
+	#Range: 0 ~ 1000
+	MeteorShower = 2
+	#Maximum concurrent active occurrences of DivergentFault at 289 loaded chunks (1× reference).
+	#Effective cap = ceil(max × loadedChunks / chunkScaleBase), minimum 1.
+	#Set to 0 to allow unlimited. Default: 1.
+	#Range: 0 ~ 1000
+	DivergentFault = 1
+	#Maximum concurrent active occurrences of Volcano at 289 loaded chunks (1× reference).
+	#Effective cap = ceil(max × loadedChunks / chunkScaleBase), minimum 1.
+	#Set to 0 to allow unlimited. Default: 1.
+	#Range: 0 ~ 1000
+	Volcano = 1
+	#Maximum concurrent active occurrences of Earthquake at 289 loaded chunks (1× reference).
+	#Effective cap = ceil(max × loadedChunks / chunkScaleBase), minimum 1.
+	#Set to 0 to allow unlimited. Default: 2.
+	#Range: 0 ~ 1000
+	Earthquake = 2
+	#Maximum concurrent active occurrences of ConvergentFault at 289 loaded chunks (1× reference).
+	#Effective cap = ceil(max × loadedChunks / chunkScaleBase), minimum 1.
+	#Set to 0 to allow unlimited. Default: 1.
+	#Range: 0 ~ 1000
+	ConvergentFault = 1
+	#Maximum concurrent active occurrences of Sinkhole at 289 loaded chunks (1× reference).
+	#Effective cap = ceil(max × loadedChunks / chunkScaleBase), minimum 1.
+	#Set to 0 to allow unlimited. Default: 3.
+	#Range: 0 ~ 1000
+	Sinkhole = 3
+
+["disaster min separation"]
+	#Minimum horizontal block distance between a new FaultLine spawn and any
+	#existing active FaultLine occurrence. Set to 0 to disable. Default: 512.
+	#Range: 0 ~ 65536
+	FaultLine = 512
+	#Minimum horizontal block distance between a new MeteorShower spawn and any
+	#existing active MeteorShower occurrence. Set to 0 to disable. Default: 512.
+	#Range: 0 ~ 65536
+	MeteorShower = 512
+	#Minimum horizontal block distance between a new DivergentFault spawn and any
+	#existing active DivergentFault occurrence. Set to 0 to disable. Default: 512.
+	#Range: 0 ~ 65536
+	DivergentFault = 512
+	#Minimum horizontal block distance between a new Volcano spawn and any
+	#existing active Volcano occurrence. Set to 0 to disable. Default: 1024.
+	#Range: 0 ~ 65536
+	Volcano = 1024
+	#Minimum horizontal block distance between a new Earthquake spawn and any
+	#existing active Earthquake occurrence. Set to 0 to disable. Default: 512.
+	#Range: 0 ~ 65536
+	Earthquake = 512
+	#Minimum horizontal block distance between a new ConvergentFault spawn and any
+	#existing active ConvergentFault occurrence. Set to 0 to disable. Default: 512.
+	#Range: 0 ~ 65536
+	ConvergentFault = 512
+	#Minimum horizontal block distance between a new Sinkhole spawn and any
+	#existing active Sinkhole occurrence. Set to 0 to disable. Default: 256.
+	#Range: 0 ~ 65536
+	Sinkhole = 256
+
+["disaster spawn chances"]
+	#Chance (0.0–1.0) that MeteorShower actually spawns when its interval check fires.
+	#0.0 = never spawns, 1.0 = always spawns on each check. Default: 0.02.
+	#Range: 0.0 ~ 1.0
+	MeteorShower = 0.02
+	#Chance (0.0–1.0) that Volcano actually spawns when its interval check fires.
+	#0.0 = never spawns, 1.0 = always spawns on each check. Default: 0.03.
+	#Range: 0.0 ~ 1.0
+	Volcano = 0.03
+	#Chance (0.0–1.0) that Earthquake actually spawns when its interval check fires.
+	#0.0 = never spawns, 1.0 = always spawns on each check. Default: 0.05.
+	#Range: 0.0 ~ 1.0
+	Earthquake = 0.05
+	#Chance (0.0–1.0) that Sinkhole actually spawns when its interval check fires.
+	#0.0 = never spawns, 1.0 = always spawns on each check. Default: 0.05.
+	#Range: 0.0 ~ 1.0
+	Sinkhole = 0.05
+

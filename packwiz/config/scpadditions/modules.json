@@ -1,0 +1,25 @@
+{
+  "inventory": {
+    "remember_ui_state": true,
+    "enabled": false
+  },
+  "interactions": {
+    "disable_in_creative": false,
+    "enabled": false
+  },
+  "hud": {
+    "enabled": false
+  },
+  "vitals": {
+    "custom_health_enabled": false,
+    "stamina_enabled": false,
+    "horror_movement_enabled": false
+  },
+  "blink": {
+    "enabled": false
+  },
+  "scp_173": {
+    "natural_spawn_enabled": true,
+    "enabled": true
+  }
+}

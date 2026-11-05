@@ -1,0 +1,13 @@
+
+[mutantSkeleton]
+	spawnRolls = 50.0
+	shouldSpawnNearbySkeletons = true
+
+[hopkeleton]
+	spawnRolls = 10.0
+	shouldSpawnNearbySkeletons = true
+
+[witheredHopkeleton]
+	spawnRolls = 10.0
+	shouldSpawnNearbySkeletons = true
+

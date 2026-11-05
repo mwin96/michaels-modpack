@@ -1,0 +1,8 @@
+name = "crimsonsteves_mutant_mobs-1.6.0-forge-1.20.1.jar"
+filename = "crimsonsteves_mutant_mobs-1.6.0-forge-1.20.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/gwvWgK9g/versions/6JR0Jhdv/crimsonsteves_mutant_mobs-1.6.0-forge-1.20.1.jar"
+hash-format = "sha512"
+hash = "e8441fe119bbaed73caec50d63f9964da3d4893f8f230c1e6cf6ae5707774d604a5a25f0a914f2acca0f15b69d0c2090862b06dc5f4e23ed51fdcb3a89f40fc2"

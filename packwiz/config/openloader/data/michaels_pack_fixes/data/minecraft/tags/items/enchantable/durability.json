@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "the_knocker:knife",
+      "required": false
+    }
+  ]
+}

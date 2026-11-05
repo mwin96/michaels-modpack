@@ -1,0 +1,4 @@
+#Ender Dragon maximum health. Vanilla is 200; 400 suits the four-player gun-enabled pack. Changes preserve the current health fraction and never revive dying dragons.
+#Range: 200.0 ~ 1024.0
+dragonMaxHealth = 400.0
+

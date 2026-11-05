@@ -1,0 +1,13 @@
+{
+  "replace": true,
+  "values": [
+    "scpo:secretion_173",
+    "scpo:secretion_106",
+    "scpo:scp_003_trail",
+    "scpo:vomit",
+    {
+      "id": "kurolib:blood_block",
+      "required": false
+    }
+  ]
+}

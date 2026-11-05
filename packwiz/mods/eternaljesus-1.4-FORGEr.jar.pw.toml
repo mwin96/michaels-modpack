@@ -1,0 +1,8 @@
+name = "eternaljesus-1.4-FORGEr.jar"
+filename = "eternaljesus-1.4-FORGEr.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/OW1Y0ZLR/versions/GSlSXQFo/eternaljesus-1.4-FORGEr.jar"
+hash-format = "sha512"
+hash = "edca07876aab07dc7c865c65e5acd5a2eedbfb6d61383046fadd969538351e8a887d8abdd8a028e541e455c71fb16e937bcaea9ab17d1920d2f8f8468aad3e3c"

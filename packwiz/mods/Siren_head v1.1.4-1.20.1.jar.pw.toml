@@ -1,0 +1,8 @@
+name = "Siren_head v1.1.4-1.20.1.jar"
+filename = "Siren_head v1.1.4-1.20.1.jar"
+side = "client"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/5571/439/Siren_head%20v1.1.4-1.20.1.jar"
+hash-format = "sha512"
+hash = "769a20761262eb77c0ac4a027ec12a99433c0a3d16f24cfbc50328f9acac960e9ad07c4f272dc6d2f77e46d22750fff4b24cc36beb40285e33d2bf109ee42085"

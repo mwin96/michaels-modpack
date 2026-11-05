@@ -1,0 +1,8 @@
+name = "scp_additions-3.0.7.jar"
+filename = "scp_additions-3.0.7.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/WV6FcDAL/versions/Jn9rBjns/scp_additions-3.0.7.jar"
+hash-format = "sha512"
+hash = "1652620a24427b60f83a78d36606c0cc9dabbf610a85f66dfc6e150343279cb637809d30b7d4ac96123191917dded643e78d3011cc8de8362d330ba6f13599af"

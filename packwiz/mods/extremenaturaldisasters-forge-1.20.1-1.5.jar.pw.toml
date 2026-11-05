@@ -1,0 +1,8 @@
+name = "extremenaturaldisasters-forge-1.20.1-1.5.jar"
+filename = "extremenaturaldisasters-forge-1.20.1-1.5.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/D3qRevb9/versions/u8aR4shH/extremenaturaldisasters-forge-1.20.1-1.5.jar"
+hash-format = "sha512"
+hash = "f585426a4e057f288fcced64d68f77d72ab8faafc0d3a03eded8cb18c07ce0fbdeb3f2527397c45219e405ea0d2dec81cc2d01055462024bdf705575a8663521"

@@ -1,0 +1,8 @@
+name = "mbackrooms-1.4.0.jar"
+filename = "mbackrooms-1.4.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/tIbKXIj1/versions/wgrk38VZ/mbackrooms-1.4.0.jar"
+hash-format = "sha512"
+hash = "f11248e9994b41940dc3e0e11c29842bd5d50c955194176061a697132e4ab2cde3aeeeeed1113b72ae3e5b817219b8ffdf678129dbec93abbae387bf559533d1"

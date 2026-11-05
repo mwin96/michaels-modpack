@@ -1,0 +1,8 @@
+name = "Better Cave Dweller-1.20.1.jar"
+filename = "Better Cave Dweller-1.20.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/L5PDxO3G/versions/PODlMxjc/Better%20Cave%20Dweller-1.20.1.jar"
+hash-format = "sha512"
+hash = "b49eda7266687591f2c5bfc465ae647b6d2cdcfe4cb1ff518d29eb8d0f4ead4efc53153e0044898e3c7e993ea0831f1f36d599f2a4ccd729b90e293470f9af1f"

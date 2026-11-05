@@ -1,0 +1,10 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.michaelspack.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "zombie_tactics.refmap.json",
+  "mixins": ["Scp173BulletDamageMixin"],
+  "client": ["BlockElementAngleMixin", "MolangPlaceholderMixin", "ArphexSphereCacheMixin", "EternalJesusSoundMixin"],
+  "injectors": {"defaultRequire": 1}
+}

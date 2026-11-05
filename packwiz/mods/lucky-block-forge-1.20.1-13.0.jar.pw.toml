@@ -1,0 +1,8 @@
+name = "lucky-block-forge-1.20.1-13.0.jar"
+filename = "lucky-block-forge-1.20.1-13.0.jar"
+side = "client"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/4817/267/lucky-block-forge-1.20.1-13.0.jar"
+hash-format = "sha512"
+hash = "9716ef23635e02a8d9919f0539a6e93685e5d7bc2b950892e2b53c23b34410a880e37e4990fbdc35c9564e2dd6c9b0b462c2eaf8247ee13d6dc1ff6baf6eed66"

@@ -1,0 +1,8 @@
+name = "ArPhEx-5.0.2-forge-1.20.1.jar"
+filename = "ArPhEx-5.0.2-forge-1.20.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/k0RPP4IO/versions/2QgFGJeS/ArPhEx-5.0.2-forge-1.20.1.jar"
+hash-format = "sha512"
+hash = "6e735a63384dd154fd5ce492c52563088dc74bcf6c99ec70edd7e2764ea494e20f16527a6db42b9a546a7350e96a442cfa242792eee92a13d27e0975fc408eea"

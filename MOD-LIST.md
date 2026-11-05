@@ -1,0 +1,115 @@
+# michael's modpack — pinned contents
+
+Minecraft 1.20.1 · Forge 47.4.28 · pack 1.0.0
+
+Third-party archives are downloaded from their publishers rather than rehosted in this release. Client-only graphics/audio files are excluded from the dedicated server.
+
+| Project | Pinned version | Side | License declared by publisher |
+|---|---|---|---|
+| [ Integrated Dungeons and Structures](https://modrinth.com/mod/idas) | 1.13.0+1.20.1 | both | LicenseRef-All-Rights-Reserved |
+| [[EMF] Entity Model Features](https://modrinth.com/mod/entity-model-features) | 3.3.12-forge-1.20.1 | client | LGPL-3.0-only |
+| [[ETF] Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures) | 7.2.7-forge-1.20.1 | client | LGPL-3.0-only |
+| [[TaCZ] Timeless and Classics Zero](https://modrinth.com/mod/timeless-and-classics-zero) | 1.1.8-hotfix2 | both | GPL-3.0-only |
+| [AAA Particles](https://modrinth.com/mod/aaa-particles) | forge-1.20.1-2.2.3 | both | MIT |
+| [Alex's Caves](https://modrinth.com/mod/alexs-caves) | 2.0.2 | both | LGPL-3.0-only |
+| [AppleSkin](https://modrinth.com/mod/appleskin) | 2.5.1+mc1.20.1 | both | Unlicense |
+| [Architectury API](https://modrinth.com/mod/architectury-api) | 9.2.14+forge | both | LGPL-3.0-only |
+| [Arthropod Phobia Expansions + Horror Bosses / Arachnophobia](https://modrinth.com/mod/arphex) | 5.0.2 | both | MIT |
+| [Artifacts](https://modrinth.com/mod/artifacts) | 9.5.19 | both | MIT |
+| [Better Cave Dweller](https://modrinth.com/mod/better-cave-dweller) | 2.0-forge | both | MIT |
+| [Born in Chaos](https://modrinth.com/mod/borninchaos) | 1.7.5 | both | LicenseRef-All-Rights-Reserved |
+| [Citadel](https://modrinth.com/mod/citadel) | 2.6.3 | both | LGPL-3.0-only |
+| [Cloth Config API](https://modrinth.com/mod/cloth-config) | 11.1.136+forge | both | LGPL-3.0-only |
+| [Clumps](https://modrinth.com/mod/clumps) | 12.0.0.4 | server | MIT |
+| [Controlling](https://modrinth.com/mod/controlling) | 12.0.2 | client | MIT |
+| [CoroUtil](https://modrinth.com/mod/coroutil) | 1.20.1-1.3.7 | both | LicenseRef-All-Rights-Reserved |
+| [Cracker's Wither Storm Mod](https://modrinth.com/mod/crackers-wither-storm-mod) | 4.2.1 | both | LicenseRef-All-Rights-Reserved |
+| [Create](https://modrinth.com/mod/create) | mc1.20.1-6.0.8 | both | LicenseRef-Create-Mod-License |
+| [Crimson Steve's Mutant Mobs](https://modrinth.com/mod/crimson-steves-mutant-mobs) | 1.6.0 | both | LicenseRef-All-Rights-Reserved |
+| [Critters and Companions](https://modrinth.com/mod/critters-and-companions) | 2.7.1 | both | LicenseRef-All-Rights-Reserved |
+| [Curios API](https://modrinth.com/mod/curios) | 5.14.1+1.20.1 | both | LGPL-3.0-or-later |
+| [Cute Mob Models: Resource Pack](https://modrinth.com/resourcepack/cute-mob-models-resource-pack) | V.R1.0-1.20-1.20.1 | client | GPL-3.0-only |
+| [Desert Behemoths: Sandworms!](https://modrinth.com/mod/desert-behemoths-sandworms) | 1.1.0 | both | LGPL-3.0-or-later |
+| [Distant Friends](https://modrinth.com/mod/distant-friends) | 0.5.6 | both | MIT |
+| [Dungeons and Taverns](https://modrinth.com/mod/dungeons-and-taverns) | 3.0.3.f+mod | both | LicenseRef-All-Rights-Reserved |
+| [Embeddium](https://modrinth.com/mod/embeddium) | 0.3.31+mc1.20.1 | client | LGPL-3.0-only |
+| [Entity Culling](https://modrinth.com/mod/entityculling) | 1.11.3 | client | LicenseRef-tr7zw-Protective-License |
+| [Eternal Jesus](https://modrinth.com/mod/eternal-jesus) | 1.1.5 | client | LicenseRef-All-Rights-Reserved |
+| [Extreme Natural Disasters](https://modrinth.com/mod/extreme-natural-disasters) | 1.5 | both | LicenseRef-All-Rights-Reserved |
+| [FerriteCore](https://modrinth.com/mod/ferrite-core) | 6.0.1 | both | MIT |
+| [FLIB](https://modrinth.com/mod/flib) | 1.20.1-0.0.16 | both | LicenseRef-All-Rights-Reserved |
+| [From The Fog](https://modrinth.com/mod/from-the-fog) | 1.9.2 | both | CC-BY-NC-SA-4.0 |
+| [Fzzy Config](https://modrinth.com/mod/fzzy-config) | 0.7.7+1.20.1+forge | both | LicenseRef-TDL-M |
+| [Geckolib](https://modrinth.com/mod/geckolib) | 4.8.4 | both | MIT |
+| [ImmediatelyFast](https://modrinth.com/mod/immediatelyfast) | 1.5.5+1.20.4-forge | client | LGPL-3.0-or-later |
+| [In Control!](https://modrinth.com/mod/in-control) | 1.20-9.5.1 | server | MIT |
+| [Integrated API](https://modrinth.com/mod/integrated-api) | 1.9.1 | both | AGPL-3.0-only |
+| [Inventory Profiles Next](https://modrinth.com/mod/inventory-profiles-next) | forge-1.20.1-1.10.20 | client | AGPL-3.0-or-later |
+| [Just Enough Items (JEI)](https://modrinth.com/mod/jei) | 15.56.0.205 | both | MIT |
+| [Kotlin for Forge](https://modrinth.com/mod/kotlin-for-forge) | 4.12.0 | both | LGPL-2.1-only |
+| [L_Ender's Cataclysm](https://modrinth.com/mod/l_enders-cataclysm) | 3.31 | both | CC-BY-NC-ND-4.0 |
+| [libIPN](https://modrinth.com/mod/libipn) | forge-1.20-4.0.2 | client | AGPL-3.0-or-later |
+| [Lionfish-API](https://modrinth.com/mod/lionfish-api) | 3.0 | both | LGPL-3.0-only |
+| [Lodestone](https://modrinth.com/mod/lodestonelib) | 1.20.1-1.6.4.1 | both | LGPL-3.0-only |
+| [Lootr](https://modrinth.com/mod/lootr) | 0.7.35.94 | both | MIT |
+| [Lucky Block](https://www.curseforge.com/minecraft/mc-mods/lucky-block/files/4817267) | lucky-block-forge-1.20.1-13.0.jar | both | All Rights Reserved |
+| [MakeUp - Ultra Fast](https://modrinth.com/shader/makeup-ultra-fast-shaders) | 9.6 | client | LGPL-3.0-or-later |
+| [Melody's Cute Girl Villagers](https://modrinth.com/resourcepack/cutegirlvillagers) | 1.11.1_pre-26.1 | client | LicenseRef-All-Rights-Reserved |
+| [Meulti's Backrooms](https://modrinth.com/mod/meultis-backrooms) | 1.4.0 | both | LicenseRef-All-Rights-Reserved |
+| Michael's Pack Tweaks | 1.0.0 | both | GPL-3.0-or-later |
+| [ModernFix](https://modrinth.com/mod/modernfix) | 5.27.91+mc1.20.1 | both | LGPL-3.0-only |
+| [Monsters&Girls Legacy](https://www.curseforge.com/minecraft/mc-mods/monsters-girls-mushroom-update/files/7071708) | MonstersGirls_1.3.4.3_1.20.1.jar | both | CC-BY-NC-3.0 |
+| [Moonlight Lib](https://modrinth.com/mod/moonlight) | 1.20-2.16.38B-forge | both | LicenseRef-LGPL-with-additional-dependency-clause |
+| [Mouse Tweaks](https://modrinth.com/mod/mouse-tweaks) | 1.20.1-2.25.1-forge | client | BSD-3-Clause |
+| [My Monster Girls](https://modrinth.com/resourcepack/my-monster-girls) | 1.4.0 | client | MIT |
+| [Nyf's Spiders](https://modrinth.com/mod/nyfs-spiders) | 3.0.2 | both | LGPL-2.1-only |
+| [Oculus](https://modrinth.com/mod/oculus) | 1.20.1-1.8.0 | client | LGPL-3.0-only |
+| [Open Loader](https://modrinth.com/mod/open-loader) | 19.0.5 | both | LGPL-2.1-only |
+| [Patchouli](https://modrinth.com/mod/patchouli) | 1.20.1-85-forge | both | CC-BY-NC-SA-3.0 |
+| [Physics Mod Pro](https://www.patreon.com/Haubna/posts/physics-mod-pro-89202866) | v171o | client | Author public download; referenced, not rehosted |
+| [Pigzilla](https://modrinth.com/mod/pigzilla) | 1.3.2 | both | LicenseRef-All-Rights-Reserved |
+| [playerAnimator](https://modrinth.com/mod/playeranimator) | 1.0.2-rc1+1.20-forge | both | MIT |
+| [Quark](https://modrinth.com/mod/quark) | 1.20.1-4.0-462 | both | CC-BY-NC-SA-3.0 |
+| [Rats](https://modrinth.com/mod/rats) | 8.1.3 | both | LGPL-3.0-only |
+| [Ribbits](https://modrinth.com/mod/ribbits) | 3.0.5 | both | LGPL-3.0-only |
+| [SCP Additions](https://modrinth.com/mod/scp-additions) | 3.0.7 | both | LicenseRef-Creative-Commons-Sharealike-3.0 |
+| [SCP: Overtime](https://modrinth.com/mod/scp-overtime) | 3.1.2 | both | LicenseRef- |
+| [SCP: Ultimate](https://www.curseforge.com/minecraft/mc-mods/scp-ultimate/files/9329845) | scp_ultimate-1.2.4-forge-1.20.1.jar | both | BSD |
+| [Searchables](https://modrinth.com/mod/searchables) | 1.0.3 | client | MIT |
+| [Simple Storage Network](https://modrinth.com/mod/simple-storage-network) | 1.20.1-1.13.2 | both | LicenseRef-All-Rights-Reserved |
+| [Simply Swords](https://modrinth.com/mod/simply-swords) | 1.70.2-1.20.1 | both | LicenseRef-Custom |
+| [Simply Tooltips](https://modrinth.com/mod/simply-tooltips) | 0.1.5-1.20.1 | client | LicenseRef-Timefall-Development-License-1.2 |
+| [Siren Head: The Arrival](https://www.curseforge.com/minecraft/mc-mods/siren-head-the-arrival/files/5571439) | Siren_head v1.1.4-1.20.1.jar | both | BSD |
+| [Slenderman: The Revival](https://modrinth.com/mod/slenderman-the-revival) | 1.1.11 | both | LicenseRef-All-Rights-Reserved |
+| [Sons of Sins](https://modrinth.com/mod/sons-of-sins) | 2.2.1 | both | LicenseRef-All-Rights-Reserved |
+| [Sound Physics Remastered](https://modrinth.com/mod/sound-physics-remastered) | forge-1.20.1-1.5.1 | client | GPL-3.0-only |
+| [spark](https://modrinth.com/mod/spark) | 1.10.53-forge | both | GPL-3.0-only |
+| [Structure Gel API](https://modrinth.com/mod/structure-gel-api) | 2.16.2 | both | LicenseRef-All-Rights-Reserved |
+| [Supplementaries](https://modrinth.com/mod/supplementaries) | 1.20-3.1.44-forge | both | LicenseRef-Supplementaries-Team-License |
+| [The Conjurer](https://modrinth.com/mod/the-conjurer) | 1.1.6 | both | LicenseRef-All-Rights-Reserved |
+| [The Graveyard (Forge)](https://modrinth.com/mod/the-graveyard-forge) | 4.0.1+mc1.20.1-forge | both | GPL-3.0-only |
+| [The Knocker](https://modrinth.com/mod/the-knocker) | 1.5.2 | both | LicenseRef-All-Rights-Reserved |
+| [The Man From The Fog](https://modrinth.com/mod/the-man-from-the-fog) | 1.4 | both | LicenseRef-All-Rights-Reserved |
+| [Threateningly mobs](https://modrinth.com/mod/threateningly-mobs) | 1.1.1 | both | MIT |
+| [Touhou Little Maid](https://modrinth.com/mod/touhou-little-maid) | 1.5.3-forge+mc1.20.1 | both | CC-BY-NC-SA-4.0 |
+| [unmannedonlinetickstasis](https://modrinth.com/mod/unmannedonlinetickstasis) | 1.0.0 | both | LicenseRef-All-Rights-Reserved |
+| [Valhelsia Core](https://modrinth.com/mod/valhelsia-core) | 1.1.2 | both | LicenseRef-Custom |
+| [Valhelsia Structures](https://modrinth.com/mod/valhelsia-structures) | 1.1.2 | both | LicenseRef-Valhelsia-Structures-License |
+| [VillagersTradingPlus](https://modrinth.com/mod/villagerstradingplus) | 1.1.1+mc1.20.1-forge | both | GPL-3.0-only |
+| [Weather Storms & Tornadoes](https://modrinth.com/mod/weather-storms-tornadoes) | 1.20.1-2.8.3 | both | LicenseRef-All-Rights-Reserved |
+| [When Dungeons Arise](https://modrinth.com/mod/when-dungeons-arise) | 2.1.58-1.20.x | server | LicenseRef-All-Rights-Reserved |
+| [Xaero's Minimap](https://modrinth.com/mod/xaeros-minimap) | forge-1.20.1-26.6.0 | client | LicenseRef-All-Rights-Reserved |
+| [Xaero's World Map](https://modrinth.com/mod/xaeros-world-map) | forge-1.20.1-1.47.0 | client | LicenseRef-All-Rights-Reserved |
+| [YetAnotherConfigLib (YACL)](https://modrinth.com/mod/yacl) | 3.6.6+1.20.1-forge | both | LGPL-3.0-or-later |
+| [YUNG's API](https://modrinth.com/mod/yungs-api) | 1.20-Forge-4.0.6 | both | LGPL-3.0-only |
+| [Zeta](https://modrinth.com/mod/zeta) | 1.20.1-1.0-31 | both | CC-BY-NC-SA-3.0 |
+
+## Integration choices
+
+- **Zombie Tactics** — backport. Published builds target 1.21/1.21.1. Backported the GPL source to Forge 1.20.1, retained vanilla AI goals, fixed marker placement and server-side spawning, and reduced detection range for performance.
+- **Giantess Toki & more** — omit as impractical cross-version integration. Only NeoForge 1.21.1 builds, Java/Minecraft API generation different from the rest of the pack. The downloaded release contains 290 compiled classes and no public source project. A faithful backport is a substantial rewrite with additional behavior and collision risks. The pack retains Pigzilla, Cataclysm, Alex's Caves/Tremorzilla, Sandworms, and other giants.
+- **Tremorzilla's Rage** — replace redundant addon with small compatibility behavior. The inspected addon repeatedly executes commands targeting absent Ben's Titans/Compound V content and contains broken function tags. Alex's Caves already provides Tremorzilla. Pack Tweaks makes wild Tremorzillas target nearby survival players while leaving tamed ones alone.
+- **Faithful Backrooms** — consolidate redundant Backrooms mods. Retain Meulti's Backrooms for the requested feature. Faithful's dependency chain adds experimental Immersive Portals, alternate worlds, and renderer changes that compete with the shader/physics stack; the client emitted portal timer errors. Removing the duplicate and orphaned dependencies favors the 60+ FPS requirement.
+- **Baablu's Natural Disasters** — omit redundant incompatible disaster project. The relevant 1.20.1 build is Fabric-only. Weather2 and Extreme Natural Disasters already cover the disaster role; introducing a loader bridge or a full port for a third disaster system adds cost and instability without a needed progression feature.
+- **Extreme Natural Disasters** — install on both sides. Runtime Forge handshake rejects clients without its network channel, despite server-side metadata. Matching client/server versions resolve the connection failure.
+- **Physics Mod Pro** — client visual effects with performance preset. Author public attachment v171o; ocean waves only. Block, mob, item, cloth, smoke, weather particles, collapse and the separate fluid-particle simulator are disabled.

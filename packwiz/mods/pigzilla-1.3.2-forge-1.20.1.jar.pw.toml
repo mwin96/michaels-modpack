@@ -1,0 +1,8 @@
+name = "pigzilla-1.3.2-forge-1.20.1.jar"
+filename = "pigzilla-1.3.2-forge-1.20.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/nwjkaKe9/versions/D2YCQixR/pigzilla-1.3.2-forge-1.20.1.jar"
+hash-format = "sha512"
+hash = "0fa0fe5f425cba672ae35d15e9dda44e7cc4cf14f20900cc53ea07c4115d2557c04e376d5f989340df9e500e42e1eb5285f3470311248cf919765884fb71b141"

@@ -1,0 +1,8 @@
+name = "scp_ultimate-1.2.4-forge-1.20.1.jar"
+filename = "scp_ultimate-1.2.4-forge-1.20.1.jar"
+side = "client"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/9329/845/scp_ultimate-1.2.4-forge-1.20.1.jar"
+hash-format = "sha512"
+hash = "4ffa9f6ccba16e2f1b23eda8be0395fd65b3c84a84616baf67510fa812c4b383cc2a72cdb6a46401c3d70de51dd7b8e70f5b4c572c35de71a25e116f6233dc11"

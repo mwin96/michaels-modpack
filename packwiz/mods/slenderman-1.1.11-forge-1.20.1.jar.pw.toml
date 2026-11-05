@@ -1,0 +1,8 @@
+name = "slenderman-1.1.11-forge-1.20.1.jar"
+filename = "slenderman-1.1.11-forge-1.20.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/k1U6TrZi/versions/uIICENHt/slenderman-1.1.11-forge-1.20.1.jar"
+hash-format = "sha512"
+hash = "2a67d4d8026dd969f78cff9932b5bd7dfccb6e2301dc4b8e2a6c3517dd55cf5192a9ea4957f6fc2966ed8ebdf65cd57f24447f94e1c4891afcb00d1b1a0a538d"

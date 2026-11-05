@@ -1,0 +1,8 @@
+name = "touhoulittlemaid-1.5.3-forge+mc1.20.1.jar"
+filename = "touhoulittlemaid-1.5.3-forge+mc1.20.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/R0bDWFAW/versions/g1SKoGQJ/touhoulittlemaid-1.5.3-forge%2Bmc1.20.1.jar"
+hash-format = "sha512"
+hash = "12f29c14e806bf3aeb4f8399ac02199b419426905a27c3b9c7e019ef9daace09bc40d9b2c5c41ee730ce4b67eda5d0e93e8a8f32879b96b70e6003952c651716"

@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="GPL-3.0-or-later"
+[[mods]]
+modId="zombie_tactics"
+version="1.0.0-michaels-backport"
+displayName="Zombie Tactics - Michael's Forge Backport"
+authors="n643064; Forge 1.20.1 backport for Michael"
+description="Zombie Tactics backported for this pack with conservative marker range and mining settings."
+[[mods]]
+modId="michaelspack"
+version="1.0.0"
+displayName="Michael's Pack Tweaks"
+description="Compatibility, loot and validation support for michael's modpack."
+[[dependencies.zombie_tactics]]
+modId="forge"
+mandatory=true
+versionRange="[47.4,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.zombie_tactics]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="BOTH"

@@ -1,0 +1,8 @@
+name = "Melodys Cute Villagers v1.11.1_pre-26.1.zip"
+filename = "Melodys Cute Villagers v1.11.1_pre-26.1.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/nQDsB5Zp/versions/M8leE9tP/Melodys%20Cute%20Villagers%20v1.11.1_pre-26.1.zip"
+hash-format = "sha512"
+hash = "272335979e85caa127784dccfe8e22dbc20607f8e12bcdc004bebfb23fab047ef24fa61fdcca04311def9d0a23ee3b2e2ab5163bbd8e91d6fd913397cf54fe3d"

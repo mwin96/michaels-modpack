@@ -1,0 +1,8 @@
+name = "threateningly_mobs-1.1.1-forge-1.20.1.jar"
+filename = "threateningly_mobs-1.1.1-forge-1.20.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/qEr8xutG/versions/Zwuw6yjT/threateningly_mobs-1.1.1-forge-1.20.1.jar"
+hash-format = "sha512"
+hash = "20132539e4a97b9f92883ed014c6654138adef9d7d0a72e642349e322271a0a6c4bec6fa97f3494b7644e6ffdcf0928d8ae5c62c769ee3b3d7db86a81ebc7c4d"

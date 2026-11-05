@@ -1,0 +1,8 @@
+name = "MonstersGirls_1.3.4.3_1.20.1.jar"
+filename = "MonstersGirls_1.3.4.3_1.20.1.jar"
+side = "client"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/7071/708/MonstersGirls_1.3.4.3_1.20.1.jar"
+hash-format = "sha512"
+hash = "48e8354813f6c586683e085bd59013b8dc0d63cc35c81729febc13e6f39f5725120ffad6f99307364d93df0b6ca61dadd57231bd359d32ded37488cecee41485"

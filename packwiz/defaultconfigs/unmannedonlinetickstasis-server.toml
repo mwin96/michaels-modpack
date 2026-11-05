@@ -1,0 +1,12 @@
+
+["Pause Settings"]
+	#Enable the pause functionality when no players are online. (Default: true)
+	enablePause = true
+	#Delay in seconds after the last player leaves before the server pauses. (Default: 0)
+	#Range: > 0
+	delaySeconds = 0
+
+["Command Whitelist"]
+	#List of commands that can be executed from console while the server is paused. Supports wildcard '*' at the end. Example: ["say", "list", "stop"]
+	commandWhitelist = ["say", "list", "stop", "save-all", "whitelist", "op", "deop"]
+

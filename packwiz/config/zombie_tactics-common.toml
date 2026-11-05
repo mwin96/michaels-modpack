@@ -1,0 +1,59 @@
+#Should the changes be applied to zombified piglins
+affectZombifiedPiglins = true
+#Should zombies target animals
+zombiesTargetAnimals = false
+#Animal targeting priority (lower values mean higher priority)
+#Range: > 0
+targetAnimalsPriority = 3
+#Does animal targeting require line of sight
+targetAnimalsVisibilityCheck = false
+#Should zombies attempt to break blocks in their way
+zombiesMineBlocks = true
+#Min distance to target entity for mining
+#Range: 0.0 ~ 1.7976931348623157E308
+minDistForMining = 0.2
+#Max distance to target entity for mining
+#Range: 0.0 ~ 1.7976931348623157E308
+maxDistForMining = 32.0
+#Should broken blocks be dropped
+dropBrokenBlocks = true
+#Block breaking goal priority
+#Range: > 0
+minePriority = 1
+#Should zombies climb each other on collision
+zombiesClimb = true
+#Zombie climbing speed
+#Range: 0.0 ~ 1.7976931348623157E308
+zombieClimbingSpeed = 0.3
+#The amount of mining progress made per tick
+#Range: 0.0 ~ 1.7976931348623157E308
+miningIncrement = 0.1
+#The maximal hardness of targeted blocks
+#Range: 0.0 ~ 1.7976931348623157E308
+maxHardness = 2.0
+#Target block hardness multiplier, doesn't affect block selection
+#Range: 0.0 ~ 1.7976931348623157E308
+hardnessMultiplier = 5.0
+#Should markers spawn and be targeted
+enableMarkers = true
+#The amount of seconds a marker exists for
+#Range: 0 ~ 107374182
+markerLifeTime = 8
+#Marker spawn chance
+#Range: 0.0 ~ 1.0
+markerSpawnChance = 0.2
+#Range of markers
+#Range: 0.1 ~ 1.7976931348623157E308
+markerRange = 24.0
+#Should markers spawn upon item use
+markersSpawnOnDamage = true
+#Should markers spawn when taking damage
+markersSpawnOnItem = true
+#Should markers spawn when a projectile hits
+markersSpawnOnProjectile = true
+#The priority for moving towards markers
+#Range: 0 ~ 107374182
+markerPathingPriority = 2
+#Entities which should spawn markers
+markerSpawningEntities = ["minecraft:player", "minecraft:sheep", "minecraft:chicken", "minecraft:cow", "minecraft:pig", "minecraft:villager"]
+

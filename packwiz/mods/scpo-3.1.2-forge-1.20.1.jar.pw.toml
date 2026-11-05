@@ -1,0 +1,8 @@
+name = "scpo-3.1.2-forge-1.20.1.jar"
+filename = "scpo-3.1.2-forge-1.20.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/9rFShhmC/versions/aY2LKyhS/scpo-3.1.2-forge-1.20.1.jar"
+hash-format = "sha512"
+hash = "d1caea2d1ee2e381a12491d80982f0defd19343df96c7322f8a3362221285e4051885063a5f74bfdd704cd8e4f5558740da356db4885f08dfef89af0d2c03acb"

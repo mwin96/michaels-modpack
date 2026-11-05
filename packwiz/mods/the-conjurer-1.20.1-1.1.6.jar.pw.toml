@@ -1,0 +1,8 @@
+name = "the-conjurer-1.20.1-1.1.6.jar"
+filename = "the-conjurer-1.20.1-1.1.6.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/84MLqQxZ/versions/87u1KPDZ/the-conjurer-1.20.1-1.1.6.jar"
+hash-format = "sha512"
+hash = "8e95bc76c3110611b50b4a7af512ae45673f14ed81f18bf7d55b4b165330ea2bb45ab7dea0ae0e72c20b91a91aa5ff5be5f88412c3b483de515a7a7a167fec9d"

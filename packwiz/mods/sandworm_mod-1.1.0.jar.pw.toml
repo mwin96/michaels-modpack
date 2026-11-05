@@ -1,0 +1,8 @@
+name = "sandworm_mod-1.1.0.jar"
+filename = "sandworm_mod-1.1.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/b1GD2Ca2/versions/44Ejqnzj/sandworm_mod-1.1.0.jar"
+hash-format = "sha512"
+hash = "d3e21410f3369bf5437cf35dd68eaa619b72d431d90be9106497a5f934e1ab9e3fb2bd5054022ab2f310e8e21e654a088a2040bb793b3e69a26d99644381e088"
