@@ -17,7 +17,7 @@
 	#minimum radius in blocks before it despawns
 	vanish_distance = 30.0
 	#if true, it can also spawn during the day
-	spawn_at_day = true
+	spawn_at_day = false
 	#if true, the player gets the darkness effect when starts getting chased
 	darkness_effect = true
 	#the duration in ticks of the darkness effect
@@ -37,9 +37,9 @@
 	#the structures as well as the dimension will be disabled and the man spawns normally in your world. Create a new world when disabled
 	legacy_man = false
 	#the man will search the nearest player on lost sight and when close enough, destroy neccessary blocks to get the player
-	search_mechanic = true
+	search_mechanic = false
 	#The max hardness of a block which the man will be able to break, set to -1.0 to disable
-	block_hardness = 2.0
+	block_hardness = 0.6
 	#The max hardness of a block which the man will be able to break when searching for the player
 	block_hardness_search = 5.0
 	#The time in ticks for how long the man needs to break a block (higher value = lower speed)

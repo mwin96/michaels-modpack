@@ -1,3 +1,42 @@
+# Independent 1.0.1 follow-up — first-hour friction
+
+**Verdict: GO for the private group's monitored pilot.** Exact reconstructed release joined the local server and passed the focused checks below. Core SHA256: `437662e20d304a0cf53f964bf39276ee88621fbe0e7e8a843dd51397c36e8b2b`. Windows starter SHA256: `a21fe86a3702894244948ae76244d5b6bc816ee5e3f8a409347cb98ab3db5c76`. Compatibility jar SHA256: `8807c6bacb7189555a97655b25303f4fe57ccef2c192ee12a791496ac8bc4dc9`.
+
+The review found three practical problems beyond startup compatibility: ordinary starter shelters could be mined quickly, accidental Backrooms entry could replace a player's bed spawn, and a shared horror timer ran faster with more players. The proposed update addresses those specific problems. It has not been assessed as a complete ordinary survival session, and the controlled tests do not prove that everyone will find the pack fun.
+
+## Changes and focused evidence
+
+- **Shelter recovery:** Zombie Tactics retains mining, climbing and noise tracking, but its maximum mineable hardness is 0.6. A native mining-goal fixture broke dirt and glass while rejecting oak planks, stone and cobblestone. The Man's daytime spawning and search destruction are disabled, and its ordinary hardness limit is 0.6. Door/glass scares remain enabled. Source inspection confirms the separate vanish/despawn branch is unaffected; its whole chase was not newly playtested.
+- **Optional Backrooms trips:** accidental suffocation, sleep and Nether-portal entry are disabled. Eight paper around one ender pearl craft two existing Backrooms Portal blocks, allowing one to enter and a spare to leave. The recipe exists, and normal BlockItem placement succeeds. The client shows the readable item name and three short usage instructions.
+- **Safe portal arrival and return:** entry searches nearby clear, supported space instead of placing the player inside a wall. Return prefers a clear supported position close to the original entrance and height. Bed spawn is preserved. If the original return area becomes unsafe, the existing upstream fallback remains; that exceptional fallback can choose a different location.
+- **Movement correctness:** direct collision fixtures initially passed, but real client movement exposed an upstream collision-stack problem that could overwrite arrival coordinates. Portal travel now waits until the end of the server tick, with a pending-player guard and normal cooldown. Application-level forward-key movement through the portal then entered LevelZero at floor height and returned to the original surface height, each stable at 5- and 10-second checks. This used normal client movement packets without OS keyboard/mouse input. Repeated controlled round trips also preserved the bed and verified cooldown blocking.
+- **Multiplayer timer:** four calls to the actual transformed Knocker spawn and despawn procedures in one server tick each advanced their shared timer by one, not four. Existing event choices and encounter eligibility are retained. This is a callback regression fixture, not a four-human multiplayer frequency study.
+
+## Visual and release checks
+
+The hidden client remained in LevelZero long enough to render its corridors with the default MakeUp NoEffects shader enabled, then returned to the Overworld. The item tooltip was read from the live client. Fresh exact-archive checks are recorded alongside the final release hashes in the machine report.
+
+On the exact final import, application-key walking entered LevelZero at Y=1 and returned to the original surface at Y=71; both remained stable at 5- and 10-second checks. Its bed spawn remained in the Overworld at Y=71. Fresh screenshots captured the clear corridor view and the returned Overworld scene. The archive comparison found exactly the nine intended entries changed from 1.0.0, with all third-party publisher-file entries unchanged; the bundled source matches the corresponding source ZIP.
+
+Normal release sound remains enabled, the minimal shader remains enabled, physics remain ocean-waves-only, and test flags are absent from shipped launch settings. Validation itself stayed muted. The earlier FPS results therefore do not measure normal-volume Sound Physics audio overhead. No new universal performance claim follows from this update.
+
+The remaining useful acceptance test is an ordinary first session: gather resources without supplied equipment or protective effects, establish shelter, find a gun/ammo route, encounter threats, die/recover if it happens, and judge interruption frequency and clarity. Unknown friend hardware, four-player exploration, large disasters and long-term stability remain outside the focused evidence.
+
+Evidence includes `ux-101-source-freeze.json`, the exact release audit, `ux-portal.json`, `ux-mining.json`, `ux-timers.json`, the application-walking entry/exit records, live tooltip text, and LevelZero/Overworld captures. Raw logs and private test-world state remain local.
+
+The owned hidden client and local server were stopped normally after the final captures. No account or security prompt was handled by this reviewer, and no publication or hosted-server action was performed here.
+
+
+## Hosted deployment update
+
+The production host received the same 1.0.1 compatibility jar. A copy retrieved through the normal hosting-panel download action matched SHA-256 8807c6bacb7189555a97655b25303f4fe57ccef2c192ee12a791496ac8bc4dc9 exactly. Live configuration inspection confirmed the shelter, nighttime-stalker and optional-Backrooms settings. No world reset, whitelist or authentication change was made. An authenticated hosted player join remains pending; the local joined tests above are completed.
+
+## Earlier full compatibility baseline
+
+The following report covers the original 1.0.0 archive. All third-party archive entries and every pre-existing compatibility-mod class are byte-identical in 1.0.1; only the documented settings, added UX classes/resources, version manifest and corresponding source changed. Its combat/progression/rendering evidence is retained below with its original exact archive hash.
+
+---
+
 # Independent review — michael's modpack 1.0.0
 
 Reviewed November 4, 2026, by an independent GPT-6 Astra reviewer using high reasoning.

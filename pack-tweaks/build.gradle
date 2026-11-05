@@ -2,7 +2,7 @@ plugins {
  id 'net.minecraftforge.gradle' version '[6.0,6.2)'
  id 'org.spongepowered.mixin' version '0.7-SNAPSHOT'
 }
-version='1.0.0'
+version='1.0.1'
 group='net.michaelspack'
 base { archivesName='michaels-pack-tweaks' }
 java.toolchain.languageVersion=JavaLanguageVersion.of(17)

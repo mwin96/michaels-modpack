@@ -1,6 +1,6 @@
 # michael's modpack — pinned contents
 
-Minecraft 1.20.1 · Forge 47.4.28 · pack 1.0.0
+Minecraft 1.20.1 · Forge 47.4.28 · pack 1.0.1
 
 Third-party archives are downloaded from their publishers rather than rehosted in this release. Client-only graphics/audio files are excluded from the dedicated server.
 
@@ -56,7 +56,7 @@ Third-party archives are downloaded from their publishers rather than rehosted i
 | [MakeUp - Ultra Fast](https://modrinth.com/shader/makeup-ultra-fast-shaders) | 9.6 | client | LGPL-3.0-or-later |
 | [Melody's Cute Girl Villagers](https://modrinth.com/resourcepack/cutegirlvillagers) | 1.11.1_pre-26.1 | client | LicenseRef-All-Rights-Reserved |
 | [Meulti's Backrooms](https://modrinth.com/mod/meultis-backrooms) | 1.4.0 | both | LicenseRef-All-Rights-Reserved |
-| Michael's Pack Tweaks | 1.0.0 | both | GPL-3.0-or-later |
+| Michael's Pack Tweaks | 1.0.1 | both | GPL-3.0-or-later |
 | [ModernFix](https://modrinth.com/mod/modernfix) | 5.27.91+mc1.20.1 | both | LGPL-3.0-only |
 | [Monsters&Girls Legacy](https://www.curseforge.com/minecraft/mc-mods/monsters-girls-mushroom-update/files/7071708) | MonstersGirls_1.3.4.3_1.20.1.jar | both | CC-BY-NC-3.0 |
 | [Moonlight Lib](https://modrinth.com/mod/moonlight) | 1.20-2.16.38B-forge | both | LicenseRef-LGPL-with-additional-dependency-clause |
@@ -113,3 +113,7 @@ Third-party archives are downloaded from their publishers rather than rehosted i
 - **Baablu's Natural Disasters** — omit redundant incompatible disaster project. The relevant 1.20.1 build is Fabric-only. Weather2 and Extreme Natural Disasters already cover the disaster role; introducing a loader bridge or a full port for a third disaster system adds cost and instability without a needed progression feature.
 - **Extreme Natural Disasters** — install on both sides. Runtime Forge handshake rejects clients without its network channel, despite server-side metadata. Matching client/server versions resolve the connection failure.
 - **Physics Mod Pro** — client visual effects with performance preset. Author public attachment v171o; ocean waves only. Block, mob, item, cloth, smoke, weather particles, collapse and the separate fluid-particle simulator are disabled.
+
+## Playability patch1.0.1
+
+The retained third-party projects and versions are unchanged. Zombie mining leaves ordinary wood/stone shelter intact; The Man has nighttime spawning and reduced shelter destruction. The Knocker's shared spawn/despawn counters advance once per server tick rather than per player. Backrooms accidental entry and respawn replacement are disabled; an optional two-portal recipe, context help, clear arrival placement, recorded-entry return and travel cooldown provide deliberate trips. Portal transfer runs after player movement to avoid collision-frame position rollback.

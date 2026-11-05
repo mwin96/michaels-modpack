@@ -4,7 +4,7 @@
   "package": "net.michaelspack.mixin",
   "compatibilityLevel": "JAVA_17",
   "refmap": "zombie_tactics.refmap.json",
-  "mixins": ["Scp173BulletDamageMixin"],
+  "mixins": ["Scp173BulletDamageMixin", "BackroomsEntryRespawnMixin", "BackroomsExitRespawnMixin", "BackroomsPortalCooldownMixin", "KnockerSpawnTimerMixin", "KnockerDespawnTimerMixin"],
   "client": ["BlockElementAngleMixin", "MolangPlaceholderMixin", "ArphexSphereCacheMixin", "EternalJesusSoundMixin"],
   "injectors": {"defaultRequire": 1}
 }

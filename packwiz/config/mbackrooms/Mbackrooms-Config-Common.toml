@@ -3,13 +3,13 @@
 	#Allow player to open the wiki screen (default = true)
 	allowWiki = true
 	#Allow entering the Backrooms by suffocating in blocks (default = true)
-	allowEnteringBackroomsBySuffocationInBlocks = true
+	allowEnteringBackroomsBySuffocationInBlocks = false
 	#Allow random entering the Backrooms using Nether Portals (default = true)
-	allowRandomEnteringBackroomsUsingNetherPortals = true
+	allowRandomEnteringBackroomsUsingNetherPortals = false
 	#Allow random entering the Backrooms by sleeping (default = true)
-	allowRandomEnteringBackroomsBySleeping = true
+	allowRandomEnteringBackroomsBySleeping = false
 	#Set spawnpoint in the Backrooms when entering them (default = true)
-	setSpawpointWhenEnteringBackrooms = true
+	setSpawpointWhenEnteringBackrooms = false
 	#Max chance for entering the Backrooms by suffocating (default = 3)
 	#Range: 0 ~ 8
 	maxSuffocatingChance = 3

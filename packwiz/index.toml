@@ -258,12 +258,12 @@ preserve = true
 
 [[files]]
 file = "config/man_config.toml"
-hash = "68cb1ead128b0761754824704fa21fd5df22dd1bcb68107c41b59a0827e56c6d"
+hash = "937d078d825e0c9db28448577c20fc35394b4abe781a5633fe6dbb7fa9e5e0ad"
 preserve = true
 
 [[files]]
 file = "config/mbackrooms/Mbackrooms-Config-Common.toml"
-hash = "0e3e7f04d0d83fb73eeec58ca7bbefb65c8abedeeb6fb8f2e3d2cea5cd63d4b7"
+hash = "b7873e1a084e1fcabb31c2ec3a962fa3285ca5f740275b084909fa67ee99f499"
 preserve = true
 
 [[files]]
@@ -828,7 +828,7 @@ preserve = true
 
 [[files]]
 file = "config/zombie_tactics-common.toml"
-hash = "88b5f48965e338dca48fbe0096f9f729f87f5450a36dd3bb72628072caa1aaf4"
+hash = "e9b952a8799f67cba60e47b6a82d3161771cffa902e0c38b36a0fd5f120d35ad"
 preserve = true
 
 [[files]]
@@ -892,8 +892,8 @@ hash = "57f35da9a2854ee2e906d1f3b5aa4139a549e1563ee0cae9e99efd83b8c7475f"
 preserve = true
 
 [[files]]
-file = "michaels-pack-tweaks-1.0.0-source.zip"
-hash = "5895e6295b2a6a1d4a19e9bc88668ad2b10a392931944a0c8abd99bb7da14e85"
+file = "michaels-pack-tweaks-1.0.1-source.zip"
+hash = "aa761987441596b1150cb3d8362b5060406298a65485d8747947d110171eaa0f"
 
 [[files]]
 file = "MICHAELS-PACK-TWEAKS-LICENSE.txt"
@@ -1115,8 +1115,8 @@ hash = "855f03769c3e0f8e80dbc2a66930906f4ebe9b528bf137956b97ca8e7ec5aca9"
 metafile = true
 
 [[files]]
-file = "mods/michaels-pack-tweaks-1.0.0.jar"
-hash = "dd0fe3625dbf6419aeed0faa4fa9e4d52f2f84471fcafcc34726c592b245a391"
+file = "mods/michaels-pack-tweaks-1.0.1.jar"
+hash = "8807c6bacb7189555a97655b25303f4fe57ccef2c192ee12a791496ac8bc4dc9"
 
 [[files]]
 file = "mods/modernfix-forge-5.27.91+mc1.20.1.jar.pw.toml"
