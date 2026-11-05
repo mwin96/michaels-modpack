@@ -37,7 +37,7 @@ The Backrooms mod's first-run photosensitivity notice is retained. Read it on fi
 
 ## Validation
 
-The core pack passed an independent Astra high review of 1.0.0, followed by a focused review of the 1.0.1 gameplay fixes: real client/server join, normal portal progression, Dragon death/400 HP respawn, paired gun loot through actual Lootr menus, automatic dirt pickup, default-on shader/ocean/gun/model rendering, custom menu and effective key bindings. The final 1.0.2 review is pending; see **VALIDATION.md** for its current status.
+The core pack passed an independent Astra high review of 1.0.0, followed by a focused review of the 1.0.1 gameplay fixes: real client/server join, normal portal progression, Dragon death/400 HP respawn, paired gun loot through actual Lootr menus, automatic dirt pickup, default-on shader/ocean/gun/model rendering, custom menu and effective key bindings. The exact 1.0.2 client also passed fresh-player empty-inventory, clean-map, overlay-toggle and normal-default checks. See **VALIDATION.md** for coverage and limits.
 
 A matched 1080p shader ON/OFF/ON test on an RTX 5070 Ti measured 118 FPS median in each phase, capped at 120. This showed no noticeable FPS drop from the minimal shader in that test. The weakest friend's hardware is unknown; **60–100+ FPS on that PC has not been measured**. Full four-player survival, overnight stability and some multipart boss encounters are not claimed tested. See **VALIDATION.md** for the exact coverage and limits.
 
