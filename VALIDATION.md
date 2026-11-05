@@ -34,6 +34,9 @@ Evidence: `work/first-session-evidence/` (commands, captures, native crafting an
 
 ## Release and hosted checks
 
+The later Windows convenience download `michaels-modpack-1.0.2-windows-easy.zip` has SHA256 `3d9f94e5e0831b8949190aa1ebd2d74ec247bdf69e46ecb559a3b2cbd85a6ce5`. It changes only the launcher's filename to **CLICK HERE TO INSTALL AND PLAY.cmd** and the accompanying short instructions. The command contents and every other archive file are byte-identical to the reviewed Windows starter; the core pack is unchanged.
+
+
 Windows starter SHA256: `f29e9aa658dd62ba649814f60e60091a5ec0f71b0c64b7606ac5868713651120`. Matching GPL source ZIP SHA256: `e69afb58157afcc8fa5dc4c494406804a7c3ce9f8a37c5fb7bdf0ed876db7c2a`.
 
 A separate GPT-6.1 Sol extra-high artifact/source review confirmed all96 total publisher files (93 client-supported), exactly90 client jars, and all39 preexisting class files unchanged from1.0.1. Only the first-join cleanup and geology-default classes were added. All upstream publisher archives remain unchanged. The actual published packwiz hash graph passed288 file hashes and93 publisher pins. Its automatic installer completed; the installed result matched all195 override files, all93 supported publisher archives, the90-jar client, original thumbnail, normal master volume and enabled shader.

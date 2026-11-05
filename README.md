@@ -4,11 +4,11 @@ For Windows 10/11, Minecraft Java Edition, and our six-player friends' server.
 
 ## Install and play
 
-1. Download **[michaels-modpack-1.0.2-windows.zip](https://github.com/mwin96/michaels-modpack/releases/download/v1.0.2/michaels-modpack-1.0.2-windows.zip)**.
+1. Download **[michaels-modpack-1.0.2-windows-easy.zip](https://github.com/mwin96/michaels-modpack/releases/download/v1.0.2/michaels-modpack-1.0.2-windows-easy.zip)**.
 2. Right-click the ZIP → **Extract All**. Keep the extracted folder together.
-3. Open **PLAY.cmd**. Sign into your own Microsoft account when Prism asks; it must own Minecraft Java Edition.
+3. Open **CLICK HERE TO INSTALL AND PLAY.cmd**. Sign into your own Microsoft account when Prism asks; it must own Minecraft Java Edition.
 
-Prism downloads Java, Minecraft, Forge and the pinned modpack, then joins the server. If the first sign-in leaves you at the launcher, double-click **michael's modpack** once. Later, PLAY.cmd launches and joins automatically.
+Prism downloads Java, Minecraft, Forge and the pinned modpack, then joins the server. If the first sign-in leaves you at the launcher, double-click **michael's modpack** once. Later, CLICK HERE TO INSTALL AND PLAY.cmd launches and joins automatically.
 
 The first launch downloads roughly 866 MB of pack files, plus Minecraft and Java. Give it a few minutes. Your thumbnail is already the launcher's pack icon, and the game menu is branded.
 
