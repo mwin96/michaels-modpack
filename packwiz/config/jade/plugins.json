@@ -24,7 +24,7 @@
     "crop_progress": false,
     "enchantment_power": false,
     "entity_armor": false,
-    "entity_health": false,
+    "entity_health": true,
     "falling_block": false,
     "furnace": false,
     "harvest_tool": false,

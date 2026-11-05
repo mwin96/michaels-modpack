@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
   "game": "minecraft",
-  "versionId": "1.0.3",
+  "versionId": "1.0.4",
   "name": "michael's modpack",
   "summary": "Vanilla progression interrupted by horror, meme mobs, giants and disasters; guns, swords and artifacts to fight back.",
   "dependencies": {
@@ -1763,6 +1763,21 @@
         "https://cdn.modrinth.com/data/bIGwdx6D/versions/pnjBOuvM/endertrigon-1.20.1-1.1-all.jar"
       ],
       "fileSize": 352603
+    },
+    {
+      "path": "mods/bettersafebed-forge-1.20-9.jar",
+      "hashes": {
+        "sha512": "b63032bcb9e5ff4daed202b675b2ad9f53232dd694c78ea08b308d8318abfa35494aff0c320a26c1854d0b3418829b7b6db9ba441dce8ef141335de5b6abf11d",
+        "sha1": "9471197884bdc913ef26468b5987a6ab02592db5"
+      },
+      "env": {
+        "client": "unsupported",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/aUp4r9hY/versions/TUwe64ae/bettersafebed-forge-1.20-9.jar"
+      ],
+      "fileSize": 5853
     }
   ]
 }

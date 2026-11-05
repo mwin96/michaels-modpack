@@ -162,3 +162,11 @@ Ender Trigon enhances the first Dragon fight with three heads and new attacks; t
 - [YUNG's Better Desert Temples](https://modrinth.com/mod/yungs-better-desert-temples) — server; pinned file `YungsBetterDesertTemples-1.20-Forge-3.0.3.jar`.
 - [The Dirty Stuff](https://www.curseforge.com/minecraft/mc-mods/thedirtystuff) — client/server; pinned file `the_dirty_stuff-2.1-forge-1.20.1.jar`.
 - [Ender Trigon](https://modrinth.com/mod/ender-trigon) — client/server; pinned file `endertrigon-1.20.1-1.1-all.jar`.
+
+## Update 1.0.4
+
+- Michael's Belly Visuals is a small original cosmetic addon. Completing a meal while already full grows a skin-textured lower-torso belly, capped at six excess meals. Hunger loss gradually shrinks it. Ordinary skins, health, movement, armor and hitboxes remain; full meals consume their item without adding normal nutrition or saturation. Native special-food effects remain. No CPM, Pehkui, calorie HUD, new item or keybind is added.
+- The client utility supplies a compact red current/max health bar in Jade's current look-target tooltip. It enables the new default once; later user choices remain theirs. Normal zombie, husk, drowned, zombie-villager, zombified-piglin and zombie-horse visuals replace only those families' CMM/MyMonsterGirls resources at runtime. Original resource ZIPs and other mobs/sounds are untouched.
+- SCP-1879's custom eligible-time increment is halved, doubling its native encounter interval. New menus initialize a missing offer through the publisher's own category logic. Existing valid choices, currency, prices and purchasing remain native. Money is craftable through the original gold-nugget/coin recipes.
+- [Better Safe Bed](https://modrinth.com/mod/better-safe-bed), Forge1.20-9, is server-only. One-person sleep remains enabled.
+- The 1.0.3 Trigon fight, 400HP Dragon, terrain/structure additions and preserved world remain unchanged. Existing player graphics, chunk distances and every existing heap cap remain unchanged, including 6GB. Existing Prism1.0.3 profiles fetch this follow-up through their main update hook.

@@ -240,7 +240,7 @@ preserve = true
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "8d18d5480b0f2071d70f41cf41412caaa592ca760faa4d246370dae0d1948ed4"
+hash = "d34087df8f77145cbdd9c6da85310d1b95c3a5d23513466b3648da2d212c1848"
 preserve = true
 
 [[files]]
@@ -979,8 +979,16 @@ hash = "57f35da9a2854ee2e906d1f3b5aa4139a549e1563ee0cae9e99efd83b8c7475f"
 preserve = true
 
 [[files]]
-file = "michaels-client-fixes-1.0.0-source.zip"
-hash = "adee34b23392c0534752141791e7be1cfb70f40b60020f05e42876788325b520"
+file = "michaels-belly-visuals-1.0.0-source.zip"
+hash = "5854bb422a4d18eb77a2889247b7b1e7d9932cf9916146f6a08d8520f2cb6f9b"
+
+[[files]]
+file = "MICHAELS-BELLY-VISUALS-LICENSE.txt"
+hash = "0ab6b1b75d4fb2aa6f67932fc2cc7fa7a6746487c8f94e31585de4b2efff9858"
+
+[[files]]
+file = "michaels-client-fixes-1.0.1-source.zip"
+hash = "cb7744461925a21a7b63c393e4eef439ce27b1169f13f9cb1244ad4b37d69803"
 
 [[files]]
 file = "MICHAELS-CLIENT-FIXES-LICENSE.txt"
@@ -1271,8 +1279,12 @@ hash = "855f03769c3e0f8e80dbc2a66930906f4ebe9b528bf137956b97ca8e7ec5aca9"
 metafile = true
 
 [[files]]
-file = "mods/michaels-client-fixes-1.0.0.jar"
-hash = "d0df16b4056f92583df92b06a17a527d003201424c1b1e31039c53ca0cb1ef09"
+file = "mods/michaels-belly-visuals-1.0.0.jar"
+hash = "b837f918f6a1669a543ee290e6fdcf4b780bafe9b330b96f3aaf9add6d764f7c"
+
+[[files]]
+file = "mods/michaels-client-fixes-1.0.1.jar"
+hash = "f6542fd31f138af2993b4e23e0215f08abcb53839cf78e22e2954f3872d67018"
 
 [[files]]
 file = "mods/michaels-copper-equipment-1.0.0.jar"
