@@ -47,7 +47,7 @@ The requested **2000×2000-block pregeneration is complete** around original spa
 
 After a normal restart, the server finished loading at 04:54:49 UTC. External status passed at 04:55:07 UTC with Minecraft 1.20.1, Forge 3, six slots and zero players; the console game-time query still returned 0 at 04:55:27 UTC. Memory settled at 3.38 GB after generation's 8.04 GB. The world remains normally paused while empty.
 
-An authenticated account joining the paid remote server remains a first-player check; all joined test-user checks above were local. The earlier118FPS shader and active-mob samples below use an RTX5070Ti and muted game audio, not the unknown weakest friend's PC or normal-volume SoundPhysics overhead.
+A subsequent deployment check used the already signed-in official Minecraft launcher and successfully joined the paid production server. External status independently confirmed that player online. The live client showed an empty hotbar, ordinary hearts/hunger and the configured shader; native F3 showed116FPS at1920x1080 on the RTX5070Ti machine. F3 was turned off and the game left connected for the user. This is one point-in-time FPS observation, not the weakest friend's benchmark. The earlier independent joined-test-user checks above were local. The earlier118FPS shader and active-mob samples below use an RTX5070Ti and muted game audio, not the unknown weakest friend's PC or normal-volume SoundPhysics overhead.
 
 The1.0.1 and1.0.0 evidence below remains historical and identifies its own tested artifacts.
 
