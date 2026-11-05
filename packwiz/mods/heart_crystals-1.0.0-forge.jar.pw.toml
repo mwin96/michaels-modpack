@@ -1,0 +1,8 @@
+name = "heart_crystals-1.0.0-forge.jar"
+filename = "heart_crystals-1.0.0-forge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/L49lo4m9/versions/xGJrnlNF/heart_crystals-1.0.0-forge.jar"
+hash-format = "sha512"
+hash = "de14bda83a1f566248e1fdcb1b9a6d401fe3bc13583a6ca669eea3dd501e07efbb82b4328fee199877d2d4746974143d414223a07ae63c1c79e79a6c06fb4687"

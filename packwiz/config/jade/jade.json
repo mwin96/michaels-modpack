@@ -1,0 +1,17 @@
+{
+  "general": {
+    "hintOverlayToggle": false,
+    "hintNarratorToggle": false,
+    "enableTextToSpeech": false,
+    "itemModNameTooltip": false,
+    "displayTooltip": true,
+    "displayBlocks": true,
+    "displayEntities": true,
+    "displayBosses": true
+  },
+  "overlay": {
+    "overlayScale": 0.85,
+    "alpha": 0.7,
+    "animation": false
+  }
+}

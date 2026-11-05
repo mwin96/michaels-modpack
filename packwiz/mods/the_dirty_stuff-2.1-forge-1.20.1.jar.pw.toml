@@ -1,0 +1,8 @@
+name = "the_dirty_stuff-2.1-forge-1.20.1.jar"
+filename = "the_dirty_stuff-2.1-forge-1.20.1.jar"
+side = "client"
+
+[download]
+url = "https://edge.forgecdn.net/files/5351/17/the_dirty_stuff-2.1-forge-1.20.1.jar"
+hash-format = "sha512"
+hash = "c29174b1360ef194aa56d793ab30bc7a7848f67e4ec34c7ac5979d5c77110134128ab915460c4591d7b7f534260c3bbc78355f2f30eb66c9eef04a4c89b2ae3d"

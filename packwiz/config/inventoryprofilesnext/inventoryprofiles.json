@@ -1,1 +1,19 @@
-{"ModSettings":{"first_run":false}}
+{
+  "ModSettings": {
+    "first_run": false,
+    "highlight_foused_items": false,
+    "highlight_clicking_slot": false
+  },
+  "GuiSettings": {
+    "enable_profiles_ui": false,
+    "enable_inventory_buttons": true,
+    "show_regular_sort_button": true,
+    "show_sort_in_columns_button": false,
+    "show_sort_in_rows_button": false,
+    "show_move_all_button": false
+  },
+  "AutoRefillSettings": {
+    "visual_replace_failed_notification": false,
+    "audio_replace_failed_notification": false
+  }
+}

@@ -1,8 +1,0 @@
-name = "CMMRP_Release_1.0_[1.20-1.20.1].zip"
-filename = "CMMRP_Release_1.0_[1.20-1.20.1].zip"
-side = "client"
-
-[download]
-url = "https://cdn.modrinth.com/data/GSuCnTOk/versions/edCc04l8/CMMRP_Release_1.0_%5B1.20-1.20.1%5D.zip"
-hash-format = "sha512"
-hash = "ddf03bcb770afb25c579e9f4165473ed58c4729e7531aae4ed0d225457f162d4afbb3b2979e12362fb46b20d798065166274e925f8d3f1d1572334a9169994d6"

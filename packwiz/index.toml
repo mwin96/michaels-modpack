@@ -2,6 +2,18 @@ hash-format = "sha256"
 
 
 [[files]]
+file = "CMM-NormalAnimals-LICENSE-GPL-3.0.txt"
+hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+
+[[files]]
+file = "CMM-NormalAnimals-MODIFICATION-NOTICE.txt"
+hash = "2933e6a1f1046ea87602fed27a3cbdaacf988fd879cd881c4a0c4e8d36e06622"
+
+[[files]]
+file = "CMMRP-NormalAnimals-GPL-source.zip"
+hash = "81750e664c6b263f4cccb2a4afe29e87280cc3180e7ce1ec4ad18334d8fba230"
+
+[[files]]
 file = "config/aaa_particles-client.toml"
 hash = "f2170f5fc846826cce7f4e408bd031ec803ba199e0ebc3fd7e8c36452da57f9f"
 preserve = true
@@ -44,6 +56,16 @@ preserve = true
 [[files]]
 file = "config/alexscaves_biome_generation/toxic_caves.json"
 hash = "d6d7d5becfd20cca48dabcb838021694740bd874fba80a259b05d37bcc720a43"
+preserve = true
+
+[[files]]
+file = "config/alexsmobs.toml"
+hash = "96a6c22a9ac4dcf1044b86a6ff9774b013f7886b74c8d7196afd7506ef42a535"
+preserve = true
+
+[[files]]
+file = "config/ambientsounds-client.json"
+hash = "79017ef1280c753d8db975379a3432eda4deb8f6b2916ab01ddf8c83deb1ef88"
 preserve = true
 
 [[files]]
@@ -137,6 +159,11 @@ hash = "edd8efd18ea788c9bdd6e77767a453591ce61d3bf1401af4140f080272c88446"
 preserve = true
 
 [[files]]
+file = "config/endertrigon-common.toml"
+hash = "ff02c9708e56bc5610ae25e5c1cb9d3f595eed16447ef96ba9fdb6c661bd81bf"
+preserve = true
+
+[[files]]
 file = "config/entity_model_features.json"
 hash = "4e089e86197a91fb87f83820b9b4451c8f066b471b89f1d1783c95284862ac43"
 preserve = true
@@ -187,6 +214,11 @@ hash = "8275063fb87a796fa994fc34965199eaa02a05d39c94ef667561397731c3ce93"
 preserve = true
 
 [[files]]
+file = "config/heart_crystals.json"
+hash = "0beb5c3e02b7e4f306474ee8bf1f3aa6d872a067463d3c00664695ed9425beb9"
+preserve = true
+
+[[files]]
 file = "config/idas.toml"
 hash = "e183689f333c024b2afe504dcff455faa214bd05b62d14ca21216fd916c5099b"
 preserve = true
@@ -198,7 +230,17 @@ preserve = true
 
 [[files]]
 file = "config/inventoryprofilesnext/inventoryprofiles.json"
-hash = "d7b9de785024b68f08d3d992d0d009c1a37bf501db42c1b0c9a194933b3b0a28"
+hash = "4fe201e5d8f2f758e84edeaf580bfeb2a1465db0256d797b014055d6e92e73e6"
+preserve = true
+
+[[files]]
+file = "config/jade/jade.json"
+hash = "a33d6b5f980e108d1dd785137e0af9a012d6dc65bd37e570cf38d9d5a5f9016c"
+preserve = true
+
+[[files]]
+file = "config/jade/plugins.json"
+hash = "8d18d5480b0f2071d70f41cf41412caaa592ca760faa4d246370dae0d1948ed4"
 preserve = true
 
 [[files]]
@@ -320,6 +362,14 @@ preserve = true
 file = "config/openloader/advanced_options.json"
 hash = "2ee7700b88371d21265000c50ef149c42863fd22e0ecbb5dc6af78fd7493fee8"
 preserve = true
+
+[[files]]
+file = "config/openloader/data/michaels_equipment_quality/data/forge/loot_modifiers/global_loot_modifiers.json"
+hash = "69ea2802bc54f86e273d969129eede7497c1721c774195ff3a359d6fbeed92ff"
+
+[[files]]
+file = "config/openloader/data/michaels_equipment_quality/pack.mcmeta"
+hash = "1b64e50a98fe67f3b0a9dd6d86b81a1407fecfee23c011b820f212822ed4e820"
 
 [[files]]
 file = "config/openloader/data/michaels_pack_fixes/data/idas/integrated_structure_spawners/archmages_tower.json"
@@ -472,6 +522,18 @@ hash = "4248f9df3bde4a096e1b91a65b780e92bcdd79d56c8880ce3d319fd7b6fbf616"
 preserve = true
 
 [[files]]
+file = "config/openloader/resources/michaels_audio_balance/assets/eternaljesus/sounds.json"
+hash = "78839969aa2b4279e9f1ca393fcc147bc64c1c138efb1327f9f1456216bf313c"
+
+[[files]]
+file = "config/openloader/resources/michaels_audio_balance/assets/siren_head/sounds.json"
+hash = "e8b9a0f5eaa096234c24e727a8a29c8ef9d98020d4ddf4b43cd23c80e0eb5bf2"
+
+[[files]]
+file = "config/openloader/resources/michaels_audio_balance/pack.mcmeta"
+hash = "141ce2c645d5cce0bdf37f81c021164b40962aebd122d7a59b1fc53ee0b58b62"
+
+[[files]]
 file = "config/openloader/resources/michaels_pack_fixes/assets/michaelspack/custom/michaels_loot/data/michaelspack/tacz_loot_injectors/ak47.json"
 hash = "e3c8271a9167fecf07a6a1e049ff043e350f627ad772d192dc251c1170551914"
 preserve = true
@@ -563,7 +625,7 @@ preserve = true
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "fedbbde3fe40c39afe3628c07d6ca35c40c8626a715d47a6048c34748b44f606"
+hash = "463fd433f7d428bc5ba25205f1e478b70112c166189447a4c2ebcfcb9c2e56fe"
 preserve = true
 
 [[files]]
@@ -823,7 +885,7 @@ preserve = true
 
 [[files]]
 file = "config/xaero/minimap/profiles/default.cfg"
-hash = "29b8c6038bec900ac7672cb4b172ed1c8ebb54565b121072dcb86cbd5df9c79f"
+hash = "7b1c15927e12ec025834575c81b19ca182ea2a0bdfcbd09344a2bb687462a3db"
 preserve = true
 
 [[files]]
@@ -838,7 +900,7 @@ preserve = true
 
 [[files]]
 file = "config/xaero/world-map/profiles/default.cfg"
-hash = "b55dc82657d729625dc205eb0b5356ac315f13bf00113b0f4cab8c17dab98a46"
+hash = "d285f551ebb926c7bfd7f54d3fb891f9a8ea331e455a2af9f389b5495fb60d66"
 preserve = true
 
 [[files]]
@@ -917,6 +979,30 @@ hash = "57f35da9a2854ee2e906d1f3b5aa4139a549e1563ee0cae9e99efd83b8c7475f"
 preserve = true
 
 [[files]]
+file = "michaels-client-fixes-1.0.0-source.zip"
+hash = "adee34b23392c0534752141791e7be1cfb70f40b60020f05e42876788325b520"
+
+[[files]]
+file = "MICHAELS-CLIENT-FIXES-LICENSE.txt"
+hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+
+[[files]]
+file = "michaels-copper-equipment-1.0.0-source.zip"
+hash = "c347697ed83b73286d97cb6a6c35fcfafec318e5524395295a10096bea317303"
+
+[[files]]
+file = "MICHAELS-EQUIPMENT-LICENSE.txt"
+hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+
+[[files]]
+file = "michaels-menu-1.0.0-source.zip"
+hash = "5942e2cb78117f0bc576cff426d5f49dabddc78b02cdd2d97554e07dd7a85392"
+
+[[files]]
+file = "MICHAELS-MENU-LICENSE.txt"
+hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+
+[[files]]
 file = "michaels-pack-tweaks-1.0.2-source.zip"
 hash = "e69afb58157afcc8fa5dc4c494406804a7c3ce9f8a37c5fb7bdf0ed876db7c2a"
 
@@ -932,6 +1018,16 @@ metafile = true
 [[files]]
 file = "mods/alexscaves-2.0.2.jar.pw.toml"
 hash = "efbd902a401fd825c1922ece384b2c4657a8ce75615db9084f22f995f210701a"
+metafile = true
+
+[[files]]
+file = "mods/alexsmobs-1.22.9.jar.pw.toml"
+hash = "2198709621420e4f8896cbfee5c82ea15664bca075d39a59aadc0c2e21585e63"
+metafile = true
+
+[[files]]
+file = "mods/AmbientSounds_FORGE_v6.3.11_mc1.20.1.jar.pw.toml"
+hash = "e33780e78da82b936d97e1a0b45dda07b0d351a25e12bfbeea34db1da5c74d27"
 metafile = true
 
 [[files]]
@@ -955,6 +1051,11 @@ hash = "b8582a826007786227f350e8f844b44d3583a971440b5af9fd6b62f6131701f6"
 metafile = true
 
 [[files]]
+file = "mods/balm-forge-1.20.1-7.3.44.jar.pw.toml"
+hash = "7d17523b70177e015981ab483062e74753ac6e2f13d876c2d695bfeeee07306e"
+metafile = true
+
+[[files]]
 file = "mods/Better Cave Dweller-1.20.1.jar.pw.toml"
 hash = "ee9f0fc9a05ae7c513a3758314da4808ef973c651a060080be0fc9486226bae0"
 metafile = true
@@ -962,6 +1063,11 @@ metafile = true
 [[files]]
 file = "mods/born_in_chaos_[Forge]1.20.1_1.7.5.jar.pw.toml"
 hash = "8aa93a5ba671683875ba22275f5570350834ac2b8006e8f953a362a03ea9ca48"
+metafile = true
+
+[[files]]
+file = "mods/chat_heads-0.15.7-forge-1.20.jar.pw.toml"
+hash = "c8b5f66087a2a996b4a6a6bdad367e390bb9f5970c1828d2b8bde9f8ec951da7"
 metafile = true
 
 [[files]]
@@ -990,6 +1096,11 @@ hash = "d17063247e7652ba8e6e2d0ef58ce0f5e6a119f14299bd4d7393ff802ec36354"
 metafile = true
 
 [[files]]
+file = "mods/CreativeCore_FORGE_v2.12.40_mc1.20.1.jar.pw.toml"
+hash = "cc3e29f9468b389a02dbe0949f2a26a05d1e8da653ccd493821c69608dd3ea68"
+metafile = true
+
+[[files]]
 file = "mods/crimsonsteves_mutant_mobs-1.6.0-forge-1.20.1.jar.pw.toml"
 hash = "c3047948d7f2f4b6cf3ac7477634d314abc7f279e7c9bc154dd6972a9ff56411"
 metafile = true
@@ -1015,8 +1126,18 @@ hash = "4d6275919108dfd8c843f60f4d9ca6cfec3a2b75314f90146fca2d498f6c1b56"
 metafile = true
 
 [[files]]
+file = "mods/EasyAnvils-v8.0.2-1.20.1-Forge.jar.pw.toml"
+hash = "0bfbbfa1a448931580be1b855bd302e2ff717f86d8286e7e98015bac08ebe775"
+metafile = true
+
+[[files]]
 file = "mods/embeddium-0.3.31+mc1.20.1.jar.pw.toml"
 hash = "86fb5a04c536c1361bfad9e340bd9e732e266e73640faec9676016403a029ab5"
+metafile = true
+
+[[files]]
+file = "mods/endertrigon-1.20.1-1.1-all.jar.pw.toml"
+hash = "793f0158e7d219ca72ccf6e564270a7656db116a20623a729162f418194648bc"
 metafile = true
 
 [[files]]
@@ -1075,6 +1196,11 @@ hash = "a0ac65ba0ec5108444dc1aa073fa31af4a60c8407c70cbf0042ec6dc8225c15a"
 metafile = true
 
 [[files]]
+file = "mods/heart_crystals-1.0.0-forge.jar.pw.toml"
+hash = "720bfd6270e5c90ccdb3b35bb99d50d4df9f2af9982b5d87f1c25640fc093dba"
+metafile = true
+
+[[files]]
 file = "mods/idas_forge-1.13.0+1.20.1.jar.pw.toml"
 hash = "42527e3d04a55529bbc97ffe8c90ab7fde83e2c64327a8c23d865a81ad64626b"
 metafile = true
@@ -1092,6 +1218,11 @@ metafile = true
 [[files]]
 file = "mods/InventoryProfilesNext-forge-1.20-1.10.20.jar.pw.toml"
 hash = "0f88eb51a9677ac6bce3e0fcbfb1a364419d5420251ee60df1431ab9ab8372fd"
+metafile = true
+
+[[files]]
+file = "mods/Jade-1.20.1-Forge-11.13.3.jar.pw.toml"
+hash = "27dec4ba30ed2ed94b58a62b56a9aedc7cad86a33529795788577cdfe0e7da55"
 metafile = true
 
 [[files]]
@@ -1140,6 +1271,18 @@ hash = "855f03769c3e0f8e80dbc2a66930906f4ebe9b528bf137956b97ca8e7ec5aca9"
 metafile = true
 
 [[files]]
+file = "mods/michaels-client-fixes-1.0.0.jar"
+hash = "d0df16b4056f92583df92b06a17a527d003201424c1b1e31039c53ca0cb1ef09"
+
+[[files]]
+file = "mods/michaels-copper-equipment-1.0.0.jar"
+hash = "dbaaa41607cea28d269ab7cfe2757dcf3195ec65dd9609b0807b64889590846f"
+
+[[files]]
+file = "mods/michaels-menu-1.0.0.jar"
+hash = "ddae1226f07f0a0cf4b53c250a902297df2bbe80be4d18c8b83cb79c0e94db3d"
+
+[[files]]
 file = "mods/michaels-pack-tweaks-1.0.2.jar"
 hash = "2fbfc115ce1683c3f0a6436d4561dcdb28423b39ae71178fc58d272c35f9d49c"
 
@@ -1161,6 +1304,11 @@ metafile = true
 [[files]]
 file = "mods/MouseTweaks-forge-mc1.20.1-2.25.1.jar.pw.toml"
 hash = "7225fd661357aca6c3d4677b8eeaf748f836deb2c02084f48499716230fba7d1"
+metafile = true
+
+[[files]]
+file = "mods/MutantMonsters-v8.0.8-1.20.1-Forge.jar.pw.toml"
+hash = "7f28b404c39559ecad0b700b6aeeed8684dab485976a193610be6952c06f81e7"
 metafile = true
 
 [[files]]
@@ -1196,6 +1344,11 @@ metafile = true
 [[files]]
 file = "mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar.pw.toml"
 hash = "bbd991a2c5d677bf2ee480eabf01a3d4d208d19403508d100e8b5db0fd9152d4"
+metafile = true
+
+[[files]]
+file = "mods/PuzzlesLib-v8.1.36-1.20.1-Forge.jar.pw.toml"
+hash = "989ebf8b86913b8aadd7758343eea241bc771c0550aef56509e0863ede11d1b3"
 metafile = true
 
 [[files]]
@@ -1279,6 +1432,11 @@ hash = "18abb1c3904a554cb5124cbe84f88f71db1bccaaed2a6fb5686149a494411795"
 metafile = true
 
 [[files]]
+file = "mods/SpartanShields-1.20.1-forge-3.1.1.jar.pw.toml"
+hash = "290ea5df1d34ed5bdd674d95d686307a8428ea7e09c40e94b28dde14d06e4ded"
+metafile = true
+
+[[files]]
 file = "mods/structure_gel-1.20.1-2.16.2.jar.pw.toml"
 hash = "1528e6cb6f008fcec74cf2ea77ef91d5b42d29f72f7e8e11f1ba1aac5c2eed4a"
 metafile = true
@@ -1301,6 +1459,11 @@ metafile = true
 [[files]]
 file = "mods/The-Man-From-The-Fog-1.4-1.20.1.jar.pw.toml"
 hash = "c7a30cee9808b42af1a5d4c5007e8627e3430051d8e20b19b8c2631aabcbe26e"
+metafile = true
+
+[[files]]
+file = "mods/the_dirty_stuff-2.1-forge-1.20.1.jar.pw.toml"
+hash = "aef52706aaf45dfe03a35dfd23f5c1ef6a40c03a05ca067ea979ddd134597042"
 metafile = true
 
 [[files]]
@@ -1339,13 +1502,13 @@ hash = "036274c570f7890a77dd5aed697a1e73e03b3f715bf28d0f8d21de862fea02ec"
 metafile = true
 
 [[files]]
-file = "mods/weather2-1.20.1-2.8.3.jar.pw.toml"
-hash = "101a83bf26433642bd40790392220e9f4dff8e325068cdf3b6df2e64d70f1b55"
+file = "mods/waystones-forge-1.20.1-14.1.21.jar.pw.toml"
+hash = "81e15a7231c85f52175662b5fbca2459428ee77fe6dc0e56e8fc27958587c1ea"
 metafile = true
 
 [[files]]
-file = "mods/witherstormmod-1.20.1-4.2.1-all.jar.pw.toml"
-hash = "e16a1f44dcfdddb3a0ea09eb06335a6760320a527917d06beee257bd0b18504d"
+file = "mods/weather2-1.20.1-2.8.3.jar.pw.toml"
+hash = "101a83bf26433642bd40790392220e9f4dff8e325068cdf3b6df2e64d70f1b55"
 metafile = true
 
 [[files]]
@@ -1375,12 +1538,12 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "baa4b321b7ab780684a996f38c300c23badf296ce02bb86403dea888eef47aac"
+hash = "01217b225450831fe4ba4398ccc02a830f634892d5cade8148bfe0fad79fc826"
 preserve = true
 
 [[files]]
-file = "resourcepacks/CMMRP_Release_1.0_[1.20-1.20.1].zip.pw.toml"
-hash = "cd1b3468e79604adbdfc2e919a66423be2e8248049f5baf925808bfb5b918bf2"
+file = "resourcepacks/CMMRP_Release_1.0_NormalAnimals.zip.pw.toml"
+hash = "128de4b5e199221113ba11da662464365fee715bb849854003251a6c67c225d6"
 metafile = true
 
 [[files]]
@@ -1392,6 +1555,16 @@ metafile = true
 file = "resourcepacks/MyMonsterGirls.zip.pw.toml"
 hash = "a735b32eb03dc19eda6e22a94ad7bde3341eaff4eb48f9bd57af0bf73faf3286"
 metafile = true
+
+[[files]]
+file = "shaderpacks/MakeUp-UltraFast-9.6-Enhanced.zip.pw.toml"
+hash = "74c7cbaceb4901a5eca7e3953d96e16d333d891bf12ff7d5d2d1d7db62e56c21"
+metafile = true
+
+[[files]]
+file = "shaderpacks/MakeUp-UltraFast-9.6-Enhanced.zip.txt"
+hash = "077c2b2a35d0a145be305d7cc8e1f04e087bee83cd4ec22b930ef147f8440298"
+preserve = true
 
 [[files]]
 file = "shaderpacks/MakeUp-UltraFast-9.6.zip.pw.toml"

@@ -1,6 +1,6 @@
 # michael's modpack — pinned contents
 
-Minecraft 1.20.1 · Forge 47.4.28 · pack 1.0.2
+Minecraft 1.20.1 · Forge 47.4.28 · pack 1.0.3
 
 Third-party archives are downloaded from their publishers rather than rehosted in this release. Client-only graphics/audio files are excluded from the dedicated server.
 
@@ -23,7 +23,6 @@ Third-party archives are downloaded from their publishers rather than rehosted i
 | [Clumps](https://modrinth.com/mod/clumps) | 12.0.0.4 | server | MIT |
 | [Controlling](https://modrinth.com/mod/controlling) | 12.0.2 | client | MIT |
 | [CoroUtil](https://modrinth.com/mod/coroutil) | 1.20.1-1.3.7 | both | LicenseRef-All-Rights-Reserved |
-| [Cracker's Wither Storm Mod](https://modrinth.com/mod/crackers-wither-storm-mod) | 4.2.1 | both | LicenseRef-All-Rights-Reserved |
 | [Create](https://modrinth.com/mod/create) | mc1.20.1-6.0.8 | both | LicenseRef-Create-Mod-License |
 | [Crimson Steve's Mutant Mobs](https://modrinth.com/mod/crimson-steves-mutant-mobs) | 1.6.0 | both | LicenseRef-All-Rights-Reserved |
 | [Critters and Companions](https://modrinth.com/mod/critters-and-companions) | 2.7.1 | both | LicenseRef-All-Rights-Reserved |
@@ -118,8 +117,48 @@ Third-party archives are downloaded from their publishers rather than rehosted i
 
 The retained third-party projects and versions are unchanged. New players start in the natural wilderness at the original world spawn, with no starter items or compulsory guidebooks. Rats remains available as an optional system. Touhou Little Maid's starter gifts are disabled.
 
-Xaero's minimap starts small, with all entity radar, tracked players and coordinate/status rows hidden. The advanced geology overlay starts off and can be toggled with F4. Game master volume defaults to 100%; Windows sound settings are unchanged.
+Xaero's minimap stays small, with mob radar and coordinate/status rows hidden; update 1.0.3 enables friend tracking. The advanced geology overlay starts off and can be toggled with F4. Game master volume defaults to 100%; Windows sound settings are unchanged.
 
 TaCZ retains its native crafting: guns use the Gun-Smith Table and ammunition uses the separate Ammo Workbench, with vanilla materials. Recipes are available in JEI.
 
 Earlier playability fixes remain: zombie mining leaves ordinary wood/stone shelter intact; The Man has nighttime spawning and reduced shelter destruction. The Knocker's shared spawn/despawn counters advance once per server tick rather than per player. Backrooms accidental entry and respawn replacement are disabled; an optional two-portal recipe, context help, clear arrival placement, recorded-entry return and travel cooldown provide deliberate trips. Portal transfer runs after player movement to avoid collision-frame position rollback.
+
+## Update 1.0.3
+
+Jade supplies a compact crosshair label. AmbientSounds and CreativeCore add quiet ambience. The optional client utility removes the pickup hand and item glow; inventory settings keep one Sort Inventory button and disable green highlighting/profile and failed-replacement clutter. Player location/name markers are enabled while mob radar stays off.
+
+The server utility repairs repeated melee damage on all three SCP-173 variants and sets their maximum health to 80. The 26 hostile spider types have a 25% health and outgoing-damage reduction, retaining Minecraft's minimum 1HP. Siren Head is enabled with protected blocks, ordinary weapon damage, 180 HP, a maximum eight raw player damage per hit, and a 30-second encounter/one-player-kill departure; new covered horror spawns respect placed light. The hosted world keeps inventory/armor on death and needs only one sleeping player. Graves and grave keys are not installed.
+
+Copper equipment adds four armor pieces, five basic tools, fifteen copper sword-family weapons and four paxels, with ordinary recipes and no skill tree. New chest equipment rolls Common/Rare/Epic/Legendary at 70/20/8/2 percent with modest bonuses; crafting stays normal. Alex's Mobs adds land and aquatic wildlife without a starter book. The tailored GPL Cute Mob Models variant restores only bats, ordinary cows, sheep, pigs and chickens; other anime replacements remain.
+
+The optional Enhanced MakeUp preset adds modest shadows; the lightweight original remains selected by default. New statue spawn attempts are reduced by 50 percent. Siren encounters use half the native spawn-attempt threshold and half-speed cooldown countdown, without affecting form changes. Empty-server world callbacks, weather and automatic tick functions pause along with the world clock; one-time load functions and network/console services remain available.
+
+- Jade 🔍 11.13.3+forge — https://cdn.modrinth.com/data/nvQzSEkH/versions/xJQHCmWJ/Jade-1.20.1-Forge-11.13.3.jar
+
+- AmbientSounds 6.3.11 — https://cdn.modrinth.com/data/fM515JnW/versions/YOYpWGZg/AmbientSounds_FORGE_v6.3.11_mc1.20.1.jar
+- CreativeCore 2.12.40 — https://cdn.modrinth.com/data/OsZiaDHq/versions/ChKayKur/CreativeCore_FORGE_v2.12.40_mc1.20.1.jar
+
+The user-supplied illustration and matching title replace the main-menu artwork. A compact left-side friend list shows distances without coordinates, including players outside entity tracking range; other dimensions are labeled. The minimap automatically tracks the other online players while keeping mob radar off. Previous death markers are cleaned through the native waypoint API, while manual waypoints remain.
+
+Ender Trigon enhances the first Dragon fight with three heads and new attacks; the main Dragon remains 400HP, with three baby dragons per egg phase and crash debris disabled. The title reminds players: Goal: Defeat the Ender Dragon. No automatic bonus fight follows victory. Wither Storm was removed for this pack's scale and low-view-distance target. Heart Crystals adds one full permanent heart per consumed crystal, up to twenty total, with upgrades retained after death.
+
+### Additional selected downloads
+
+- [Chat Heads](https://modrinth.com/mod/chat-heads) — client; pinned file `chat_heads-0.15.7-forge-1.20.jar`.
+- [Waystones](https://modrinth.com/mod/waystones) — client/server; pinned file `waystones-forge-1.20.1-14.1.21.jar`.
+- [Balm](https://modrinth.com/mod/balm) — client/server; pinned file `balm-forge-1.20.1-7.3.44.jar`.
+- [Easy Anvils](https://modrinth.com/mod/easy-anvils) — client/server; pinned file `EasyAnvils-v8.0.2-1.20.1-Forge.jar`.
+- [Puzzles Lib](https://modrinth.com/mod/puzzles-lib) — client/server; pinned file `PuzzlesLib-v8.1.36-1.20.1-Forge.jar`.
+- [Smarter Farmers (farmers replant)](https://modrinth.com/mod/smarter-farmers-farmers-replant) — server; pinned file `smarterfarmers-1.20-2.1.2.jar`.
+- [Spartan Shields](https://modrinth.com/mod/spartan-shields) — client/server; pinned file `SpartanShields-1.20.1-forge-3.1.1.jar`.
+- [Towns and Towers](https://modrinth.com/mod/towns-and-towers) — server; pinned file `Towns-and-Towers-1.12-Fabric+Forge.jar`.
+- [Cristel Lib](https://modrinth.com/mod/cristel-lib) — server; pinned file `cristellib-1.1.6-forge.jar`.
+- [AdoraBuild: Structures](https://modrinth.com/mod/adorabuild-structures) — server; pinned file `adorabuild-structures-2.8.0-forge-1.20.1.jar`.
+- [Mutant Monsters](https://modrinth.com/mod/mutant-monsters) — client/server; pinned file `MutantMonsters-v8.0.8-1.20.1-Forge.jar`.
+- [Heart Crystals](https://modrinth.com/mod/heart-crystals) — client/server; pinned file `heart_crystals-1.0.0-forge.jar`.
+- [Terralith](https://modrinth.com/mod/terralith) — server; pinned file `Terralith_1.20.x_v2.5.4.jar`.
+- [YUNG's API](https://modrinth.com/mod/yungs-api) — client/server; pinned file `YungsApi-1.20-Forge-4.0.6.jar`.
+- [YUNG's Better Nether Fortresses](https://modrinth.com/mod/yungs-better-nether-fortresses) — server; pinned file `YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar`.
+- [YUNG's Better Desert Temples](https://modrinth.com/mod/yungs-better-desert-temples) — server; pinned file `YungsBetterDesertTemples-1.20-Forge-3.0.3.jar`.
+- [The Dirty Stuff](https://www.curseforge.com/minecraft/mc-mods/thedirtystuff) — client/server; pinned file `the_dirty_stuff-2.1-forge-1.20.1.jar`.
+- [Ender Trigon](https://modrinth.com/mod/ender-trigon) — client/server; pinned file `endertrigon-1.20.1-1.1-all.jar`.

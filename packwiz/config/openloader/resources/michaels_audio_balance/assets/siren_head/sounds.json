@@ -1,0 +1,470 @@
+{
+  "sirenstep": {
+    "subtitle": "subtitles.sirenstep",
+    "sounds": [
+      {
+        "name": "siren_head:footstep_1",
+        "stream": false,
+        "volume": 0.12,
+        "attenuation_distance": 80
+      },
+      {
+        "name": "siren_head:footstep_2",
+        "stream": false,
+        "volume": 0.12,
+        "attenuation_distance": 80
+      },
+      {
+        "name": "siren_head:footstep_3",
+        "stream": false,
+        "volume": 0.12,
+        "attenuation_distance": 80
+      }
+    ],
+    "replace": true
+  },
+  "dogmimic": {
+    "subtitle": "subtitles.dogmimic",
+    "sounds": [
+      {
+        "name": "siren_head:dog1",
+        "stream": false,
+        "volume": 0.05,
+        "attenuation_distance": 208
+      },
+      {
+        "name": "siren_head:dog2",
+        "stream": false,
+        "volume": 0.05,
+        "attenuation_distance": 208
+      },
+      {
+        "name": "siren_head:dog3",
+        "stream": false,
+        "volume": 0.05,
+        "attenuation_distance": 208
+      },
+      {
+        "name": "siren_head:dog4",
+        "stream": false,
+        "volume": 0.05,
+        "attenuation_distance": 208
+      },
+      {
+        "name": "siren_head:dog5",
+        "stream": false,
+        "volume": 0.05,
+        "attenuation_distance": 208
+      },
+      {
+        "name": "siren_head:dog6",
+        "stream": false,
+        "volume": 0.05,
+        "attenuation_distance": 208
+      },
+      {
+        "name": "siren_head:dog7",
+        "stream": false,
+        "volume": 0.05,
+        "attenuation_distance": 208
+      },
+      {
+        "name": "siren_head:dog8",
+        "stream": false,
+        "volume": 0.05,
+        "attenuation_distance": 208
+      }
+    ],
+    "replace": true
+  },
+  "catmim": {
+    "subtitle": "subtitles.catmim",
+    "sounds": [
+      {
+        "name": "siren_head:cat1",
+        "stream": false,
+        "volume": 0.05,
+        "attenuation_distance": 208
+      },
+      {
+        "name": "siren_head:cat2",
+        "stream": false,
+        "volume": 0.05,
+        "attenuation_distance": 208
+      },
+      {
+        "name": "siren_head:cat3",
+        "stream": false,
+        "volume": 0.05,
+        "attenuation_distance": 208
+      }
+    ],
+    "replace": true
+  },
+  "growl": {
+    "subtitle": "subtitles.growl",
+    "sounds": [
+      {
+        "name": "siren_head:sireheadgrowl1",
+        "stream": false,
+        "volume": 0.05,
+        "attenuation_distance": 208
+      },
+      {
+        "name": "siren_head:sireheadgrowl2",
+        "stream": false,
+        "volume": 0.05,
+        "attenuation_distance": 208
+      },
+      {
+        "name": "siren_head:sireheadgrowl3",
+        "stream": false,
+        "volume": 0.05,
+        "attenuation_distance": 208
+      }
+    ],
+    "replace": true
+  },
+  "sirenidle": {
+    "subtitle": "subtitles.sirenidle",
+    "sounds": [
+      {
+        "name": "siren_head:wander_sound_1",
+        "stream": false,
+        "volume": 0.05,
+        "attenuation_distance": 208
+      }
+    ],
+    "replace": true
+  },
+  "sirenidle10": {
+    "subtitle": "subtitles.sirenidle10",
+    "sounds": [
+      {
+        "name": "siren_head:sirenhead1-_1__11",
+        "stream": false,
+        "volume": 0.05,
+        "attenuation_distance": 208
+      }
+    ],
+    "replace": true
+  },
+  "sirenidle8": {
+    "subtitle": "subtitles.sirenidle8",
+    "sounds": [
+      {
+        "name": "siren_head:sirenheadnonstopidle-_1_1",
+        "stream": false,
+        "volume": 0.05,
+        "attenuation_distance": 208
+      }
+    ],
+    "replace": true
+  },
+  "sirenidle9": {
+    "subtitle": "subtitles.sirenidle9",
+    "sounds": [
+      {
+        "name": "siren_head:sirenheadmusic2-_1_1",
+        "stream": false,
+        "volume": 0.05,
+        "attenuation_distance": 208
+      }
+    ],
+    "replace": true
+  },
+  "sirenidle4": {
+    "subtitle": "subtitles.sirenidle4",
+    "sounds": [
+      {
+        "name": "siren_head:wander_sound_4",
+        "stream": false,
+        "volume": 0.05,
+        "attenuation_distance": 208
+      }
+    ],
+    "replace": true
+  },
+  "sirenidle6": {
+    "subtitle": "subtitles.sirenidle6",
+    "sounds": [
+      {
+        "name": "siren_head:sirenupset2-_1__1",
+        "stream": false,
+        "volume": 0.05,
+        "attenuation_distance": 208
+      }
+    ],
+    "replace": true
+  },
+  "sirenidle7": {
+    "subtitle": "subtitles.sirenidle7",
+    "sounds": [
+      {
+        "name": "siren_head:sirenidlemusic1-_1_1",
+        "stream": false,
+        "volume": 0.05,
+        "attenuation_distance": 208
+      }
+    ],
+    "replace": true
+  },
+  "sirenidle5": {
+    "subtitle": "subtitles.sirenidle5",
+    "sounds": [
+      {
+        "name": "siren_head:wander_sound_5",
+        "stream": false,
+        "volume": 0.05,
+        "attenuation_distance": 208
+      }
+    ],
+    "replace": true
+  },
+  "villagermim": {
+    "subtitle": "subtitles.villagermim",
+    "sounds": [
+      {
+        "name": "siren_head:villager1",
+        "stream": false,
+        "volume": 0.05,
+        "attenuation_distance": 208
+      },
+      {
+        "name": "siren_head:villager2",
+        "stream": false,
+        "volume": 0.05,
+        "attenuation_distance": 208
+      },
+      {
+        "name": "siren_head:villager4",
+        "stream": false,
+        "volume": 0.05,
+        "attenuation_distance": 208
+      },
+      {
+        "name": "siren_head:villager5",
+        "stream": false,
+        "volume": 0.05,
+        "attenuation_distance": 208
+      },
+      {
+        "name": "siren_head:villager6",
+        "stream": false,
+        "volume": 0.05,
+        "attenuation_distance": 208
+      },
+      {
+        "name": "siren_head:villager31",
+        "stream": false,
+        "volume": 0.05,
+        "attenuation_distance": 208
+      }
+    ],
+    "replace": true
+  },
+  "sirenidle12": {
+    "subtitle": "subtitles.sirenidle12",
+    "sounds": [
+      {
+        "name": "siren_head:tornado_siren_-_sound_effect",
+        "stream": false,
+        "volume": 0.05,
+        "attenuation_distance": 208
+      }
+    ],
+    "replace": true
+  },
+  "sirenidle11": {
+    "subtitle": "subtitles.sirenidle11",
+    "sounds": [
+      {
+        "name": "siren_head:terrifying_air_raid_siren_sound",
+        "stream": false,
+        "volume": 0.05,
+        "attenuation_distance": 208
+      }
+    ],
+    "replace": true
+  },
+  "sirenidle14": {
+    "subtitle": "subtitles.sirenidle14",
+    "sounds": [
+      {
+        "name": "siren_head:big_siren",
+        "stream": false,
+        "volume": 0.05,
+        "attenuation_distance": 208
+      }
+    ],
+    "replace": true
+  },
+  "sirenidle13": {
+    "subtitle": "subtitles.sirenidle13",
+    "sounds": [
+      {
+        "name": "siren_head:sirenhead_speach",
+        "stream": false,
+        "volume": 0.05,
+        "attenuation_distance": 208
+      }
+    ],
+    "replace": true
+  },
+  "sirenchase": {
+    "subtitle": "subtitles.sirenchase",
+    "sounds": [
+      {
+        "name": "siren_head:chasemaybe4",
+        "stream": false,
+        "volume": 0.05,
+        "attenuation_distance": 240
+      }
+    ],
+    "replace": true
+  },
+  "chase2": {
+    "subtitle": "subtitles.chase2",
+    "sounds": [
+      {
+        "name": "siren_head:sirenhead_chase_no_drums_new",
+        "stream": false,
+        "volume": 0.05,
+        "attenuation_distance": 240
+      }
+    ],
+    "replace": true
+  },
+  "sirensmash": {
+    "subtitle": "subtitles.sirensmash",
+    "sounds": [
+      {
+        "name": "siren_head:sirenheadgroundpound",
+        "stream": false,
+        "volume": 0.04,
+        "attenuation_distance": 304
+      }
+    ],
+    "replace": true
+  },
+  "sirenidle22": {
+    "subtitle": "subtitles.sirenidle22",
+    "sounds": [
+      {
+        "name": "siren_head:sirenheadsirenserieffff",
+        "stream": false,
+        "volume": 0.05,
+        "attenuation_distance": 208
+      }
+    ],
+    "replace": true
+  },
+  "sirenidle21": {
+    "subtitle": "subtitles.sirenidle21",
+    "sounds": [
+      {
+        "name": "siren_head:sirenheaderieshortnew",
+        "stream": false,
+        "volume": 0.05,
+        "attenuation_distance": 208
+      }
+    ],
+    "replace": true
+  },
+  "sirenidle18": {
+    "subtitle": "subtitles.sirenidle18",
+    "sounds": [
+      {
+        "name": "siren_head:sirenheadchattering",
+        "stream": false,
+        "volume": 0.05,
+        "attenuation_distance": 208
+      }
+    ],
+    "replace": true
+  },
+  "sirenidle19": {
+    "subtitle": "subtitles.sirenidle19",
+    "sounds": [
+      {
+        "name": "siren_head:sirenheadchimes",
+        "stream": false,
+        "volume": 0.05,
+        "attenuation_distance": 208
+      }
+    ],
+    "replace": true
+  },
+  "sirenidle20": {
+    "subtitle": "subtitles.sirenidle20",
+    "sounds": [
+      {
+        "name": "siren_head:sirenheaddisc11",
+        "stream": false,
+        "volume": 0.05,
+        "attenuation_distance": 208
+      }
+    ],
+    "replace": true
+  },
+  "sirenidle16": {
+    "subtitle": "subtitles.sirenidle16",
+    "sounds": [
+      {
+        "name": "siren_head:sirenheadalarm",
+        "stream": false,
+        "volume": 0.05,
+        "attenuation_distance": 208
+      }
+    ],
+    "replace": true
+  },
+  "sirenidle17": {
+    "subtitle": "subtitles.sirenidle17",
+    "sounds": [
+      {
+        "name": "siren_head:sirenheadalarmsalt",
+        "stream": false,
+        "volume": 0.05,
+        "attenuation_distance": 208
+      }
+    ],
+    "replace": true
+  },
+  "sirenidle15": {
+    "subtitle": "subtitles.sirenidle15",
+    "sounds": [
+      {
+        "name": "siren_head:sirenheadairstrikewarning",
+        "stream": false,
+        "volume": 0.05,
+        "attenuation_distance": 208
+      }
+    ],
+    "replace": true
+  },
+  "sonicboom": {
+    "subtitle": "subtitles.sonicboom",
+    "sounds": [
+      {
+        "name": "siren_head:sirenheadboom2",
+        "stream": false,
+        "volume": 0.05,
+        "attenuation_distance": 240
+      }
+    ],
+    "replace": true
+  },
+  "cobble": {
+    "subtitle": "subtitles.cobble",
+    "sounds": [
+      {
+        "name": "siren_head:cabble",
+        "stream": false,
+        "volume": 0.06,
+        "attenuation_distance": 160
+      }
+    ],
+    "replace": true
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "jesus_bell": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "eternaljesus:jesus_bell",
+        "stream": false,
+        "volume": 0.02
+      }
+    ]
+  }
+}

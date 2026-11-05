@@ -1,0 +1,8 @@
+name = "CMMRP_Release_1.0_NormalAnimals.zip"
+filename = "CMMRP_Release_1.0_NormalAnimals.zip"
+side = "client"
+
+[download]
+url = "https://github.com/mwin96/michaels-modpack/releases/download/v1.0.3/CMMRP_Release_1.0_NormalAnimals.zip"
+hash-format = "sha512"
+hash = "7ee6847539fc7b6e0300682c4e1c94efce03bed147390b6d835c0104f62ec6f3c56bab5acb9d247ac889471a26d88ae7dd56f2a34196a7e2c6b557b5cb0a3e16"

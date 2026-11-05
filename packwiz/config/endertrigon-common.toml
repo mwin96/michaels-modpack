@@ -1,0 +1,10 @@
+# Ender Trigon: retain every attack; limit additional combat entities and omit optional terrain flinging.
+skipLandingPhase = true
+crashPhaseDestroysBlocks = false
+maxBabyEnderDragons = 3
+attacksUntilPerch = 4
+
+[enabled_custom_phases]
+enableSnatchPlayer = true
+enableCrashPlayer = true
+enableDiveBombPlayer = true
