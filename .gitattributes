@@ -1,0 +1,4 @@
+packwiz/** -text
+*.jpg -text
+*.jar -text
+*.zip -text
