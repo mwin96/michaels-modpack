@@ -114,6 +114,6 @@ Third-party archives are downloaded from their publishers rather than rehosted i
 - **Extreme Natural Disasters** — install on both sides. Runtime Forge handshake rejects clients without its network channel, despite server-side metadata. Matching client/server versions resolve the connection failure.
 - **Physics Mod Pro** — client visual effects with performance preset. Author public attachment v171o; ocean waves only. Block, mob, item, cloth, smoke, weather particles, collapse and the separate fluid-particle simulator are disabled.
 
-## Playability patch1.0.1
+## Playability patch 1.0.1
 
 The retained third-party projects and versions are unchanged. Zombie mining leaves ordinary wood/stone shelter intact; The Man has nighttime spawning and reduced shelter destruction. The Knocker's shared spawn/despawn counters advance once per server tick rather than per player. Backrooms accidental entry and respawn replacement are disabled; an optional two-portal recipe, context help, clear arrival placement, recorded-entry return and travel cooldown provide deliberate trips. Portal transfer runs after player movement to avoid collision-frame position rollback.
