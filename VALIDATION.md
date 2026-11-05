@@ -43,7 +43,9 @@ A separate GPT-6.1 Sol extra-high artifact/source review confirmed all96 total p
 
 The paid server downloaded back the exact new jar through its normal file panel and SHA256-matched it. Its previous own jar is disabled. It booted with all76 expected server mod files and answered the external1.20.1/Forge3/six-slot status check. Existing-world pause settings were read back, and game time remained0 after startup. The seed and original natural wilderness spawn are retained; no test inventory/entities were added to production.
 
-The requested **2000×2000-block pregeneration is complete** around original spawn(-304,72,160). Forge finished at04:50:51UTC on November5 (8:50:51PM Pacific on November4), generating15,096 new chunks within the125×125-chunk selection of15,625 chunks. With zero players, game time was still0 at04:51:09UTC. A normal `save-all flush` confirmed every dimension saved at04:53:30UTC. A caught Supplementaries sign-text fallback during generation was cosmetic and non-blocking; no mods were changed.
+The requested **2000×2000-block pregeneration is complete** around original spawn (-304, 72, 160). Forge finished at 04:50:51 UTC on November 5 (8:50:51 PM Pacific on November 4), generating 15,096 new chunks within the 125×125-chunk selection of 15,625 chunks. With zero players, game time was still 0 at 04:51:09 UTC. A normal `save-all flush` confirmed every dimension saved at 04:53:30 UTC. A caught Supplementaries sign-text fallback during generation was cosmetic and non-blocking; no mods were changed.
+
+After a normal restart, the server finished loading at 04:54:49 UTC. External status passed at 04:55:07 UTC with Minecraft 1.20.1, Forge 3, six slots and zero players; the console game-time query still returned 0 at 04:55:27 UTC. Memory settled at 3.38 GB after generation's 8.04 GB. The world remains normally paused while empty.
 
 An authenticated account joining the paid remote server remains a first-player check; all joined test-user checks above were local. The earlier118FPS shader and active-mob samples below use an RTX5070Ti and muted game audio, not the unknown weakest friend's PC or normal-volume SoundPhysics overhead.
 
