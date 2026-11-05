@@ -170,3 +170,8 @@ Ender Trigon enhances the first Dragon fight with three heads and new attacks; t
 - SCP-1879's custom eligible-time increment is halved, doubling its native encounter interval. New menus initialize a missing offer through the publisher's own category logic. Existing valid choices, currency, prices and purchasing remain native. Money is craftable through the original gold-nugget/coin recipes.
 - [Better Safe Bed](https://modrinth.com/mod/better-safe-bed), Forge1.20-9, is server-only. One-person sleep remains enabled.
 - The 1.0.3 Trigon fight, 400HP Dragon, terrain/structure additions and preserved world remain unchanged. Existing player graphics, chunk distances and every existing heap cap remain unchanged, including 6GB. Existing Prism1.0.3 profiles fetch this follow-up through their main update hook.
+
+## Update 1.0.5
+
+- RAM-only follow-up: the client ModernFix build enables its existing dynamic model-loading option by default. Explicit user settings, global overrides and native compatibility rules keep their normal precedence. A narrow startup lifecycle fix preserves the pack's model-bake callbacks before entering a world. Complete corresponding upstream source, patch instructions and LGPL notices are included.
+- The server uses its original ModernFix file. Existing world progress, server settings, all content, graphics, audio, chunk-distance choices and memory caps remain unchanged.

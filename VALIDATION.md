@@ -1,15 +1,24 @@
-# Validation — 1.0.4
+# Validation — michael's modpack1.0.5
 
-Exact MRpack SHA256: `48e6c930edcfb73a69c90839bccf51ba0d8da352ac34b0e35bc6f751e380afea`. The exact1.0.3 baseline remains `601ab4bc543daedd224aafe0ad053ee6bd7f24d97858ee27744c62fc4ca82abf`.
+Core SHA256: `6ea26cf2dc5734edd68fad60b6f7e3ca68b0e6ba8f3a2eba8ba364c1f6dc06a2`
 
-Independent native client/server review covers the final Belly, UI, server utility and Better Safe Bed combination. Real held eating, multiplayer belly visibility, hunger/shrink behavior, ordinary nutrition, attributes/hitboxes, reconnect/death handling, normal/slim skin rendering and gun/armor behavior were checked. The metadata-only Belly correction retains all twelve tested gameplay classes byte-for-byte.
+In the controlled test scene, Windows working-set memory was about1.0–1.5GB lower than two1.0.4 baseline runs, with the same6GB memory cap, graphics and chunks. FPS and CPU stayed within the baseline range; no FPS increase is claimed.
 
-All thirty prior server utility classes are byte-identical. Native SCP-1879 eligibility-timer and trading checks cover the halved timer increment, threshold, initial offer, category selection, currency and completed purchasing. The original gold-based money recipes remain available. Native sleep checks cover the server-only bed mod and one sleeping player.
+| Metric | Stock1.0.4: two runs | RAM1.0.5 |
+| --- | --- | --- |
+| Windows working set | 8.333–8.846GB | 7.336GB |
+| Windows private bytes | 12.766–13.270GB | 11.738GB |
+| Committed Java heap | 3.683–4.165GB | 2.693GB |
+| Process CPU, average cores | 0.686–0.740 | 0.737 |
+| FPS at60FPS target | 59.455–59.535 | 59.470 |
+| Frame time99th percentile | 17.683–17.851ms | 17.927ms |
 
-The original pickup/glow correction is unchanged. Native client checks cover normal zombie-family assets with other anime models retained, the compact Jade health bar and its one-time default/opt-out behavior. No original resource ZIP is modified or republished.
+These are decimalGB, measured on the test PC:1920×1080,6-chunk client/server distances, minimal MakeUp enabled, ocean Physics enabled, all resource packs and96 fixed mobs. No forced collection was used. The candidate received about92seconds of extra unmeasured startup-check warmup, so small FPS differences are not evidence of a speed improvement. P99 increased about0.08ms versus the slower baseline tail, a negligible observed change; the candidate's120second capped phase had no frames above33.33ms. The natural post-GC occupancy proxy fell about0.4GB; that proxy is separate from actual Windows memory and is not an exact live-set measurement. The friend's8GB hardware has not been benchmarked.
 
-Packaging preserves all117 prior publisher entries exactly; only one5.8KB server-only publisher mod is added. All107 client publisher pins remain unchanged. The native packwiz installer passes a real1.0.3-to1.0.4 transition, adding the managed Belly jar and removing the old UI jar while preserving preferences and an existing6144MB heap. The manual updater passes cumulative1.0.2 and incremental1.0.3 tests, hash checks, removal backup/rollback and custom/default heap preservation. No README is included in the friends' starter or updater ZIP.
+The client-only ModernFix replacement enables on-demand model loading and includes a narrow startup event-order fix. The first boot, without a resource reload, preserves Alex's Caves fullbright models, both Mutant Monsters weapon wrappers and all10 bone-pile states. The15,630 targeted model signatures, curated native GUI/held/world checks, Create contraption, gun aiming/firing/reload and gunsmith opening, animals and ocean checks passed. The9-item GUI grid is pixel-identical to the canonical baseline before and after resource reload. A revisit after more than300seconds away with natural collections passed without large frame stalls. The explicit-false fresh startup uses the original eager maps and leaves the deferred queue dormant. Ten lifecycle queue fixtures and corresponding-source/binary checks passed.
 
-The existing world was independently audited and verified on the host before regeneration: all181 world files matched the reviewed preservation candidate; inhabited areas, buffers, complete touching structures and player data were retained. The new2000-by2000-block Overworld selection completed, generating9168 new chunks out of15625 selected; another1024 Nether chunks completed. Both saves flushed normally. The empty world retained gametime126120 and its original day time, with keepInventory=true and playersSleepingPercentage=1. The1.0.4 follow-up changes no worldgen or world files.
+The original1.0.4 full381,176-signature/17,371-GUI-call reference was retained; the final candidate used the bounded15,630-signature regression subset and curated native checks. Time/random item overrides and missing-reference identity differences were adjudicated separately. This does not claim exhaustive visual coverage of every possible mod combination.
 
-Existing client RAM caps and graphics/chunk preferences remain unchanged. Fresh installations retain the tested4096MB profile. The weakest friend's actual8GB PC has not been benchmarked. Tests remain muted; published normal audio is retained. No account/session data, real world or server secrets are distributed.
+Real manual upgrades from1.0.2/1.0.3/1.0.4 and the pinned native automatic1.0.4→1.0.5 path passed, including repeat, backup and preference preservation. Existing3.5/4/5/6/8GB caps, chunk/shader settings, markers and explicit ModernFix opt-outs remain unchanged. Fresh starter allocation remains the existing4GB in this version. Unknown manually modified ModernFix files are rejected before writes by the manual updater; the normal automatic installer replaces its managed files.
+
+The server's original ModernFix, all server bytes, world progress and other content are unchanged; no restart is needed. No rejected FPS/ETF prototype or Distant Horizons is included. Full corresponding upstream source, patch/build instructions and LGPL notices accompany the modified client file. Independent final native review used GPT-6.1Sol at xhigh. Test processes were normally stopped; game audio was muted only externally for private testing, and published audio settings remain normal.

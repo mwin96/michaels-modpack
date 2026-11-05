@@ -1011,6 +1011,14 @@ file = "MICHAELS-MENU-LICENSE.txt"
 hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
 
 [[files]]
+file = "michaels-modernfix-5.27.91-source.zip"
+hash = "5bc6871ea2adb8d2873d8970472597b8d68842917827ed0f4bc56a37b77e451f"
+
+[[files]]
+file = "MICHAELS-MODERNFIX-LICENSE.txt"
+hash = "9494320d3a22caf27a3739e959eca6d779160f209708bacde04185669b0eeed2"
+
+[[files]]
 file = "michaels-pack-tweaks-1.0.2-source.zip"
 hash = "e69afb58157afcc8fa5dc4c494406804a7c3ce9f8a37c5fb7bdf0ed876db7c2a"
 
@@ -1295,13 +1303,13 @@ file = "mods/michaels-menu-1.0.0.jar"
 hash = "ddae1226f07f0a0cf4b53c250a902297df2bbe80be4d18c8b83cb79c0e94db3d"
 
 [[files]]
-file = "mods/michaels-pack-tweaks-1.0.2.jar"
-hash = "2fbfc115ce1683c3f0a6436d4561dcdb28423b39ae71178fc58d272c35f9d49c"
+file = "mods/michaels-modernfix-forge-5.27.91+mc1.20.1.jar.pw.toml"
+hash = "26687781bd60c7c2236366a854d56c004d29664fb80cc808b85ad88978594fe6"
+metafile = true
 
 [[files]]
-file = "mods/modernfix-forge-5.27.91+mc1.20.1.jar.pw.toml"
-hash = "493e2089f3bb5efaa4c2ebb05c5d33c1900edede7b90996e36a2710757eca3a2"
-metafile = true
+file = "mods/michaels-pack-tweaks-1.0.2.jar"
+hash = "2fbfc115ce1683c3f0a6436d4561dcdb28423b39ae71178fc58d272c35f9d49c"
 
 [[files]]
 file = "mods/MonstersGirls_1.3.4.3_1.20.1.jar.pw.toml"

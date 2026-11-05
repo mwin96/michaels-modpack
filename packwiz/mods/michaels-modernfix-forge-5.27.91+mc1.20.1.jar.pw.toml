@@ -1,0 +1,8 @@
+name = "michaels-modernfix-forge-5.27.91+mc1.20.1.jar"
+filename = "michaels-modernfix-forge-5.27.91+mc1.20.1.jar"
+side = "client"
+
+[download]
+url = "https://github.com/mwin96/michaels-modpack/releases/download/v1.0.5/michaels-modernfix-forge-5.27.91+mc1.20.1.jar"
+hash-format = "sha512"
+hash = "9eea4ffc079c33cec287ac591c25e0543ab9e459462f7900bae182eb2ee87a271172465b92ac969b4e79ca711ce2ffec99da6f55d49878602610457b976d3aa2"

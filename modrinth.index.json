@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
   "game": "minecraft",
-  "versionId": "1.0.4",
+  "versionId": "1.0.5",
   "name": "michael's modpack",
   "summary": "Vanilla progression interrupted by horror, meme mobs, giants and disasters; guns, swords and artifacts to fight back.",
   "dependencies": {
@@ -616,7 +616,7 @@
         "sha512": "23579203f4b2073331db60048f4e1cee33baf203e689b3cf2c231f274c81e7b9d0e1a6a0b5cd346f3cfeafc7715d84982f0335078c79ff097826177bc9e0f06b"
       },
       "env": {
-        "client": "required",
+        "client": "unsupported",
         "server": "required"
       },
       "downloads": [
@@ -1778,6 +1778,21 @@
         "https://cdn.modrinth.com/data/aUp4r9hY/versions/TUwe64ae/bettersafebed-forge-1.20-9.jar"
       ],
       "fileSize": 5853
+    },
+    {
+      "path": "mods/michaels-modernfix-forge-5.27.91+mc1.20.1.jar",
+      "hashes": {
+        "sha1": "0b87223af7b9b800aa71e3cdd637695672809b5e",
+        "sha512": "9eea4ffc079c33cec287ac591c25e0543ab9e459462f7900bae182eb2ee87a271172465b92ac969b4e79ca711ce2ffec99da6f55d49878602610457b976d3aa2"
+      },
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://github.com/mwin96/michaels-modpack/releases/download/v1.0.5/michaels-modernfix-forge-5.27.91+mc1.20.1.jar"
+      ],
+      "fileSize": 1025176
     }
   ]
 }
