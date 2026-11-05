@@ -4,7 +4,7 @@ Reviewed November 4, 2026, by an independent GPT-6 Astra reviewer using high rea
 
 ## Verdict
 
-**GO for a private, monitored release of the tested candidate, with the limits below.** The pack boots, connects, preserves the normal End progression, supplies paired guns/ammunition through Lootr, and passes the targeted regression checks. This is **not** certification of 60–100 FPS on the weakest friend's unknown computer, a complete four-player survival playthrough, every boss encounter, or the hosted server. Hosting and external deployment remain separate work.
+**GO for a private, monitored release of the tested candidate, with the limits below.** The pack boots, connects, preserves the normal End progression, supplies paired guns/ammunition through Lootr, and passes the targeted regression checks. This is **not** certification of 60–100 FPS on the weakest friend's unknown computer, a complete four-player survival playthrough, every boss encounter, or the hosted server. This independent pack review used the local test server; subsequent hosted deployment checks are recorded below.
 
 Tested release SHA-256: `651c18878b1ec299870af0c17d670264ea33afbd851aaecc74ffec975390e8e9`.
 
@@ -99,10 +99,21 @@ The weakest friend's CPU/GPU/RAM/resolution are still unknown. Sustained 60+ FPS
 
 The independently inspected archive includes only the locally built compatibility jar; third-party archives are referenced by publisher URL and hashes. Its own jar matches the tested build. No test world, account/session file, RCON secret or validation process state was present. Production server defaults enable account authentication, allow up to six players without a whitelist, disable RCON, and omit the validation flag and four-thread test cap. Release sound defaults to normal and the tested NoEffects shader defaults to on.
 
-Empty-server pause was rechecked independently, and joining resumed simulation. The hosted instance, remote authentication, friends' joins, actual regional latency and four-player capacity still require deployment validation. No purchase, deployment or public publication was performed by this reviewer.
+Empty-server pause was rechecked independently, and joining resumed simulation on the local test server. Subsequent hosted checks reported by the deployment agent confirmed all 76 expected server mod files, six slots, account authentication enabled, no whitelist, and game time unchanged across 95 seconds while empty. Signed-in remote joining, friends' connections, regional latency and four-player capacity are outside this independent review's scope. No purchase, deployment or public publication was performed by this reviewer.
 
 Upstream nonfatal warnings remain, including missing optional assets, shader uniform notices and absent mixin-version metadata. They are not evidence of a crash-free guarantee. The discovered low-health crash was fixed and specifically retested; broad overnight stability was not tested.
 
 Evidence retained with the build includes the combat matrix, natural portal/Dragon reports, Lootr sampling, final runtime/pickup checks, selection and packaging audits, FPS samples, local Java profiles, and fresh screenshots. Raw test logs and private test-world state should remain outside the public release.
 
 The final validation client was stopped and the local server was shut down through its normal stop command after evidence capture.
+
+
+## Bounded active-monster and reload follow-up
+
+A subsequent 60-second sample used the exact reconstructed release at 1920x1080, six chunks, default MakeUp NoEffects and ocean waves, with 14 initially active hostile mobs in a constructed ocean-side arena (six zombies, four skeletons, two spiders, a Born in Chaos Door Knight and Nightmare Stalker). Normal AI was enabled; the single survival player had test-only resistance/saturation and stood on a protected perch. Thirteen monsters remained at the end. On the RTX 5070 Ti test machine with the 120 FPS cap and four Java CPU threads, the sample measured **118 FPS median, 116–119 range and 117 at the 10th percentile**. The local server reported **20 TPS and 12.769 ms mean tick time**. This is a modest synthetic encounter with one client and a mostly fixed view, not a four-player dungeon/chunk-generation benchmark or a result for an unknown weaker PC.
+
+The installed TaCZ application-level R event path was also exercised without OS input. An empty AK47 loaded **29 magazine rounds plus one chambered round**, reducing matching ammunition from 64 to 34; automatic reload was disabled. The shader remained active. This validates the application's configured reload action, not a physical keyboard press.
+
+Native window monitoring recorded 390 samples, all hidden and never foreground. Both owned test processes stopped normally afterward. Core and Windows starter archive hashes remained unchanged. Evidence is retained privately in busy-scene-review.md, busy-scene-result.json, and the associated screenshots/command/state captures.
+
+The production hosted world was subsequently restored to the untouched world folder, reported game time 0, and answered the external Minecraft status request with version 1.20.1, six slots and Forge network 3. An authenticated hosted player join remains a first-player/final deployment check; it is not claimed completed here.
