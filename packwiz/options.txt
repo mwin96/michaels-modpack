@@ -288,5 +288,5 @@ modelPart_left_pants_leg:true
 modelPart_right_pants_leg:true
 modelPart_hat:true
 soundCategory_master:1.0
-resourcePacks:["vanilla","mod_resources","file/CMMRP_Release_1.0_NormalAnimals.zip","file/MyMonsterGirls.zip","file/Melodys Cute Villagers v1.11.1_pre-26.1.zip"]
+resourcePacks:["vanilla","mod_resources","file/CMMRP_Release_1.0_NormalAnimals.zip","file/MyMonsterGirls.zip","file/Melodys Cute Villagers v1.11.1_pre-26.1.zip","file/Dramatic Skys Demo 1.5.3.36.6.zip","file/michaels-light-skies-overlay.zip"]
 incompatibleResourcePacks:["file/Melodys Cute Villagers v1.11.1_pre-26.1.zip"]

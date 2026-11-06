@@ -1,0 +1,18 @@
+# Conservative Distant Horizons2.3.6-b client defaults; existing user configuration is preserved.
+# Radius32. Explored multiplayer terrain only; no extra terrain generation.
+_version = 3
+
+[client.advanced.graphics.quality]
+lodChunkRenderDistanceRadius = 32
+transparency = "COMPLETE"
+
+[common.multiThreading]
+numberOfThreads = 1
+threadRunTimeRatio = 0.5
+
+[common.worldGenerator]
+enableDistantGeneration = false
+
+[client.advanced.autoUpdater]
+enableAutoUpdater = false
+enableSilentUpdates = false

@@ -1,0 +1,21 @@
+{
+  "structures": [
+    {
+      "structure": "michaelspack:natural_backrooms_entrance",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 64,
+    "separation": 32,
+    "spread_type": "triangular",
+    "salt": 10461105,
+    "frequency": 0.5,
+    "frequency_reduction_method": "default",
+    "exclusion_zone": {
+      "other_set": "minecraft:villages",
+      "chunk_count": 3
+    }
+  }
+}

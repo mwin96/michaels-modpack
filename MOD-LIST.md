@@ -175,3 +175,13 @@ Ender Trigon enhances the first Dragon fight with three heads and new attacks; t
 
 - RAM-only follow-up: the client ModernFix build enables its existing dynamic model-loading option by default. Explicit user settings, global overrides and native compatibility rules keep their normal precedence. A narrow startup lifecycle fix preserves the pack's model-bake callbacks before entering a world. Complete corresponding upstream source, patch instructions and LGPL notices are included.
 - The server uses its original ModernFix file. Existing world progress, server settings, all content, graphics, audio, chunk-distance choices and memory caps remain unchanged.
+
+## Update 1.0.6
+
+- Distant Horizons is on at 32 chunks, showing terrain you have explored.
+- Lightweight morning and night skies.
+- Auto UI scale is about 15% smaller; manual UI scales stay unchanged.
+- One-time 6 GB client memory default; later manual memory changes remain yours.
+- Sparse natural Backrooms entrances, plus carefully placed entrances in unused terrain.
+- Friendly outdated-client guidance and a latest-update download location.
+- More nearby terrain is pregenerated.

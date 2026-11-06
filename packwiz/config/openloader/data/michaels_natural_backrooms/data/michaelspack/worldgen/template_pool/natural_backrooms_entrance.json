@@ -1,0 +1,17 @@
+{
+  "name": "michaelspack:natural_backrooms_entrance",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "michaelspack:natural_backrooms_entrance",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    }
+  ]
+}

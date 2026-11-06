@@ -1,0 +1,39 @@
+Sky resources and provider for Michael's modpack1.0.6
+
+Original Dramatic Skys Demo1.5.3.36.6 by thebaum64 (Christian Baum), all rights reserved.
+Unmodified official download; no original image is edited or copied into our overlay.
+https://modrinth.com/resourcepack/dramatic-skys/version/4MZQy9nc
+
+ForgeSkyboxes0.0.2-1.20.2-new is an unmodified official download.
+Author source/project license: MIT.
+https://modrinth.com/mod/forgeskyboxes/version/no0b9KGe
+https://github.com/Foopy969/forgeskyboxes
+
+The small Michael's light-skies configuration overlay is MIT licensed; its complete license is embedded in the overlay ZIP.
+Distant Horizons2.3.6-b is an unmodified LGPL-3 official download.
+https://modrinth.com/mod/distanthorizons/version/HSc151Xv
+https://gitlab.com/jeseibel/distant-horizons
+
+ForgeSkyboxes author license:
+
+MIT License
+
+Copyright (c) 2023 Foopy
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

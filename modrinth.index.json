@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
   "game": "minecraft",
-  "versionId": "1.0.5",
+  "versionId": "1.0.6",
   "name": "michael's modpack",
   "summary": "Vanilla progression interrupted by horror, meme mobs, giants and disasters; guns, swords and artifacts to fight back.",
   "dependencies": {
@@ -1793,6 +1793,51 @@
         "https://github.com/mwin96/michaels-modpack/releases/download/v1.0.5/michaels-modernfix-forge-5.27.91+mc1.20.1.jar"
       ],
       "fileSize": 1025176
+    },
+    {
+      "path": "mods/DistantHorizons-2.3.6-b-1.20.1-fabric-forge.jar",
+      "hashes": {
+        "sha1": "89fd2d00de842579e41efa9fe6a87f67dd99a113",
+        "sha512": "33ef25a118872298d546a954bfb625e0b9573286392a4df15a929cfc382bd7224c056bb97b680b6cbb109814150cf56173cfe086295d741ef15b08259bed1e33"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/uCdwusMi/versions/HSc151Xv/DistantHorizons-2.3.6-b-1.20.1-fabric-forge.jar"
+      ],
+      "fileSize": 25362721,
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      }
+    },
+    {
+      "path": "mods/forgeskyboxes-0.0.2-1.20.2-new.jar",
+      "downloads": [
+        "https://cdn.modrinth.com/data/QEF20av3/versions/no0b9KGe/forgeskyboxes-0.0.2-1.20.2-new.jar"
+      ],
+      "hashes": {
+        "sha1": "db9a4c85219382655a713e8d6db8a8c27a8d1b3d",
+        "sha512": "49c356f4fdf555fc21801418d328dc1360b23821c200ed2fb7e6f40b306ebb7e891cf9a38039cf7cb0f6d952b56b6f98a4937c61f28e67a3dec0335c2df5facd"
+      },
+      "fileSize": 234691,
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      }
+    },
+    {
+      "path": "resourcepacks/Dramatic Skys Demo 1.5.3.36.6.zip",
+      "downloads": [
+        "https://cdn.modrinth.com/data/2YyNMled/versions/4MZQy9nc/Dramatic%20Skys%20Demo%201.5.3.36.6.zip"
+      ],
+      "hashes": {
+        "sha1": "8953223ba4d04261917b2e29bdcc1841297a5efa",
+        "sha512": "e08521691c67a2a3b34846e58ea6b4fd7badf3d7efc28b56d26fe18822b607fe22b71aa3f48ba725fd857efb9ab310e8d286d05946db01c92cf40937c87177b4"
+      },
+      "fileSize": 13912171,
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      }
     }
   ]
 }

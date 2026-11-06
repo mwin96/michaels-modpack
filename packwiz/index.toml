@@ -149,6 +149,11 @@ hash = "556eb7b8706d92662bababd89e7ade09b19625efe6e3ea25900084aee83195c8"
 preserve = true
 
 [[files]]
+file = "config/DistantHorizons.toml"
+hash = "1595abca19f0ab94a348abaa1e3be37b0ef0c1da07a8987ac0b37b7833f14879"
+preserve = true
+
+[[files]]
 file = "config/embeddium-mixins.properties"
 hash = "09ff183e061d93b79514bc171bf9118497578757e7a5c45946039487656e2619"
 preserve = true
@@ -370,6 +375,34 @@ hash = "69ea2802bc54f86e273d969129eede7497c1721c774195ff3a359d6fbeed92ff"
 [[files]]
 file = "config/openloader/data/michaels_equipment_quality/pack.mcmeta"
 hash = "1b64e50a98fe67f3b0a9dd6d86b81a1407fecfee23c011b820f212822ed4e820"
+
+[[files]]
+file = "config/openloader/data/michaels_natural_backrooms/data/michaelspack/structures/natural_backrooms_entrance.nbt"
+hash = "2068e556bd9f776e08e0e1b34a0c0d98d22047a811af4256e17380839ceddbea"
+
+[[files]]
+file = "config/openloader/data/michaels_natural_backrooms/data/michaelspack/tags/worldgen/biome/has_structure/natural_backrooms_entrance.json"
+hash = "997759fc074b44ea8ad115865f257d5fe32590447eda2147da888c188d8df33f"
+
+[[files]]
+file = "config/openloader/data/michaels_natural_backrooms/data/michaelspack/worldgen/structure/natural_backrooms_entrance.json"
+hash = "f45b0c6ab939759eb6c4f2596a83afc88458b150bd34e644293b4cc903bf880d"
+
+[[files]]
+file = "config/openloader/data/michaels_natural_backrooms/data/michaelspack/worldgen/structure_set/natural_backrooms_entrance.json"
+hash = "aa3fa8cabb67892e2dd3da0d25d90449b502388a539a1d9cbcb0707dc2b6122d"
+
+[[files]]
+file = "config/openloader/data/michaels_natural_backrooms/data/michaelspack/worldgen/template_pool/natural_backrooms_entrance.json"
+hash = "36fa60cab0a52f8301f7b94d74a42321337b0fbc8b125b58d2e8697e5e5b44df"
+
+[[files]]
+file = "config/openloader/data/michaels_natural_backrooms/LICENSE.txt"
+hash = "9168fa360595a849565fdaa16dbb6ac84d2f443e4a234bee5df6326344338ded"
+
+[[files]]
+file = "config/openloader/data/michaels_natural_backrooms/pack.mcmeta"
+hash = "d9b84fcc93237604fafaff301ef608b48f1c4ef18b3d7bc0d72ada57d7efe530"
 
 [[files]]
 file = "config/openloader/data/michaels_pack_fixes/data/idas/integrated_structure_spawners/archmages_tower.json"
@@ -987,8 +1020,8 @@ file = "MICHAELS-BELLY-VISUALS-LICENSE.txt"
 hash = "0ab6b1b75d4fb2aa6f67932fc2cc7fa7a6746487c8f94e31585de4b2efff9858"
 
 [[files]]
-file = "michaels-client-fixes-1.0.1-source.zip"
-hash = "cb7744461925a21a7b63c393e4eef439ce27b1169f13f9cb1244ad4b37d69803"
+file = "michaels-client-fixes-1.0.2-source.zip"
+hash = "475e889c779ae951c275d0ade6f2d1086d22422f1d968f8cddc8e1165d436f89"
 
 [[files]]
 file = "MICHAELS-CLIENT-FIXES-LICENSE.txt"
@@ -1025,6 +1058,10 @@ hash = "e69afb58157afcc8fa5dc4c494406804a7c3ce9f8a37c5fb7bdf0ed876db7c2a"
 [[files]]
 file = "MICHAELS-PACK-TWEAKS-LICENSE.txt"
 hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+
+[[files]]
+file = "MICHAELS-SKY-DH-NOTICES.txt"
+hash = "4be7abdf78939654536fbb3ac0e8558ec1b9c92ce461751ebd16f8b3d86c6ebb"
 
 [[files]]
 file = "mods/aaa_particles-forge-1.20.1-2.2.3.jar.pw.toml"
@@ -1137,6 +1174,11 @@ hash = "74f7ba7872a05a944e6c31d96cb554363657b01127076082e7af143f041c7c25"
 metafile = true
 
 [[files]]
+file = "mods/DistantHorizons-2.3.6-b-1.20.1-fabric-forge.jar.pw.toml"
+hash = "5d5c4be173dc57f8a0cc7a76d5cf05fc7239c1e8567c93189187fbb2ed3d23ae"
+metafile = true
+
+[[files]]
 file = "mods/dungeons-and-taverns-3.0.3.f.jar.pw.toml"
 hash = "4d6275919108dfd8c843f60f4d9ca6cfec3a2b75314f90146fca2d498f6c1b56"
 metafile = true
@@ -1189,6 +1231,11 @@ metafile = true
 [[files]]
 file = "mods/flib-1.20.1-0.0.16.jar.pw.toml"
 hash = "8c81e44854c7be6805f0ec1a12673a33bc04b0846c138a9cc4f31e51c3b2a03b"
+metafile = true
+
+[[files]]
+file = "mods/forgeskyboxes-0.0.2-1.20.2-new.jar.pw.toml"
+hash = "e31597d2182537629852e9bcf8c8a63f43f343f1a5065555c4ea2ed6e99f3117"
 metafile = true
 
 [[files]]
@@ -1291,8 +1338,8 @@ file = "mods/michaels-belly-visuals-1.0.0.jar"
 hash = "b837f918f6a1669a543ee290e6fdcf4b780bafe9b330b96f3aaf9add6d764f7c"
 
 [[files]]
-file = "mods/michaels-client-fixes-1.0.1.jar"
-hash = "f6542fd31f138af2993b4e23e0215f08abcb53839cf78e22e2954f3872d67018"
+file = "mods/michaels-client-fixes-1.0.2.jar"
+hash = "28394299e888d0a975520a52f549ab2c98c0d6373095a73591483fec1df74527"
 
 [[files]]
 file = "mods/michaels-copper-equipment-1.0.0.jar"
@@ -1558,7 +1605,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "01217b225450831fe4ba4398ccc02a830f634892d5cade8148bfe0fad79fc826"
+hash = "6cd486eea13da4d4e66086dc3e0aa25702f0fe1fd971c180d3613f8f52e57d43"
 preserve = true
 
 [[files]]
@@ -1567,9 +1614,18 @@ hash = "128de4b5e199221113ba11da662464365fee715bb849854003251a6c67c225d6"
 metafile = true
 
 [[files]]
+file = "resourcepacks/Dramatic Skys Demo 1.5.3.36.6.zip.pw.toml"
+hash = "6fd397d12344ed5ab84739715093750a1fc202556422664f0b0f1c2d3dacf655"
+metafile = true
+
+[[files]]
 file = "resourcepacks/Melodys Cute Villagers v1.11.1_pre-26.1.zip.pw.toml"
 hash = "4e5104e753ce85c52ff46db2470c5f9014223d1d6faf3ea9bcf56d44a9a52841"
 metafile = true
+
+[[files]]
+file = "resourcepacks/michaels-light-skies-overlay.zip"
+hash = "baf8a2dbaf0600cadc87f9183b641ee056582c6c60ab822ecc3bced2321560b6"
 
 [[files]]
 file = "resourcepacks/MyMonsterGirls.zip.pw.toml"
