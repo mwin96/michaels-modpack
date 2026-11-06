@@ -2,9 +2,9 @@
 
 ![michael's modpack](https://github.com/mwin96/michaels-modpack/releases/download/v1.0.3/michaels_modpack_thumbnail-1.0.3.jpg)
 
-A tailored collection of mods I like + some surprises. Don't look at the mod list! Goal is to beat the ender dragon.
-
-**Already using automatic Prism updates?** Close Minecraft and relaunch the pack. It may restart once to apply the 6 GB memory default.
+Reach the End and defeat the Ender Dragon. You’ll have to survive everything I’ve added.
+ 
+A tailored collection of mods I like + some surprises. Don't look at the mod list!
 
 **Older install or Minecraft Launcher?** [Download the update](https://github.com/mwin96/michaels-modpack/releases/download/v1.0.6/michaels-modpack-client-update-1.0.6.zip), extract it, and open **UPDATE MICHAELS MODPACK.cmd**.
 
