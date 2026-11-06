@@ -14,14 +14,14 @@ permissions:
   contents: write
 
 concurrency:
-  group: stable-downloads-${{ github.event.release.tag_name || inputs.tag }}
+  group: stable-downloads-${{ github.repository }}
   cancel-in-progress: false
 
 jobs:
   aliases:
     if: github.event_name == 'workflow_dispatch' || (!github.event.release.draft && !github.event.release.prerelease)
     runs-on: ubuntu-latest
-    timeout-minutes: 6
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6, official pinned commit
         with:
@@ -31,4 +31,4 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           RELEASE_TAG: ${{ github.event.release.tag_name || inputs.tag }}
-        run: python3 .github/scripts/publish_download_aliases.py --repo "$GITHUB_REPOSITORY" --tag "$RELEASE_TAG" --apply
+        run: python3 .github/scripts/publish_download_aliases.py --repo "$GITHUB_REPOSITORY" --tag "$RELEASE_TAG" --apply --retarget-legacy --workers 3

@@ -1,12 +1,16 @@
-"""Add permanent asset names without replacing any existing release asset or tag.
+"""Publish stable aliases, with explicitly authorized historical client routing.
 
-Uses GitHub CLI authentication already available to the operator or GITHUB_TOKEN.
-Run with --apply after uploading the versioned Windows installer ZIP. Both aliases
-deliver that full installer, including the compatibility name client-update.zip.
-Published-release events can arrive before assets, so a missing ZIP is retried.
+Default alias mode leaves existing assets intact. --retarget-legacy archives
+original client ZIP bytes by rename before promoting a verified staged installer;
+core, source, server, resource, checksum and tag contents remain untouched.
+For pinned original client ZIPs, use ARCHIVED-ORIGINAL-<expected-SHA12>-<old-name>:
+old client filenames become compatibility routes, not immutable baseline URLs.
+Both permanent alias names deliver the full Windows installer. Authentication is
+provided by the existing GitHub CLI session or the repository GITHUB_TOKEN.
 """
 from pathlib import Path
-import argparse,hashlib,json,os,re,shutil,subprocess,tempfile,time,urllib.parse,urllib.request
+import argparse,hashlib,json,os,re,shutil,subprocess,sys,tempfile,time,urllib.parse,urllib.request
+sys.dont_write_bytecode=True
 
 PATTERNS={
     'michaels-modpack-windows-easy.zip':r'michaels-modpack-(?:launcher-)?\d+(?:\.\d+){2,3}-windows-easy\.zip',
@@ -57,6 +61,8 @@ def identity(asset):
 def main():
     parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--repo',default=os.environ.get('GITHUB_REPOSITORY','mwin96/michaels-modpack'))
     parser.add_argument('--tag',required=True);parser.add_argument('--apply',action='store_true');parser.add_argument('--source-dir',type=Path);parser.add_argument('--report',type=Path)
+    parser.add_argument('--retarget-legacy',action='store_true',help='Explicitly archive and route historical client entrypoint ZIPs to this latest stable installer.')
+    parser.add_argument('--workers',type=int,choices=[1,2,3],default=3)
     args=parser.parse_args()
     if not re.fullmatch(r'[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+',args.repo):raise RuntimeError('Unexpected repository name.')
     if not args.tag or args.tag.startswith('-') or len(args.tag)>200 or any(ord(c)<32 for c in args.tag):raise RuntimeError('A release tag is required.')
@@ -65,7 +71,12 @@ def main():
         if sources:break
         if not args.apply or attempt==36:raise RuntimeError('The versioned Windows installer must be uploaded first.')
         print('Waiting for the versioned Windows installer...',flush=True);time.sleep(5)
-    original={a['name']:identity(a) for a in before['assets']};results=[]
+    legacy_api=None
+    if args.retarget_legacy:
+        from legacy_client_routes import API
+        legacy_api=API(args.repo)
+        if legacy_api.latest()['tag_name']!=args.tag:raise RuntimeError('Legacy routing requires the actual latest stable tag.')
+    original={a['name']:identity(a) for a in before['assets']};results=[];legacy_result=None
     with tempfile.TemporaryDirectory(prefix='michaels-stable-downloads-') as temporary:
         scratch=Path(temporary);prepared={}
         for alias,source in sources.items():
@@ -92,12 +103,20 @@ def main():
                 verify_alias(existing,digest,source['size'],scratch);action='uploaded'
             else:action='would-upload'
             results.append({'alias':alias,'source':source['name'],'sha256':digest,'bytes':source['size'],'action':action,'payload':'full-windows-installer'})
+        if args.retarget_legacy:
+            from legacy_client_routes import run
+            source=sources['michaels-modpack-windows-easy.zip'];local,digest=prepared[source['name']]
+            legacy_result=run(legacy_api,{'tag':args.tag,'sha256':digest,'bytes':source['size'],'file':local},scratch,apply=args.apply,workers=args.workers)
     after=release(args.repo,args.tag);after_assets={a['name']:identity(a) for a in after['assets']}
     for name,value in original.items():
+        if args.retarget_legacy:
+            from legacy_client_routes import is_target,DOC,consumed_staging_asset,preserved_archive_renamed_during_recovery
+            if is_target(name) or name==DOC or consumed_staging_asset(value,legacy_result) or preserved_archive_renamed_during_recovery(value,after_assets.get(name),legacy_result):continue
         if after_assets.get(name)!=value:raise RuntimeError('An existing release asset changed unexpectedly: '+name)
     if before['id']!=after['id'] or before['tag_name']!=after['tag_name'] or before['target_commitish']!=after['target_commitish']:raise RuntimeError('Release identity changed unexpectedly.')
-    report={'passed':True,'repo':args.repo,'tag':args.tag,'applyRequested':args.apply,'aliases':results,'allExistingAssetsUnchanged':True,'releaseIdentityUnchanged':True,'neverDeletesOrClobbers':True}
+    report={'passed':legacy_result['passed'] if legacy_result else True,'repo':args.repo,'tag':args.tag,'applyRequested':args.apply,'aliases':results,'allUnrelatedAssetsUnchanged':True,'releaseIdentityUnchanged':True,'originalClientBytesNeverDeleted':True,'legacy':legacy_result}
     if args.report:args.report.write_text(json.dumps(report,indent=2)+'\n')
     print(json.dumps(report,indent=2))
+    if not report['passed']:raise SystemExit(1)
 
 if __name__=='__main__':main()
