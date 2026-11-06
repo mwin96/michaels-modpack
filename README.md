@@ -6,6 +6,6 @@ Reach the End and defeat the Ender Dragon.
  
 A tailored collection of mods I like + some surprises. Don't look at the mod list!
 
-[Download here](https://github.com/mwin96/michaels-modpack/releases/download/v1.0.9/michaels-modpack-1.0.9-windows-easy.zip), extract it, and open **PLAY MICHAELS MODPACK.cmd**. Sign in once.
+[Download here](https://github.com/mwin96/michaels-modpack/releases/download/v1.0.10/michaels-modpack-1.0.10-windows-easy.zip), extract it, and open **PLAY MICHAELS MODPACK.cmd**. Sign in once.
 
 Multiplayer server IP: 51.81.148.186:25590

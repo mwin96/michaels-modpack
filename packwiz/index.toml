@@ -1,6 +1,5 @@
 hash-format = "sha256"
 
-
 [[files]]
 file = "CMM-NormalAnimals-LICENSE-GPL-3.0.txt"
 hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
@@ -1015,8 +1014,8 @@ file = "MICHAELS-BELLY-VISUALS-LICENSE.txt"
 hash = "0ab6b1b75d4fb2aa6f67932fc2cc7fa7a6746487c8f94e31585de4b2efff9858"
 
 [[files]]
-file = "michaels-client-fixes-1.0.5-source.zip"
-hash = "3e6331499c752a775f4f2bbe674c18dbd961277f08318f43f27f8b27580d6bec"
+file = "michaels-client-fixes-1.0.6-source.zip"
+hash = "9b9fd72e2c9d1c2ac0290b5b249b29a5a819324f802b56d0fc3917dacde2f986"
 
 [[files]]
 file = "MICHAELS-CLIENT-FIXES-LICENSE.txt"
@@ -1027,8 +1026,8 @@ file = "michaels-content-compat-1.0.0-source.zip"
 hash = "e3a0aad6648124a32ce415b5361fc70c40130fb98c17de68b8221726c919adf7"
 
 [[files]]
-file = "michaels-copper-equipment-1.0.0-source.zip"
-hash = "c347697ed83b73286d97cb6a6c35fcfafec318e5524395295a10096bea317303"
+file = "michaels-copper-equipment-1.0.1-source.zip"
+hash = "4014d9cc3c49e438bb1e4b56af2503ceb343c465bf4cfc81274ed652b15737d4"
 
 [[files]]
 file = "MICHAELS-EQUIPMENT-LICENSE.txt"
@@ -1306,6 +1305,16 @@ hash = "0f88eb51a9677ac6bce3e0fcbfb1a364419d5420251ee60df1431ab9ab8372fd"
 metafile = true
 
 [[files]]
+file = "mods/ironchest-1.20.1-14.4.4.jar.pw.toml"
+hash = "6d6820a41b27905632828b89d3e8b78d4e793eb548fd469a9e6428ba64595f5f"
+metafile = true
+
+[[files]]
+file = "mods/ironfurnaces-1.20.1-4.1.8.jar.pw.toml"
+hash = "d05e40a4fc81131a44abedc5f319f4ced87d16c1ed2aa75fe3f70b80d5d9c845"
+metafile = true
+
+[[files]]
 file = "mods/Jade-1.20.1-Forge-11.13.3.jar.pw.toml"
 hash = "27dec4ba30ed2ed94b58a62b56a9aedc7cad86a33529795788577cdfe0e7da55"
 metafile = true
@@ -1360,16 +1369,16 @@ file = "mods/michaels-belly-visuals-1.0.0.jar"
 hash = "a5d859b5732b6acd61f49ab6ac16cce71f76203d3372cec4a32565b26a3a9aad"
 
 [[files]]
-file = "mods/michaels-client-fixes-1.0.5.jar"
-hash = "1ba980b8a476b62d5c9e6f1f062704a269c86f861a1dda5a25467127858354af"
+file = "mods/michaels-client-fixes-1.0.6.jar"
+hash = "a1cfdea6b5c4b4d8cf5b8a73d5d2e775480217ba6d7ff00ab9c3f387731eca89"
 
 [[files]]
 file = "mods/michaels-content-compat-1.0.0.jar"
 hash = "e546f6449fbcb2d1389aa5819601eb0edd138005b05532aa41d619965ff6b3b1"
 
 [[files]]
-file = "mods/michaels-copper-equipment-1.0.0.jar"
-hash = "dbaaa41607cea28d269ab7cfe2757dcf3195ec65dd9609b0807b64889590846f"
+file = "mods/michaels-copper-equipment-1.0.1.jar"
+hash = "4f91c29ab220c05e05a25e414f7a2bfa67dd1c8bb3f8c41a35274e217b0b40cd"
 
 [[files]]
 file = "mods/michaels-menu-1.0.0.jar"

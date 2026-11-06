@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
   "game": "minecraft",
-  "versionId": "1.0.9",
+  "versionId": "1.0.10",
   "name": "michael's modpack",
   "summary": "Vanilla progression interrupted by horror, meme mobs, giants and disasters; guns, swords and artifacts to fight back.",
   "dependencies": {
@@ -1882,6 +1882,36 @@
       "env": {
         "client": "required",
         "server": "unsupported"
+      }
+    },
+    {
+      "path": "mods/ironchest-1.20.1-14.4.4.jar",
+      "hashes": {
+        "sha512": "5d41daa11bbc5c98c98faf6641993a47bce92c56204cec745686396e4f912b67abbc29f9fefcc5fd89422c37c3b34c191bfcc6479b28d7a07886cd279c0d6d99",
+        "sha1": "4b2dd0f581e40f8bd6f6e63b2d84c06dfde2c4eb"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/P3iIrPH3/versions/YjbOtYwN/ironchest-1.20.1-14.4.4.jar"
+      ],
+      "fileSize": 311290,
+      "env": {
+        "client": "required",
+        "server": "required"
+      }
+    },
+    {
+      "path": "mods/ironfurnaces-1.20.1-4.1.8.jar",
+      "hashes": {
+        "sha512": "72b1a549f74bd93054baa78619f6ac8b5d7c6a6df7565b0fcb3dcb3ae5c4d076801eae0193a76885d8db516247bb3817c7e3542eb86d69fe2dc8ad1d45e3960e",
+        "sha1": "55386bfd5746bd8588df5d45f19cc964b666afe5"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/yPlaLxD1/versions/KHAcRQwi/ironfurnaces-1.20.1-4.1.8.jar"
+      ],
+      "fileSize": 612921,
+      "env": {
+        "client": "required",
+        "server": "required"
       }
     }
   ]

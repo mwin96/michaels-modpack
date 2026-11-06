@@ -218,3 +218,11 @@ Ender Trigon enhances the first Dragon fight with three heads and new attacks; t
 - Corrected the MP5 loot definition and preserved its existing rarity, ammo and custom data. Lootr quality odds are the same for both players.
 - Halved all five gun drop chances and the ammo in newly generated bundles; existing items and cached Lootr contents remain.
 - Preserved the Play launcher, desktop shortcut and updater Play button. No new measured RAM/FPS improvement is claimed.
+
+## Update 1.0.10
+
+- Added Emerald equipment and a craftable vanilla bundle through the shared equipment mod.
+- Updated copper equipment visuals.
+- Added pinned official Iron Chests and Iron Furnaces with their native tiers.
+- Adjusted the Jesus encounter to six seconds visible/audible followed by sixty seconds quiet.
+- Preserved existing graphics, audio, memory choices, migration markers and the Play launcher.
