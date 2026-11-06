@@ -49,7 +49,7 @@
 	#Enable jumpscares
 	jumpscareEnabled = true
 	#Enable the flash effect in the jumpscares
-	flashEnabled = true
+	flashEnabled = false
 
 [EXPERIMENTAL]
 	#Things here might not work or cause bugs !!!
@@ -61,5 +61,5 @@
 
 ["PHOTOSENSITIVITY WARNING !!!"]
 	#A value that displays or not the PhotosensitivityWarningScreen
-	photosensitivityWarningDisplayed = false
+	photosensitivityWarningDisplayed = true
 

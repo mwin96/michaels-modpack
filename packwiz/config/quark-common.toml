@@ -140,7 +140,7 @@
 	"Variant Ladders" = true
 	"Vertical Planks" = true
 	"Vertical Slabs" = true
-	"Wooden Posts" = true
+	"Wooden Posts" = false
 	"More Stone Variants" = true
 
 	[building.celebratory_lamps]

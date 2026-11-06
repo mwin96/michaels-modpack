@@ -185,3 +185,11 @@ Ender Trigon enhances the first Dragon fight with three heads and new attacks; t
 - Sparse natural Backrooms entrances, plus carefully placed entrances in unused terrain.
 - Friendly outdated-client guidance and a latest-update download location.
 - More nearby terrain is pregenerated.
+
+## Update 1.0.7
+
+- Removed Rats and Quark wooden posts; the hosted world was migrated with its contents preserved.
+- Added AllTheLeaks and locally generated lightweight textures from installed original mods.
+- Backrooms rapid flashes default off and its photosensitivity notice is acknowledged once.
+- Updated the menu goal caption. Existing UI, graphics, controls and memory choices remain.
+- No new measured RAM/FPS saving is claimed.

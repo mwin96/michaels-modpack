@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
   "game": "minecraft",
-  "versionId": "1.0.6",
+  "versionId": "1.0.7",
   "name": "michael's modpack",
   "summary": "Vanilla progression interrupted by horror, meme mobs, giants and disasters; guns, swords and artifacts to fight back.",
   "dependencies": {
@@ -68,21 +68,6 @@
         "https://cdn.modrinth.com/data/gwvWgK9g/versions/6JR0Jhdv/crimsonsteves_mutant_mobs-1.6.0-forge-1.20.1.jar"
       ],
       "fileSize": 3119841
-    },
-    {
-      "path": "mods/Rats-1.20.1-8.1.3.jar",
-      "hashes": {
-        "sha1": "dbd9b1208cb14287d32e2d53fe05459e597ead58",
-        "sha512": "9743b737d2ecbb102d5d3f27e9e3a21dfce3bbe62be8c63669e864b210b15564c738272139f1db7730dd57a5425b730d382d369fbff90299f8bd1c957868bfe4"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/CETpiisl/versions/EbBp44Gs/Rats-1.20.1-8.1.3.jar"
-      ],
-      "fileSize": 8437611
     },
     {
       "path": "mods/From-The-Fog-1.20-v1.9.2-Forge-Fabric.jar",
@@ -970,21 +955,6 @@
       "fileSize": 642732
     },
     {
-      "path": "mods/Quark-4.0-462.jar",
-      "hashes": {
-        "sha1": "9b0fb82995622a0070c00827c698c43b49d9d14b",
-        "sha512": "585b182ccd51066e841141c9bc74fe8b820df86119828b7542b56771c3fcaf8bcc92f9d67f4e87736e82a45bb9166f71c015b95e230f964215290707b6475eed"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/qnQsVE2z/versions/DijQLauD/Quark-4.0-462.jar"
-      ],
-      "fileSize": 14935230
-    },
-    {
       "path": "mods/Searchables-forge-1.20.1-1.0.3.jar",
       "hashes": {
         "sha1": "5b976f6e76ec74cdef21865e31f56bcb11558db7",
@@ -1838,6 +1808,21 @@
         "client": "required",
         "server": "unsupported"
       }
+    },
+    {
+      "path": "mods/alltheleaks-1.1.4+1.20.1-forge.jar",
+      "hashes": {
+        "sha1": "b4935ae90526992b0c39cf2303cf36ec94a07c41",
+        "sha512": "a6f67e496db89c35ae1f63dc7adbc2090b28fa4da9e2a30ebb50e154cec1b36caa27f5e56f879c00417725ca39ca56e67b9a852bfede65360b3c38260cbf4e1f"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://mediafilez.forgecdn.net/files/9188/826/alltheleaks-1.1.4%2B1.20.1-forge.jar"
+      ],
+      "fileSize": 1274164
     }
   ]
 }

@@ -1,0 +1,8 @@
+name = "alltheleaks-1.1.4+1.20.1-forge.jar"
+filename = "alltheleaks-1.1.4+1.20.1-forge.jar"
+side = "client"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/9188/826/alltheleaks-1.1.4%2B1.20.1-forge.jar"
+hash-format = "sha512"
+hash = "a6f67e496db89c35ae1f63dc7adbc2090b28fa4da9e2a30ebb50e154cec1b36caa27f5e56f879c00417725ca39ca56e67b9a852bfede65360b3c38260cbf4e1f"
