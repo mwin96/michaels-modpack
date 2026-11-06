@@ -13,8 +13,9 @@ DOC='LATEST-DOWNLOAD-ROUTING.md'
 HEADER='# Client installer download routing\n'
 MARKER='<!-- michaels-client-routing-json -->'
 TARGET=re.compile(r'michaels-modpack-(?:(?:launcher-)?\d+(?:\.\d+){2,3}-windows(?:-easy)?|client-update-\d+(?:\.\d+){2,3}|launcher-\d+(?:\.\d+){2,3}-client-update)\.zip')
+OWNED_ALIASES=frozenset({'michaels-modpack-windows-easy.zip','michaels-modpack-client-update.zip'})
 
-def is_target(name):return TARGET.fullmatch(name) is not None
+def is_target(name):return name in OWNED_ALIASES or TARGET.fullmatch(name) is not None
 def archive_name(name,digest):return 'ARCHIVED-ORIGINAL-'+digest[:12]+'-'+name
 def stage_name(name,digest):return 'ROUTING-STAGED-'+digest[:12]+'-'+name
 def pages(value):return [row for page in value for row in page]
