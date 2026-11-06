@@ -329,7 +329,7 @@ preserve = true
 
 [[files]]
 file = "config/michaelspack-common.toml"
-hash = "c521c72a5f6058419a655ac104b4064d82d6eb611bb60ae89c673bb61d4bf145"
+hash = "b3edae85ac1dbb93ac91218d5719dbedcc2f5e36acf589b7ba365ea4c27d482d"
 preserve = true
 
 [[files]]
@@ -371,6 +371,10 @@ preserve = true
 file = "config/openloader/advanced_options.json"
 hash = "2ee7700b88371d21265000c50ef149c42863fd22e0ecbb5dc6af78fd7493fee8"
 preserve = true
+
+[[files]]
+file = "config/openloader/data/michaels-weekly-bloodmoon-1.0.0.zip"
+hash = "ffd56bbb82a86900bbd9eb6e7655e2da81a91be433a0afa939eb2b011ca2773c"
 
 [[files]]
 file = "config/openloader/data/michaels_equipment_quality/data/forge/loot_modifiers/global_loot_modifiers.json"
@@ -827,7 +831,7 @@ preserve = true
 
 [[files]]
 file = "config/touhou_little_maid-common.toml"
-hash = "7cb40fb62c58fb9f93ab4507b7f0f680d217251b222bf5ac81a9c15c4b28c630"
+hash = "07d26518f5fd13bddcb61661fed32c2da2c64d3a6a684c03a44ff0567c21d7d5"
 preserve = true
 
 [[files]]
@@ -942,7 +946,7 @@ preserve = true
 
 [[files]]
 file = "config/zombie_tactics-common.toml"
-hash = "e9b952a8799f67cba60e47b6a82d3161771cffa902e0c38b36a0fd5f120d35ad"
+hash = "2fa512f9a89711b17e7cb1325eae3177612038dcc2b62e9a521aeb0ce66007c5"
 preserve = true
 
 [[files]]
@@ -1006,6 +1010,10 @@ hash = "57f35da9a2854ee2e906d1f3b5aa4139a549e1563ee0cae9e99efd83b8c7475f"
 preserve = true
 
 [[files]]
+file = "michaels-adventure-balance-1.0.0-source.zip"
+hash = "b8eddd0a2128e3687dc88e335eeb5f750514bc51d216de3b08f2e4c50a9e7e8b"
+
+[[files]]
 file = "michaels-belly-visuals-1.0.0-109-source.zip"
 hash = "60c86092a7bf80c0876f5f6878e4f30a6d0f0a72621e9054275a16a8921e16d7"
 
@@ -1026,8 +1034,8 @@ file = "michaels-content-compat-1.0.0-source.zip"
 hash = "e3a0aad6648124a32ce415b5361fc70c40130fb98c17de68b8221726c919adf7"
 
 [[files]]
-file = "michaels-copper-equipment-1.0.1-source.zip"
-hash = "4014d9cc3c49e438bb1e4b56af2503ceb343c465bf4cfc81274ed652b15737d4"
+file = "michaels-copper-equipment-1.0.2-source.zip"
+hash = "efc2038fb385c636f8e26e59c1351bc44bec07f163969f7c94b31d442da60f80"
 
 [[files]]
 file = "MICHAELS-EQUIPMENT-LICENSE.txt"
@@ -1068,6 +1076,10 @@ hash = "73d18a4c6b2aebfc88288975b532a23a1f1a5504f9d1de0a19b4d8e8d45a1dfb"
 [[files]]
 file = "MICHAELS-SKY-DH-NOTICES.txt"
 hash = "4be7abdf78939654536fbb3ac0e8558ec1b9c92ce461751ebd16f8b3d86c6ebb"
+
+[[files]]
+file = "michaels-weekly-bloodmoon-1.0.0-source.zip"
+hash = "4c4c35717a122345cfb0df9e2bdcfb21516154c8e402d4edf2948c2b40d8d02c"
 
 [[files]]
 file = "mods/aaa_particles-forge-1.20.1-2.2.3.jar.pw.toml"
@@ -1160,6 +1172,11 @@ hash = "7f8daf6f629a5db6cd8cafc94ef8bd38ff39ef36545151f7ba909bfb6cdd3e60"
 metafile = true
 
 [[files]]
+file = "mods/Corgilib-Forge-1.20.1-4.0.3.6.jar.pw.toml"
+hash = "7a0a244d59a2b89115674ee0dbbaa41148a1c81b7d5c4d00c897f20b0607e41c"
+metafile = true
+
+[[files]]
 file = "mods/coroutil-forge-1.20.1-1.3.7.jar.pw.toml"
 hash = "350b803f0de99e8a1310d81d79f5f8b42ec53ecbd145df5b8ee8ed9c72e53fa8"
 metafile = true
@@ -1190,6 +1207,11 @@ hash = "89a208adaa99ff01b2447604d59df5a3da0063749b28f550ca00fc167fdf90d7"
 metafile = true
 
 [[files]]
+file = "mods/Data_Anchor-forge-1.20.1-1.0.0.24.jar.pw.toml"
+hash = "b8e36cc2f49d7d5212eddd36d12eaabac75cb25933a274b802b54db35f91c0da"
+metafile = true
+
+[[files]]
 file = "mods/DistantFriends-forge-1.20.1-0.5.6.jar.pw.toml"
 hash = "74f7ba7872a05a944e6c31d96cb554363657b01127076082e7af143f041c7c25"
 metafile = true
@@ -1217,6 +1239,21 @@ metafile = true
 [[files]]
 file = "mods/endertrigon-1.20.1-1.1-all.jar.pw.toml"
 hash = "793f0158e7d219ca72ccf6e564270a7656db116a20623a729162f418194648bc"
+metafile = true
+
+[[files]]
+file = "mods/Enhanced-Celestials-2-Core-Forge-1.20.1-1.0.3.4.jar.pw.toml"
+hash = "4d9b48d19d415a47b6bfad8cb3c550d94e104d95b8f646c37cf2fef648af5277"
+metafile = true
+
+[[files]]
+file = "mods/Enhanced-Celestials-2-Default-Lunar-Events-Forge-1.20.1-1.0.0.7.jar.pw.toml"
+hash = "ce2a39c4f412ce4787d51c3f8e4316eb87e85cb28f8ef24f355a9a1c9e65dcd9"
+metafile = true
+
+[[files]]
+file = "mods/Enhanced-Celestials-2-Shaders-Forge-1.20.1-1.0.0.5.jar.pw.toml"
+hash = "9ad756b887026d902e6c4458cfe50bec348123b19e4a3924c5f130c6b25f1af8"
 metafile = true
 
 [[files]]
@@ -1365,6 +1402,10 @@ hash = "855f03769c3e0f8e80dbc2a66930906f4ebe9b528bf137956b97ca8e7ec5aca9"
 metafile = true
 
 [[files]]
+file = "mods/michaels-adventure-balance-1.0.0.jar"
+hash = "e1597642ca2b87c12503d6b90e66b97e0eeb6e2bba98ad1c4b59d8107bfb8186"
+
+[[files]]
 file = "mods/michaels-belly-visuals-1.0.0.jar"
 hash = "a5d859b5732b6acd61f49ab6ac16cce71f76203d3372cec4a32565b26a3a9aad"
 
@@ -1377,8 +1418,8 @@ file = "mods/michaels-content-compat-1.0.0.jar"
 hash = "e546f6449fbcb2d1389aa5819601eb0edd138005b05532aa41d619965ff6b3b1"
 
 [[files]]
-file = "mods/michaels-copper-equipment-1.0.1.jar"
-hash = "4f91c29ab220c05e05a25e414f7a2bfa67dd1c8bb3f8c41a35274e217b0b40cd"
+file = "mods/michaels-copper-equipment-1.0.2.jar"
+hash = "8c2a53b273a6f8825044dc98ab2c1d4a290063cb6bb9f8dcf896f941660a11df"
 
 [[files]]
 file = "mods/michaels-menu-1.0.0.jar"
@@ -1485,6 +1526,11 @@ metafile = true
 [[files]]
 file = "mods/Searchables-forge-1.20.1-1.0.3.jar.pw.toml"
 hash = "12e15735d9fb39dddf373ca663250f1e725babe711dcf2fab2f8eca8ef59eea0"
+metafile = true
+
+[[files]]
+file = "mods/simpledrills-1.6.1-forge-1.20.1.jar.pw.toml"
+hash = "14068379a793db1c65126deef98ea8c41e8f590ba419a33edd34ea8a8aa98a54"
 metafile = true
 
 [[files]]

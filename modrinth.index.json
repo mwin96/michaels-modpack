@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
   "game": "minecraft",
-  "versionId": "1.0.10",
+  "versionId": "1.0.11",
   "name": "michael's modpack",
   "summary": "Vanilla progression interrupted by horror, meme mobs, giants and disasters; guns, swords and artifacts to fight back.",
   "dependencies": {
@@ -1909,6 +1909,96 @@
         "https://cdn.modrinth.com/data/yPlaLxD1/versions/KHAcRQwi/ironfurnaces-1.20.1-4.1.8.jar"
       ],
       "fileSize": 612921,
+      "env": {
+        "client": "required",
+        "server": "required"
+      }
+    },
+    {
+      "path": "mods/Enhanced-Celestials-2-Core-Forge-1.20.1-1.0.3.4.jar",
+      "hashes": {
+        "sha512": "d7f6ad058acbfd68dfa359f361866a77322b7178fc4b8f1f5bae9e96936e48cc380c720d1a08e22ee73773226c9508fa23460a094c88e0c20c59c2a0b70cf4ac",
+        "sha1": "59d0d8ce20071ed6704a9265d2c990978bf845cd"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/ugCWUHV9/versions/bDHlWeLd/Enhanced-Celestials-2-Core-Forge-1.20.1-1.0.3.4.jar"
+      ],
+      "fileSize": 1051995,
+      "env": {
+        "client": "required",
+        "server": "required"
+      }
+    },
+    {
+      "path": "mods/Enhanced-Celestials-2-Default-Lunar-Events-Forge-1.20.1-1.0.0.7.jar",
+      "hashes": {
+        "sha512": "fc3994793b9edeaf9552dc76d2bb28c2113c7677cd051ab83228de27b4f8dd753461cf185cbedf9bfc91b363e3ae4e2f08e05b07c9b0693fcd7c5a0ee5fe9053",
+        "sha1": "f940dc9c6b5b8dd30f777222647dc931f16e3d0c"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/19P0GlZk/versions/NiEFEDOe/Enhanced-Celestials-2-Default-Lunar-Events-Forge-1.20.1-1.0.0.7.jar"
+      ],
+      "fileSize": 1515134,
+      "env": {
+        "client": "required",
+        "server": "required"
+      }
+    },
+    {
+      "path": "mods/Enhanced-Celestials-2-Shaders-Forge-1.20.1-1.0.0.5.jar",
+      "hashes": {
+        "sha512": "4f0b699b0d386e44a20d30941522836f629236eb5eedae7363a43ac82eda81d680a9ea62dae81c57746cfb50c1689360da837854861070e8c65aac8f150d4a7f",
+        "sha1": "63453685e7641c814eb6f1c0ef3f9444c4a1c439"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/6cEnKtmZ/versions/GkmryeEH/Enhanced-Celestials-2-Shaders-Forge-1.20.1-1.0.0.5.jar"
+      ],
+      "fileSize": 119928,
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      }
+    },
+    {
+      "path": "mods/Data_Anchor-forge-1.20.1-1.0.0.24.jar",
+      "hashes": {
+        "sha512": "cc3fbca7812047ff45508ed875ff437e73c871ceae534234122e31d0052ddef87fb5efa02289e35c8ad31a4e2f31621e51281c5d1be3d923b3aefd9922ddfe17",
+        "sha1": "bb841e6ae8ff537f7a568adfd1a3411e190fd494"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/z2XEADmE/versions/UPPnQC1K/Data_Anchor-forge-1.20.1-1.0.0.24.jar"
+      ],
+      "fileSize": 117737,
+      "env": {
+        "client": "required",
+        "server": "required"
+      }
+    },
+    {
+      "path": "mods/Corgilib-Forge-1.20.1-4.0.3.6.jar",
+      "hashes": {
+        "sha512": "877085c2cab93fe23b09b3e52063fee0c2cfa83dfcd40c62c3c130b8a721e68b1b46bd7cda0b15b86e5d00aae7f0132c8438c9a3287846db2b2a1c489d20cf0b",
+        "sha1": "dc26327631fa34c25139e2d3c95b3274e8978336"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/ziOp6EO8/versions/OtJzHtsl/Corgilib-Forge-1.20.1-4.0.3.6.jar"
+      ],
+      "fileSize": 318788,
+      "env": {
+        "client": "required",
+        "server": "required"
+      }
+    },
+    {
+      "path": "mods/simpledrills-1.6.1-forge-1.20.1.jar",
+      "hashes": {
+        "sha512": "cb338ddaefab4064266411016aea27f38026ad9bcbab282cad35099f9b1d4ca79804a13e7d46fea77ce8ac489b66b10665bc3d580764cf6ddf7f19b013d7f677",
+        "sha1": "36e2addcade50fd2bd0d9fc5151e8ae7d1ce3d54"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/hcLATe7l/versions/pORjH1YP/simpledrills-1.6.1-forge-1.20.1.jar"
+      ],
+      "fileSize": 83204,
       "env": {
         "client": "required",
         "server": "required"

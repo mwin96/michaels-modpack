@@ -1,0 +1,8 @@
+name = "Data_Anchor-forge-1.20.1-1.0.0.24.jar"
+filename = "Data_Anchor-forge-1.20.1-1.0.0.24.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/z2XEADmE/versions/UPPnQC1K/Data_Anchor-forge-1.20.1-1.0.0.24.jar"
+hash-format = "sha512"
+hash = "cc3fbca7812047ff45508ed875ff437e73c871ceae534234122e31d0052ddef87fb5efa02289e35c8ad31a4e2f31621e51281c5d1be3d923b3aefd9922ddfe17"

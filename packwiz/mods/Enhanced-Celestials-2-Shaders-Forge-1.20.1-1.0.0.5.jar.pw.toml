@@ -1,0 +1,8 @@
+name = "Enhanced-Celestials-2-Shaders-Forge-1.20.1-1.0.0.5.jar"
+filename = "Enhanced-Celestials-2-Shaders-Forge-1.20.1-1.0.0.5.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/6cEnKtmZ/versions/GkmryeEH/Enhanced-Celestials-2-Shaders-Forge-1.20.1-1.0.0.5.jar"
+hash-format = "sha512"
+hash = "4f0b699b0d386e44a20d30941522836f629236eb5eedae7363a43ac82eda81d680a9ea62dae81c57746cfb50c1689360da837854861070e8c65aac8f150d4a7f"

@@ -8,7 +8,7 @@ targetAnimalsPriority = 3
 #Does animal targeting require line of sight
 targetAnimalsVisibilityCheck = false
 #Should zombies attempt to break blocks in their way
-zombiesMineBlocks = true
+zombiesMineBlocks = false
 #Min distance to target entity for mining
 #Range: 0.0 ~ 1.7976931348623157E308
 minDistForMining = 0.2

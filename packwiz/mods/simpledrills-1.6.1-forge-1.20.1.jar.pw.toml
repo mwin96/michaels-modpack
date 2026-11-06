@@ -1,0 +1,8 @@
+name = "simpledrills-1.6.1-forge-1.20.1.jar"
+filename = "simpledrills-1.6.1-forge-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/hcLATe7l/versions/pORjH1YP/simpledrills-1.6.1-forge-1.20.1.jar"
+hash-format = "sha512"
+hash = "cb338ddaefab4064266411016aea27f38026ad9bcbab282cad35099f9b1d4ca79804a13e7d46fea77ce8ac489b66b10665bc3d580764cf6ddf7f19b013d7f677"

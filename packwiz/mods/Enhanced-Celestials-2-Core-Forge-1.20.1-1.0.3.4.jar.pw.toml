@@ -1,0 +1,8 @@
+name = "Enhanced-Celestials-2-Core-Forge-1.20.1-1.0.3.4.jar"
+filename = "Enhanced-Celestials-2-Core-Forge-1.20.1-1.0.3.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ugCWUHV9/versions/bDHlWeLd/Enhanced-Celestials-2-Core-Forge-1.20.1-1.0.3.4.jar"
+hash-format = "sha512"
+hash = "d7f6ad058acbfd68dfa359f361866a77322b7178fc4b8f1f5bae9e96936e48cc380c720d1a08e22ee73773226c9508fa23460a094c88e0c20c59c2a0b70cf4ac"

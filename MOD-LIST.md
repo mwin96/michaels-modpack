@@ -226,3 +226,14 @@ Ender Trigon enhances the first Dragon fight with three heads and new attacks; t
 - Added pinned official Iron Chests and Iron Furnaces with their native tiers.
 - Adjusted the Jesus encounter to six seconds visible/audible followed by sixty seconds quiet.
 - Preserved existing graphics, audio, memory choices, migration markers and the Play launcher.
+
+## Update 1.0.11
+
+- Balanced Copper/Emerald special weapons against the installed Iron/Diamond families while preserving item data, plain swords, armor, paxels and quality handling.
+- Added a weekly blood moon with supported shader/sky integration, interrupted sleeping, native wooden-door pressure and bounded new natural monster admissions on the dedicated server. Zombie wall mining is disabled; torch rules stay unchanged.
+- Added SimpleDrills with bounded mining that retains native tool tiers, protection checks, enchantment drops and durability.
+- Raised the Ender Dragon to1024HP with targeted combat tuning and added an optional240HP portal-room guardian; portal access stays available.
+- Added sparse daylight appearances for the existing Grottoceratops and Subterranodon; spawn conditions and per-species admission caps keep encounters occasional.
+- Kept companion maids, their inventories and models; disabled new wild fairy spawning without deleting existing entities.
+- Limited automatic4–6GB memory/graphics selection to proven fresh installs and retired the old runtime promotion/restart paths. Existing user choices, audio and completed migrations stay intact.
+- Kept Create, IDAS, their content and the existing memory optimizations. No measured FPS or whole-pack memory improvement is claimed; the new event features are expected to add a small amount of memory use.
