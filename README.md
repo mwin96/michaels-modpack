@@ -2,7 +2,7 @@
 
 ![michael's modpack](https://github.com/mwin96/michaels-modpack/releases/download/v1.0.3/michaels_modpack_thumbnail-1.0.3.jpg)
 
-Reach the End and defeat the Ender Dragon. You’ll have to survive everything I’ve added.
+Reach the End and defeat the Ender Dragon.
  
 A tailored collection of mods I like + some surprises. Don't look at the mod list!
 
