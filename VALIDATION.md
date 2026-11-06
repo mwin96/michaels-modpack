@@ -1,11 +1,9 @@
-# Version 1.0.7 validation
+# Version 1.0.8 hotfix validation
 
-Core SHA-256: `4f1fe6dafb4cddb646e0f396110c5340ad3cff1933d93e23415a72869567da81`
+Core SHA-256: `cc98faaf0214f85c5c251c0c7edd63539d1d02f8c7048c3eace180e9da119ebb`
 
-Final native client checks passed with all 116 pinned files verified: local generation of 98 lightweight textures before the initial resource reload, normal reload/rejoin, DH water, menu caption, disabled rapid flashes and acknowledged notice. Native registries contain no Rats or Quark wooden posts and 226,690 block states. Physics and Siren texture paths were checked. Owned test games stopped normally.
+The hotfix disables only Distant Horizons' separate block-cloud pass once. Skybox clouds, Dramatic Skys, ForgeSkyboxes, shaders, distant terrain, beacons and all other settings remain. The same marker covers automatic Prism, the manual updater and fresh installs; a later deliberate cloud choice is preserved.
 
-Actual cached packwiz and manual updater fixtures passed from existing 1.0.5/1.0.6 installations, including custom graphics, shader, controls, GUI and completed memory migration choices. Fresh defaults retain the 1.0.6 settings. All retained publisher pins and environments are unchanged. Quark derivative credits, CC BY-NC-SA 3.0 license and reproducible patch source are included. Restricted texture images are generated locally from installed original mods; none are distributed in this release.
+Independent comparison with published 1.0.7 verified the client changes and exercised the actual release migration class against a copied 1.0.7 config. The server changes only its outgoing optional-mod status metadata for Distant Horizons and ForgeSkyboxes; login/gameplay classes and channel data are unchanged. Actual-class standalone fixtures passed. No new Minecraft gameplay test or measured RAM/FPS claim is made for this bounded hotfix.
 
-The stopped hosted-world archive matched the independently reviewed source exactly. The approved migration maps 1,233 retired post/Rats blocks to documented replacements, preserves the reviewed contents and retained world data, and handles future IDAS templates. Only the inventoried retired Rats entities and their reviewed content are handled by the explicit migration. No private world, account or player files are distributed.
-
-No new measured RAM or FPS saving is claimed for 1.0.7. The earlier 1.0.6 DH/sky memory budget remains an engineering estimate accepted by the user; this is a functional and preservation release review.
+Six real-payload manual updater fixtures from 1.0.5, 1.0.6 and 1.0.7 passed, including repeats, later cloud choices, quoted TOML keys/tables, custom shaders/graphics, completed memory choices, local generated textures and save sentinels. All publisher pins, 1.0.7 content and world files remain unchanged. Only the documented cloud key, UI/source files, server status/source files and update minimum change.

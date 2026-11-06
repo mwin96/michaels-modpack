@@ -16,3 +16,5 @@ enableDistantGeneration = false
 [client.advanced.autoUpdater]
 enableAutoUpdater = false
 enableSilentUpdates = false
+[client.advanced.graphics.genericRendering]
+enableCloudRendering = false

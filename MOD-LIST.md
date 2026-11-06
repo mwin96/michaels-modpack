@@ -193,3 +193,9 @@ Ender Trigon enhances the first Dragon fight with three heads and new attacks; t
 - Backrooms rapid flashes default off and its photosensitivity notice is acknowledged once.
 - Updated the menu goal caption. Existing UI, graphics, controls and memory choices remain.
 - No new measured RAM/FPS saving is claimed.
+
+## Hotfix 1.0.8
+
+- Corrected the false server compatibility X for the two optional client rendering mods.
+- Disabled only the separate DH block-cloud pass once; skybox clouds, shaders and distant terrain remain.
+- Preserved the rest of 1.0.7 and existing settings.

@@ -150,7 +150,7 @@ preserve = true
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "1595abca19f0ab94a348abaa1e3be37b0ef0c1da07a8987ac0b37b7833f14879"
+hash = "c36682c890891d509522174b8b611bf4841dd07ffd9cc027de07e5289b24464f"
 preserve = true
 
 [[files]]
@@ -1020,8 +1020,8 @@ file = "MICHAELS-BELLY-VISUALS-LICENSE.txt"
 hash = "0ab6b1b75d4fb2aa6f67932fc2cc7fa7a6746487c8f94e31585de4b2efff9858"
 
 [[files]]
-file = "michaels-client-fixes-1.0.3-source.zip"
-hash = "729c5c8ca6d8133eb849e3eaf209773d8b390dc7c169448fddf4fd16748dc8c1"
+file = "michaels-client-fixes-1.0.4-source.zip"
+hash = "c58898dae4ed54e484c7516ae81cfd946e692f6bc995f10ff9ce256d2ac3f72e"
 
 [[files]]
 file = "MICHAELS-CLIENT-FIXES-LICENSE.txt"
@@ -1355,8 +1355,8 @@ file = "mods/michaels-belly-visuals-1.0.0.jar"
 hash = "b837f918f6a1669a543ee290e6fdcf4b780bafe9b330b96f3aaf9add6d764f7c"
 
 [[files]]
-file = "mods/michaels-client-fixes-1.0.3.jar"
-hash = "e3055be41dc6255c88b5e0fca25d7245f2ab1e02808597f0bd6d7618f96980c3"
+file = "mods/michaels-client-fixes-1.0.4.jar"
+hash = "b4dff287c607ee537542eaa6cc0c5f6c5cce8a8a8aabca40e41a46827507eccd"
 
 [[files]]
 file = "mods/michaels-content-compat-1.0.0.jar"
