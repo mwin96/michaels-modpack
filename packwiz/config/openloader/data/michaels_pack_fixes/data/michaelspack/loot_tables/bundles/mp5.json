@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{GunId:\"tacz:mp5\",GunFireMode:\"AUTO\"}"
+              "tag": "{GunId:\"tacz:hk_mp5a5\",GunFireMode:\"AUTO\"}"
             }
           ]
         }
@@ -29,7 +29,7 @@
             },
             {
               "function": "minecraft:set_count",
-              "count": 96
+              "count": 48
             }
           ]
         }

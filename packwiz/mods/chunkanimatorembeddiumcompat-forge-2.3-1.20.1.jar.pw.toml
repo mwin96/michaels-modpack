@@ -1,0 +1,8 @@
+name = "chunkanimatorembeddiumcompat-forge-2.3-1.20.1.jar"
+filename = "chunkanimatorembeddiumcompat-forge-2.3-1.20.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/CvJyStW5/versions/d1SXrT9Y/chunkanimatorembeddiumcompat-forge-2.3-1.20.1.jar"
+hash-format = "sha512"
+hash = "b9b54e62d2b5312e9f755dc50c80799ccc94fcb9cbb0c820779df39adac7bd226c00b33ac6f6508a7a0cca34e7a40ffecae7a67c575fb2027ef5b73affe19f95"

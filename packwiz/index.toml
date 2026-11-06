@@ -99,6 +99,11 @@ hash = "ff05ff6bd50062f7f2519f16c50adece732127ccb61a12017b17638a334b5226"
 preserve = true
 
 [[files]]
+file = "config/chunkanimatorembeddiumcompat-client.toml"
+hash = "5cbf88b0750c50c402190934f2a82fff7ae434e8216fafceb70f277ca6aecb46"
+preserve = true
+
+[[files]]
 file = "config/citadel-common.toml"
 hash = "3fcd8013137a86c00953d4be1e56945b84b87594be722bbf3b3be8d752e2577f"
 preserve = true
@@ -235,7 +240,7 @@ preserve = true
 
 [[files]]
 file = "config/inventoryprofilesnext/inventoryprofiles.json"
-hash = "4fe201e5d8f2f758e84edeaf580bfeb2a1465db0256d797b014055d6e92e73e6"
+hash = "99bccd3b95fb985722b0c9c1fa6783ae5a4244f34699a75b8732f8cd08c17541"
 preserve = true
 
 [[files]]
@@ -496,28 +501,23 @@ preserve = true
 
 [[files]]
 file = "config/openloader/data/michaels_pack_fixes/data/michaelspack/loot_tables/bundles/ak47.json"
-hash = "592f10fb313fe39141e3e8f77332b862c6c27071884498776d7a58b380f29cec"
-preserve = true
+hash = "6739e41d12042411d4e416ff2c61115bbecd110bdb3ed03f32d9e29beedc88bf"
 
 [[files]]
 file = "config/openloader/data/michaels_pack_fixes/data/michaelspack/loot_tables/bundles/glock_17.json"
-hash = "f81729c283f5b24f5be545399e12cb151318adc8201e58cbea05c7f4954d6517"
-preserve = true
+hash = "91c0eeb0441ff6cc15d541cc5802d20449bd5adeffeff8ad2dd52e77ae615f04"
 
 [[files]]
 file = "config/openloader/data/michaels_pack_fixes/data/michaelspack/loot_tables/bundles/m1911.json"
-hash = "3cc8391f29c19f9db272a2749561b4f5d0f80ec39e8239da413eb6a52420c887"
-preserve = true
+hash = "48a83c9a30e8aa293cb791f0eef661f6673a2acaf55adf05787644d7eb0b1fa8"
 
 [[files]]
 file = "config/openloader/data/michaels_pack_fixes/data/michaelspack/loot_tables/bundles/m4a1.json"
-hash = "eee395959b79cc422cab197bcfe9b72301b0b85b5bc8ecb3e9f15f1aa4578dd9"
-preserve = true
+hash = "c10ae198836ecde938d5da0764033d7f86036434eac403a89447cb20880c0c6d"
 
 [[files]]
 file = "config/openloader/data/michaels_pack_fixes/data/michaelspack/loot_tables/bundles/mp5.json"
-hash = "bcd85c4810ff320ec6d11835266f25a9a5c1757b3bfe8137ca7e8a1c033234cf"
-preserve = true
+hash = "034ef207d57c5a0f9ee1aa6c098c4a66f57a44d61716bff3c91bc65014add4a3"
 
 [[files]]
 file = "config/openloader/data/michaels_pack_fixes/data/minecraft/tags/items/enchantable/durability.json"
@@ -568,28 +568,23 @@ hash = "141ce2c645d5cce0bdf37f81c021164b40962aebd122d7a59b1fc53ee0b58b62"
 
 [[files]]
 file = "config/openloader/resources/michaels_pack_fixes/assets/michaelspack/custom/michaels_loot/data/michaelspack/tacz_loot_injectors/ak47.json"
-hash = "e3c8271a9167fecf07a6a1e049ff043e350f627ad772d192dc251c1170551914"
-preserve = true
+hash = "d1c8a4b3667e6f023e47fe64963bde9965b8b27d15b67e87104f4600084d698c"
 
 [[files]]
 file = "config/openloader/resources/michaels_pack_fixes/assets/michaelspack/custom/michaels_loot/data/michaelspack/tacz_loot_injectors/glock_17.json"
-hash = "c8c51c482db656a6078a2c686b0b4ff04bf2cbffed0f78c2497ee0db4874673b"
-preserve = true
+hash = "cbdfb9b79dafa9d103d8fd23db43621506e9a23215cd54181a0612868a733693"
 
 [[files]]
 file = "config/openloader/resources/michaels_pack_fixes/assets/michaelspack/custom/michaels_loot/data/michaelspack/tacz_loot_injectors/m1911.json"
-hash = "0cb797c0dbfbfda83a3496595706da3d41609336579ad59ab2533e9175234c26"
-preserve = true
+hash = "6d5df5962b3e84af4efd0d59390bae7275e8b5484230e53a00003bc4ad3ddf71"
 
 [[files]]
 file = "config/openloader/resources/michaels_pack_fixes/assets/michaelspack/custom/michaels_loot/data/michaelspack/tacz_loot_injectors/m4a1.json"
-hash = "58ce41f3edc18a1153f0a15451980edc48207cbe59b883f3c01acb23dfebd177"
-preserve = true
+hash = "909967898110d442c2bf2366cf2465db539696e2c62959a60fc384b295feb11c"
 
 [[files]]
 file = "config/openloader/resources/michaels_pack_fixes/assets/michaelspack/custom/michaels_loot/data/michaelspack/tacz_loot_injectors/mp5.json"
-hash = "471419e18bf91282fb422316fecdb0c215a05c8c008c275ec8a4716bad2d33a3"
-preserve = true
+hash = "6bfcde9c744481dc0d9c0783e679b8abf82904ed75ed5ebded3549a1bb7fba17"
 
 [[files]]
 file = "config/openloader/resources/michaels_pack_fixes/assets/michaelspack/custom/michaels_loot/data/michaelspack/tacz_loot_injectors/utility_artifacts.json"
@@ -1012,16 +1007,16 @@ hash = "57f35da9a2854ee2e906d1f3b5aa4139a549e1563ee0cae9e99efd83b8c7475f"
 preserve = true
 
 [[files]]
-file = "michaels-belly-visuals-1.0.0-source.zip"
-hash = "5854bb422a4d18eb77a2889247b7b1e7d9932cf9916146f6a08d8520f2cb6f9b"
+file = "michaels-belly-visuals-1.0.0-109-source.zip"
+hash = "60c86092a7bf80c0876f5f6878e4f30a6d0f0a72621e9054275a16a8921e16d7"
 
 [[files]]
 file = "MICHAELS-BELLY-VISUALS-LICENSE.txt"
 hash = "0ab6b1b75d4fb2aa6f67932fc2cc7fa7a6746487c8f94e31585de4b2efff9858"
 
 [[files]]
-file = "michaels-client-fixes-1.0.4-source.zip"
-hash = "c58898dae4ed54e484c7516ae81cfd946e692f6bc995f10ff9ce256d2ac3f72e"
+file = "michaels-client-fixes-1.0.5-source.zip"
+hash = "3e6331499c752a775f4f2bbe674c18dbd961277f08318f43f27f8b27580d6bec"
 
 [[files]]
 file = "MICHAELS-CLIENT-FIXES-LICENSE.txt"
@@ -1138,6 +1133,16 @@ metafile = true
 [[files]]
 file = "mods/chat_heads-0.15.7-forge-1.20.jar.pw.toml"
 hash = "c8b5f66087a2a996b4a6a6bdad367e390bb9f5970c1828d2b8bde9f8ec951da7"
+metafile = true
+
+[[files]]
+file = "mods/ChunkAnimator-1.20.1-1.3.7.jar.pw.toml"
+hash = "b4902f57038707fa59971d745e75e87e6588c0c4f3e2d17070c00a8727a804fc"
+metafile = true
+
+[[files]]
+file = "mods/chunkanimatorembeddiumcompat-forge-2.3-1.20.1.jar.pw.toml"
+hash = "05fc97d85c0cc1020cf60c6100fab3b6808c8fe92ce5d7d0afa157cd3e2aaea5"
 metafile = true
 
 [[files]]
@@ -1352,11 +1357,11 @@ metafile = true
 
 [[files]]
 file = "mods/michaels-belly-visuals-1.0.0.jar"
-hash = "b837f918f6a1669a543ee290e6fdcf4b780bafe9b330b96f3aaf9add6d764f7c"
+hash = "a5d859b5732b6acd61f49ab6ac16cce71f76203d3372cec4a32565b26a3a9aad"
 
 [[files]]
-file = "mods/michaels-client-fixes-1.0.4.jar"
-hash = "b4dff287c607ee537542eaa6cc0c5f6c5cce8a8a8aabca40e41a46827507eccd"
+file = "mods/michaels-client-fixes-1.0.5.jar"
+hash = "1ba980b8a476b62d5c9e6f1f062704a269c86f861a1dda5a25467127858354af"
 
 [[files]]
 file = "mods/michaels-content-compat-1.0.0.jar"
@@ -1501,6 +1506,16 @@ metafile = true
 [[files]]
 file = "mods/sons_of_sins-2.2.1-forge-1.20.1.jar.pw.toml"
 hash = "59bff7f9de68a55d301e6aab186b050b9eb9733822eed676aeb0cda31876869f"
+metafile = true
+
+[[files]]
+file = "mods/sophisticatedbackpacks-1.20.1-3.26.19.2239.jar.pw.toml"
+hash = "f7bcc3ed52bf8b36ffd2a53bd470642e0d6b2b7cb59d490fbe9a8de6879d2912"
+metafile = true
+
+[[files]]
+file = "mods/sophisticatedcore-1.20.1-1.5.26.2457.jar.pw.toml"
+hash = "20ce5c8bb67e93e5d6c1d065316d1d42ac91d9affb51a26a5d56555b6aa23ef4"
 metafile = true
 
 [[files]]
@@ -1669,23 +1684,23 @@ preserve = true
 
 [[files]]
 file = "tacz/michaels_loot/data/michaelspack/tacz_loot_injectors/ak47.json"
-hash = "e3c8271a9167fecf07a6a1e049ff043e350f627ad772d192dc251c1170551914"
+hash = "d1c8a4b3667e6f023e47fe64963bde9965b8b27d15b67e87104f4600084d698c"
 
 [[files]]
 file = "tacz/michaels_loot/data/michaelspack/tacz_loot_injectors/glock_17.json"
-hash = "c8c51c482db656a6078a2c686b0b4ff04bf2cbffed0f78c2497ee0db4874673b"
+hash = "cbdfb9b79dafa9d103d8fd23db43621506e9a23215cd54181a0612868a733693"
 
 [[files]]
 file = "tacz/michaels_loot/data/michaelspack/tacz_loot_injectors/m1911.json"
-hash = "0cb797c0dbfbfda83a3496595706da3d41609336579ad59ab2533e9175234c26"
+hash = "6d5df5962b3e84af4efd0d59390bae7275e8b5484230e53a00003bc4ad3ddf71"
 
 [[files]]
 file = "tacz/michaels_loot/data/michaelspack/tacz_loot_injectors/m4a1.json"
-hash = "58ce41f3edc18a1153f0a15451980edc48207cbe59b883f3c01acb23dfebd177"
+hash = "909967898110d442c2bf2366cf2465db539696e2c62959a60fc384b295feb11c"
 
 [[files]]
 file = "tacz/michaels_loot/data/michaelspack/tacz_loot_injectors/mp5.json"
-hash = "471419e18bf91282fb422316fecdb0c215a05c8c008c275ec8a4716bad2d33a3"
+hash = "6bfcde9c744481dc0d9c0783e679b8abf82904ed75ed5ebded3549a1bb7fba17"
 
 [[files]]
 file = "tacz/michaels_loot/data/michaelspack/tacz_loot_injectors/utility_artifacts.json"

@@ -29,7 +29,7 @@
             },
             {
               "function": "minecraft:set_count",
-              "count": 64
+              "count": 32
             }
           ]
         }

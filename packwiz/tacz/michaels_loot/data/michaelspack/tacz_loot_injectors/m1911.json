@@ -422,7 +422,7 @@
       "conditions": [
         {
           "condition": "minecraft:random_chance",
-          "chance": 0.055
+          "chance": 0.0275
         }
       ],
       "entries": [

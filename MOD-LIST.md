@@ -199,3 +199,22 @@ Ender Trigon enhances the first Dragon fight with three heads and new attacks; t
 - Corrected the false server compatibility X for the two optional client rendering mods.
 - Disabled only the separate DH block-cloud pass once; skybox clouds, shaders and distant terrain remain.
 - Preserved the rest of 1.0.7 and existing settings.
+
+## Update 1.0.9
+
+- Added Sophisticated Backpacks and its required core.
+- Added server Distant Horizons support for existing terrain only; the client connection override stays session-only.
+- Applied hardware defaults only where eligible, preserving custom distance, shaders and memory choices.
+- Reduced three audio categories and eleven bird-region levels once; other audio settings remain.
+- Hid continuous crafting and near-broken tool replacement/warnings while keeping sorting and custom bindings.
+- Reduced volcanic-plume visual smoke requests by 75%; ordinary smoke and particle lifetime remain unchanged.
+- Limited the Jesus bell to a 10-second audible window followed by 60 seconds of quiet.
+- Initialized depth/stencil early for the gun-table rendering compatibility fix.
+- Reduced new wraith spawns while retaining their AI; experience drops on death while carried items and armor stay.
+- Disabled the SCP1879 knocking merchant while retaining the rest of the SCP mod.
+- Made the fairy passive while retaining its flight and idle behavior.
+- Restored normal spiders, kept the server visible in Multiplayer, and added desktop Play for recognized portable installs.
+- Made the cosmetic belly twice as noticeable and added the approved 500ms chunk animation.
+- Corrected the MP5 loot definition and preserved its existing rarity, ammo and custom data. Lootr quality odds are the same for both players.
+- Halved all five gun drop chances and the ammo in newly generated bundles; existing items and cached Lootr contents remain.
+- Preserved the Play launcher, desktop shortcut and updater Play button. No new measured RAM/FPS improvement is claimed.

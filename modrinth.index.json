@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
   "game": "minecraft",
-  "versionId": "1.0.8",
+  "versionId": "1.0.9",
   "name": "michael's modpack",
   "summary": "Vanilla progression interrupted by horror, meme mobs, giants and disasters; guns, swords and artifacts to fight back.",
   "dependencies": {
@@ -1776,7 +1776,7 @@
       "fileSize": 25362721,
       "env": {
         "client": "required",
-        "server": "unsupported"
+        "server": "required"
       }
     },
     {
@@ -1823,6 +1823,66 @@
         "https://mediafilez.forgecdn.net/files/9188/826/alltheleaks-1.1.4%2B1.20.1-forge.jar"
       ],
       "fileSize": 1274164
+    },
+    {
+      "path": "mods/sophisticatedbackpacks-1.20.1-3.26.19.2239.jar",
+      "hashes": {
+        "sha512": "8b0358c07960353c697b0fbcf3f59958e63826bb980d621dcaaf92c889d339e4fab24f1b9890209a086290d60bf21d460a4194254dc13f64d50b21cfe4a7aec4",
+        "sha1": "cc7168866b086ccdec5fe77ad7a9a0a6d02b798e"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/TyCTlI4b/versions/VjliRs3R/sophisticatedbackpacks-1.20.1-3.26.19.2239.jar"
+      ],
+      "fileSize": 1232150,
+      "env": {
+        "client": "required",
+        "server": "required"
+      }
+    },
+    {
+      "path": "mods/sophisticatedcore-1.20.1-1.5.26.2457.jar",
+      "hashes": {
+        "sha1": "ee860f2b4696257bfbc7ed4653950c76dc61a9e8",
+        "sha512": "d55bf377c04a0ff04f4ab4b5cb96222ee8e0076bbfd60cbe6f9a3838c8e72ec5c87acad17ab2d769d5dfc413cc3e8df7df68000f5c3bedb1fcb37c2468196924"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/nmoqTijg/versions/c90my5iF/sophisticatedcore-1.20.1-1.5.26.2457.jar"
+      ],
+      "fileSize": 1774552,
+      "env": {
+        "client": "required",
+        "server": "required"
+      }
+    },
+    {
+      "path": "mods/ChunkAnimator-1.20.1-1.3.7.jar",
+      "hashes": {
+        "sha512": "984d87f0978824e96e7a0914d4fa092a7b5286f93133e83e6fb8472e14969601f4e3b478116119f2ae12ec0c0f84997539cd5242d67680acffb94f52acf57b62",
+        "sha1": "f9244a5a0fd7096c5e91ed2fc7c990f61a0c1edd"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/kPptWJz4/versions/oTJYxwl0/ChunkAnimator-1.20.1-1.3.7.jar"
+      ],
+      "fileSize": 35464,
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      }
+    },
+    {
+      "path": "mods/chunkanimatorembeddiumcompat-forge-2.3-1.20.1.jar",
+      "hashes": {
+        "sha1": "43b3f4c3c607a6a664c0b59ae5c019483344ed42",
+        "sha512": "b9b54e62d2b5312e9f755dc50c80799ccc94fcb9cbb0c820779df39adac7bd226c00b33ac6f6508a7a0cca34e7a40ffecae7a67c575fb2027ef5b73affe19f95"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/CvJyStW5/versions/d1SXrT9Y/chunkanimatorembeddiumcompat-forge-2.3-1.20.1.jar"
+      ],
+      "fileSize": 54043,
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      }
     }
   ]
 }

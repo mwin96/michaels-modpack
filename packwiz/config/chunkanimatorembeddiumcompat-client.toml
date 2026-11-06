@@ -1,0 +1,10 @@
+# Client-only rising vanilla chunk sections. No world curvature or LOD modifications.
+[animation]
+enabled = true
+animationDurationMs = 500
+startOffsetX = 0.0
+startOffsetY = -16.0
+startOffsetZ = 0.0
+easing = "CUBIC_OUT"
+disableAroundPlayer = true
+playerRadius = 32
