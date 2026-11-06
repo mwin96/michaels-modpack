@@ -6,8 +6,6 @@ Reach the End and defeat the Ender Dragon. You’ll have to survive everything I
  
 A tailored collection of mods I like + some surprises. Don't look at the mod list!
 
-**Older install or Minecraft Launcher?** [Download the update](https://github.com/mwin96/michaels-modpack/releases/download/v1.0.7/michaels-modpack-client-update-1.0.7.zip), extract it, and open **UPDATE MICHAELS MODPACK.cmd**.
-
-**New player?** [Download the Windows starter](https://github.com/mwin96/michaels-modpack/releases/download/v1.0.7/michaels-modpack-1.0.7-windows-easy.zip), extract it, and open **CLICK HERE TO INSTALL AND PLAY.cmd**. Sign in once.
+[Download the Windows starter](https://github.com/mwin96/michaels-modpack/releases/download/v1.0.7/michaels-modpack-1.0.7-windows-easy.zip), extract it, and open **CLICK HERE TO INSTALL AND PLAY.cmd**. Sign in once.
 
 Multiplayer server IP: 51.81.148.186:25590
