@@ -1,12 +1,12 @@
 name = "michael's modpack"
 author = "michael"
-version = "1.0.12.2"
+version = "1.0.12.3"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "01c269998da522a0fb6d4462d136decd7171c133b996586817f36c02f1bcd1a3"
+hash = "f61c71039470a17be2dda167306155ad8b2d39331cb6534bfe8c9511de3470e9"
 
 [versions]
 minecraft = "1.20.1"
