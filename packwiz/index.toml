@@ -596,23 +596,23 @@ preserve = true
 
 [[files]]
 file = "config/openloader/data/michaels_pack_fixes/data/michaelspack/loot_tables/bundles/ak47.json"
-hash = "6739e41d12042411d4e416ff2c61115bbecd110bdb3ed03f32d9e29beedc88bf"
+hash = "911b282e8a8ca807dabca0f9a35d59658ca9c225f419e93ad5917a5f249ae7d9"
 
 [[files]]
 file = "config/openloader/data/michaels_pack_fixes/data/michaelspack/loot_tables/bundles/glock_17.json"
-hash = "91c0eeb0441ff6cc15d541cc5802d20449bd5adeffeff8ad2dd52e77ae615f04"
+hash = "9f11bc77f822a28716c6e2cec572ef9fc0bb88f56bfbe40dd46d7eafc45f2c2a"
 
 [[files]]
 file = "config/openloader/data/michaels_pack_fixes/data/michaelspack/loot_tables/bundles/m1911.json"
-hash = "48a83c9a30e8aa293cb791f0eef661f6673a2acaf55adf05787644d7eb0b1fa8"
+hash = "121f024fab9028a14cc155e4397665b5d9437195d67045376e0ce89fb5d3fe51"
 
 [[files]]
 file = "config/openloader/data/michaels_pack_fixes/data/michaelspack/loot_tables/bundles/m4a1.json"
-hash = "c10ae198836ecde938d5da0764033d7f86036434eac403a89447cb20880c0c6d"
+hash = "a075c5af4782b1df478dba135be9ae26cf240f135c87daa3eb41250ee4e507bc"
 
 [[files]]
 file = "config/openloader/data/michaels_pack_fixes/data/michaelspack/loot_tables/bundles/mp5.json"
-hash = "034ef207d57c5a0f9ee1aa6c098c4a66f57a44d61716bff3c91bc65014add4a3"
+hash = "d61015f14b90215d38883f8ef0aed66d25901196594c0de2ab006cd61a997519"
 
 [[files]]
 file = "config/openloader/data/michaels_pack_fixes/data/minecraft/tags/items/enchantable/durability.json"
@@ -1113,7 +1113,7 @@ hash = "2481f4c21c7c28d03068367b56abbad62f1c5fb28526258821ac6228da7cafc9"
 
 [[files]]
 file = "michaels-client-fixes-1.0.6-source.zip"
-hash = "3b665131c41eaea2151f85b875cb9c3f3b468ce72414922a2f09cd2b2ac03fd9"
+hash = "35203c0d80cb154e5feae1de5651ae3a38128ff79fe1dd5cd6387863d87311d9"
 
 [[files]]
 file = "michaels-content-compat-1.0.0-source.zip"
@@ -1124,12 +1124,12 @@ file = "michaels-copper-equipment-1.0.4-source.zip"
 hash = "9d811c6f1618c6bbe480bab09b3b76c5e23059845782a699846f8fd55ce58061"
 
 [[files]]
-file = "michaels-makeup-smooth-grass-112-source.zip"
-hash = "67cf0ad6a3f3b4e2f44d58c79e0b65107217f4a65b0158a49d83df013192f7bc"
+file = "michaels-makeup-clean-terrain-1121-source.zip"
+hash = "0675c014b2f10c6363d8551ba6ee741999fd72188d972a7d217fe320956f3369"
 
 [[files]]
-file = "michaels-menu-1.0.0-107-source.zip"
-hash = "c7d681349ad9998329dffa421fb6ce9f249db232b46bdeaaccbd1f7ef65b7608"
+file = "michaels-menu-1.0.0-1121-source.zip"
+hash = "dfa72429bddd4f5c38dff6cb282705dc18aac05aef6d86aa8040a0589d13bab4"
 
 [[files]]
 file = "michaels-modernfix-5.27.91-source.zip"
@@ -1570,7 +1570,7 @@ hash = "4403e11bac95de71001faed32f2a73fec6cebd224728e1181db6a92c60ddd735"
 
 [[files]]
 file = "mods/michaels-client-fixes-1.0.6.jar"
-hash = "7c2f2e8a1a2347dd02d25ae2d67f2b49d1535a621c41e7de676a885f96e09428"
+hash = "7b8a660c3db08ce87d3c0cca18f7cdaf787601913b7f749d881483de8c73938f"
 
 [[files]]
 file = "mods/michaels-content-compat-1.0.0.jar"
@@ -1582,7 +1582,7 @@ hash = "6b16425d0f9603644b9722fc7d0be11ed3cef023672bf35cf2922e8a85a9a62a"
 
 [[files]]
 file = "mods/michaels-menu-1.0.0.jar"
-hash = "7b3e8a5fb089ea43463781a50e6b365322f63641035656ac50364283766341d4"
+hash = "18812fbd53d11ec35f80c97a3ed0cdea9feced04f0ea28b710f950e5619d3d83"
 
 [[files]]
 file = "mods/michaels-modernfix-forge-5.27.91+mc1.20.1.jar.pw.toml"
@@ -1803,7 +1803,7 @@ hash = "baf8a2dbaf0600cadc87f9183b641ee056582c6c60ab822ecc3bced2321560b6"
 
 [[files]]
 file = "shaderpacks/MakeUp-UltraFast-9.6-Enhanced.zip.pw.toml"
-hash = "6c695486b85fb1d7f5104a7e556dbc0ba7a6e4855f2c77ab93f462a356457dc2"
+hash = "51a85761a0308d41fea1b70967c90f404f44aecc54a5d81c477c69d58dc5af9e"
 metafile = true
 
 [[files]]
@@ -1813,7 +1813,7 @@ preserve = true
 
 [[files]]
 file = "shaderpacks/MakeUp-UltraFast-9.6.zip.pw.toml"
-hash = "bebd59c2e762624469bae8c82e9995d9007f02c5b9ad2b4e2fff6730d8ebf9df"
+hash = "f13dded104d625f7f19a83df937d5fe64839c359b8491551475988f0f01c929c"
 metafile = true
 
 [[files]]
