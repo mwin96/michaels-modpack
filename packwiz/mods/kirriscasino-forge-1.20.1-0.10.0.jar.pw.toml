@@ -1,0 +1,8 @@
+name = "Kirris Casino"
+filename = "kirriscasino-forge-1.20.1-0.10.0.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/9435/630/kirriscasino-forge-1.20.1-0.10.0.jar"
+hash-format = "sha512"
+hash = "ba1748983b4f936e3e4bd3cd358383616608e85bb30e4646c0496057752518da6650936f43e1bbb09a5ef6d9f32a7910f3edcdc651b71001713b80a6a5c09096"

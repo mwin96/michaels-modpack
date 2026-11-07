@@ -13,6 +13,113 @@ file = "CMMRP-NormalAnimals-GPL-source.zip"
 hash = "81750e664c6b263f4cccb2a4afe29e87280cc3180e7ce1ec4ad18334d8fba230"
 
 [[files]]
+file = "MICHAELS-BELLY-VISUALS-LICENSE.txt"
+hash = "0ab6b1b75d4fb2aa6f67932fc2cc7fa7a6746487c8f94e31585de4b2efff9858"
+
+[[files]]
+file = "MICHAELS-CLIENT-FIXES-LICENSE.txt"
+hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+
+[[files]]
+file = "MICHAELS-EQUIPMENT-LICENSE.txt"
+hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+
+[[files]]
+file = "MICHAELS-MENU-LICENSE.txt"
+hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+
+[[files]]
+file = "MICHAELS-MODERNFIX-LICENSE.txt"
+hash = "9494320d3a22caf27a3739e959eca6d779160f209708bacde04185669b0eeed2"
+
+[[files]]
+file = "MICHAELS-PACK-TWEAKS-LICENSE.txt"
+hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+
+[[files]]
+file = "MICHAELS-QUARK-NO-POSTS-LICENSE.txt"
+hash = "73d18a4c6b2aebfc88288975b532a23a1f1a5504f9d1de0a19b4d8e8d45a1dfb"
+
+[[files]]
+file = "MICHAELS-SKY-DH-NOTICES.txt"
+hash = "4be7abdf78939654536fbb3ac0e8558ec1b9c92ce461751ebd16f8b3d86c6ebb"
+
+[[files]]
+file = "config/ArPhEx Configurations.toml"
+hash = "0a0e05750a3537f2738ad8dc1b5e8fc701a74655232eaa9976016f66609875f1"
+preserve = true
+
+[[files]]
+file = "config/CoroUtil/General.toml"
+hash = "d86beab1176c367beeed3b8fb8a2a8dfbd8a1db7293f067c01bc38c73020e398"
+preserve = true
+
+[[files]]
+file = "config/CrimsonSteveMutantMobsConfig.toml"
+hash = "507d7fde964c6db9d8f7fd0074383987f543cbec5ed4ba48667e7c1507d34695"
+preserve = true
+
+[[files]]
+file = "config/DistantHorizons.toml"
+hash = "c36682c890891d509522174b8b611bf4841dd07ffd9cc027de07e5289b24464f"
+preserve = true
+
+[[files]]
+file = "config/MouseTweaks.cfg"
+hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
+preserve = true
+
+[[files]]
+file = "config/SirenHead.toml"
+hash = "e093f7e9240f8c44d6978c44ae30eb2b3eadee8224b2de3c517957bbf9e1eb8f"
+preserve = true
+
+[[files]]
+file = "config/Weather2/Debug.toml"
+hash = "0c456214161e2f212f3363fa35b04734a96c2e916e519b0b3720ab7c4d4c8f4f"
+preserve = true
+
+[[files]]
+file = "config/Weather2/Misc.toml"
+hash = "1aa0491d199ce1ed1c9f8e4b887a73e5ceb949a5a846777638841e8d510ee99c"
+preserve = true
+
+[[files]]
+file = "config/Weather2/Particle.toml"
+hash = "9ca0609a55e25e119a825890d4718d0fa464da28484b377e067d6c0c199b16a1"
+preserve = true
+
+[[files]]
+file = "config/Weather2/Sand.toml"
+hash = "0e2647731c2b961e23aa0431026b8bf854a6e245f7802b4e7638f1f748c0ad35"
+preserve = true
+
+[[files]]
+file = "config/Weather2/Snow.toml"
+hash = "8e8b8134b6e946c6ae726f5d3af7e8aeb1d2cfa946dba5b3f00fb7248d2651df"
+preserve = true
+
+[[files]]
+file = "config/Weather2/Sound.toml"
+hash = "554523c76b63c6535a5f9ff7da71def6d35ad6b0f430a1d11c20e4ee8d940fce"
+preserve = true
+
+[[files]]
+file = "config/Weather2/Storm.toml"
+hash = "c756e8c13e16d8e162dab46091b437dfad0d41d3f648dfa293a9fd8ea8e5e419"
+preserve = true
+
+[[files]]
+file = "config/Weather2/Tornado.toml"
+hash = "41ff45aaac7bbb7727194532fda8913b7344a690a2b783d132d7d067f9c0d409"
+preserve = true
+
+[[files]]
+file = "config/Weather2/Wind.toml"
+hash = "fcf642ba7de5937fc4583d99f51f99d11b9577c237e4bccbccf7f945b3365353"
+preserve = true
+
+[[files]]
 file = "config/aaa_particles-client.toml"
 hash = "f2170f5fc846826cce7f4e408bd031ec803ba199e0ebc3fd7e8c36452da57f9f"
 preserve = true
@@ -73,11 +180,6 @@ hash = "e6609ffbea927ee6390b1317bb6f3abb3f31ee591ca5c1d5e748f5e625fefea1"
 preserve = true
 
 [[files]]
-file = "config/ArPhEx Configurations.toml"
-hash = "0a0e05750a3537f2738ad8dc1b5e8fc701a74655232eaa9976016f66609875f1"
-preserve = true
-
-[[files]]
 file = "config/artifacts/client.json5"
 hash = "dfae4a12bf924a5e12380032ff257ec535c6b003fef539a3893adb05c0a69c56"
 preserve = true
@@ -108,11 +210,6 @@ hash = "3fcd8013137a86c00953d4be1e56945b84b87594be722bbf3b3be8d752e2577f"
 preserve = true
 
 [[files]]
-file = "config/CoroUtil/General.toml"
-hash = "d86beab1176c367beeed3b8fb8a2a8dfbd8a1db7293f067c01bc38c73020e398"
-preserve = true
-
-[[files]]
 file = "config/crackerslib-client.toml"
 hash = "58836a63ee557974d5cde292d06830ecf5a39f01c02dd97b55d05a53211cb415"
 preserve = true
@@ -125,11 +222,6 @@ preserve = true
 [[files]]
 file = "config/create-common.toml"
 hash = "36a4d9f5da68f6801b83ce0c4a1a8805fbeffb0dd997f2d405465d7774522296"
-preserve = true
-
-[[files]]
-file = "config/CrimsonSteveMutantMobsConfig.toml"
-hash = "507d7fde964c6db9d8f7fd0074383987f543cbec5ed4ba48667e7c1507d34695"
 preserve = true
 
 [[files]]
@@ -150,11 +242,6 @@ preserve = true
 [[files]]
 file = "config/distantfriends-common.toml"
 hash = "556eb7b8706d92662bababd89e7ade09b19625efe6e3ea25900084aee83195c8"
-preserve = true
-
-[[files]]
-file = "config/DistantHorizons.toml"
-hash = "c36682c890891d509522174b8b611bf4841dd07ffd9cc027de07e5289b24464f"
 preserve = true
 
 [[files]]
@@ -185,6 +272,11 @@ preserve = true
 [[files]]
 file = "config/entityculling.json"
 hash = "4a6d510b7e0157027b1cf2022184567fd5387aa09d08db108cb0369ba371ddbe"
+preserve = true
+
+[[files]]
+file = "config/fallingtree.json"
+hash = "c3a4c2b6dcb336dbf1e7f94a78f50c84f33a07a01a87071136ba5ca2054fbac9"
 preserve = true
 
 [[files]]
@@ -250,6 +342,11 @@ preserve = true
 [[files]]
 file = "config/jade/plugins.json"
 hash = "d34087df8f77145cbdd9c6da85310d1b95c3a5d23513466b3648da2d212c1848"
+preserve = true
+
+[[files]]
+file = "config/kirriscasino.json"
+hash = "f489192b93273b8cd9fceae79ed10a15e6b14b948b9fdfe9b3f3ea630a46d475"
 preserve = true
 
 [[files]]
@@ -353,11 +450,6 @@ hash = "02cd35fbcc371cf63303ae1264ad9f4613b3f73ace93417af825baf7d3ac7baf"
 preserve = true
 
 [[files]]
-file = "config/MouseTweaks.cfg"
-hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
-preserve = true
-
-[[files]]
 file = "config/nyfsspiders.toml"
 hash = "1988b86b1249cd3e48054df8c94f0225022dbc17689cc0fec2f0e0bde40709c8"
 preserve = true
@@ -374,7 +466,7 @@ preserve = true
 
 [[files]]
 file = "config/openloader/data/michaels-weekly-bloodmoon-1.0.0.zip"
-hash = "ffd56bbb82a86900bbd9eb6e7655e2da81a91be433a0afa939eb2b011ca2773c"
+hash = "98f96588cbcb27c9150e1dbbb52df85d2c9c8fb66a30abbcb0863f0cc1b2e2ca"
 
 [[files]]
 file = "config/openloader/data/michaels_equipment_quality/data/forge/loot_modifiers/global_loot_modifiers.json"
@@ -383,6 +475,10 @@ hash = "69ea2802bc54f86e273d969129eede7497c1721c774195ff3a359d6fbeed92ff"
 [[files]]
 file = "config/openloader/data/michaels_equipment_quality/pack.mcmeta"
 hash = "1b64e50a98fe67f3b0a9dd6d86b81a1407fecfee23c011b820f212822ed4e820"
+
+[[files]]
+file = "config/openloader/data/michaels_natural_backrooms/LICENSE.txt"
+hash = "9168fa360595a849565fdaa16dbb6ac84d2f443e4a234bee5df6326344338ded"
 
 [[files]]
 file = "config/openloader/data/michaels_natural_backrooms/data/michaelspack/structures/natural_backrooms_entrance.nbt"
@@ -403,10 +499,6 @@ hash = "aa3fa8cabb67892e2dd3da0d25d90449b502388a539a1d9cbcb0707dc2b6122d"
 [[files]]
 file = "config/openloader/data/michaels_natural_backrooms/data/michaelspack/worldgen/template_pool/natural_backrooms_entrance.json"
 hash = "36fa60cab0a52f8301f7b94d74a42321337b0fbc8b125b58d2e8697e5e5b44df"
-
-[[files]]
-file = "config/openloader/data/michaels_natural_backrooms/LICENSE.txt"
-hash = "9168fa360595a849565fdaa16dbb6ac84d2f443e4a234bee5df6326344338ded"
 
 [[files]]
 file = "config/openloader/data/michaels_natural_backrooms/pack.mcmeta"
@@ -605,6 +697,54 @@ hash = "4248f9df3bde4a096e1b91a65b780e92bcdd79d56c8880ce3d319fd7b6fbf616"
 preserve = true
 
 [[files]]
+file = "config/openloader/resources/michaels_paxel_art/ATTRIBUTION.txt"
+hash = "bdeb2166016d8802d3c2ad5d6b57824063a9d902986edc1489572232a913e058"
+
+[[files]]
+file = "config/openloader/resources/michaels_paxel_art/MEKANISM-MIT-LICENSE.txt"
+hash = "f4015c13814809dd7ee60cb954d52ec6f5d9a482dab65d4728218143e9cd90d7"
+
+[[files]]
+file = "config/openloader/resources/michaels_paxel_art/assets/michaels_equipment/models/item/copper_paxel.json"
+hash = "07dd7074ab61cca43591f31ea96fb75cf7819f2faa4752fcd67c3077907f51ac"
+
+[[files]]
+file = "config/openloader/resources/michaels_paxel_art/assets/michaels_equipment/models/item/diamond_paxel.json"
+hash = "e06803983fab563461bb347659159c34bef93754958d0d8ae8ed2dee182f2a8f"
+
+[[files]]
+file = "config/openloader/resources/michaels_paxel_art/assets/michaels_equipment/models/item/emerald_paxel.json"
+hash = "0f4ff591f114eb593d53e7eeb591c7516478b63c584150e872c90aa6db2c2f27"
+
+[[files]]
+file = "config/openloader/resources/michaels_paxel_art/assets/michaels_equipment/models/item/iron_paxel.json"
+hash = "fafa8fba9b24b4d0520a94a7dcc4e379122b7a080132efb51533fe1bd8c4d134"
+
+[[files]]
+file = "config/openloader/resources/michaels_paxel_art/assets/michaels_equipment/models/item/netherite_paxel.json"
+hash = "19ee535afe0aa7cc9c33b085178ef197e3d5051811814fa7cf9fa519506f797d"
+
+[[files]]
+file = "config/openloader/resources/michaels_paxel_art/assets/michaels_paxel_art/textures/item/copper_paxel.png"
+hash = "54c1c7208c2da2c7beb417f5c50a476a1a228725c50498cd58c1dad9a61fbb19"
+
+[[files]]
+file = "config/openloader/resources/michaels_paxel_art/assets/michaels_paxel_art/textures/item/diamond_paxel.png"
+hash = "098b540abb9ed3fdc4431ce9eccb2f058dde0fbe6c6ca2ed68dfbbec71d7fa92"
+
+[[files]]
+file = "config/openloader/resources/michaels_paxel_art/assets/michaels_paxel_art/textures/item/iron_paxel.png"
+hash = "0c297df2c63b0dba8260e2bfc93f55b3c6d82fd503fd266ff743bc1337f6e7fb"
+
+[[files]]
+file = "config/openloader/resources/michaels_paxel_art/assets/michaels_paxel_art/textures/item/netherite_paxel.png"
+hash = "a44200c13682cce3adc7a437df4f8d6e44c49352ea6ac8dd1f9d8e408a900c0a"
+
+[[files]]
+file = "config/openloader/resources/michaels_paxel_art/pack.mcmeta"
+hash = "70ab96c85cc33485883a04ad1e5e7dd6c52bdc6de7eea4d50b175c9f825ae49b"
+
+[[files]]
 file = "config/patchouli-client.toml"
 hash = "d289f4c7540e3e24bcf6bbf3f5a2aaaf87ccf58027d2213e40497fc627422068"
 preserve = true
@@ -760,11 +900,6 @@ hash = "3e5b250f6fa5e4ffb246fd04e6dcffde1cbf4da77d424e9d88e115444427cb09"
 preserve = true
 
 [[files]]
-file = "config/SirenHead.toml"
-hash = "e093f7e9240f8c44d6978c44ae30eb2b3eadee8224b2de3c517957bbf9e1eb8f"
-preserve = true
-
-[[files]]
 file = "config/slenderman_the_revival-common.toml"
 hash = "6950616a9f6b89a46257c64f6321c169850499788bf1db521dba5014f95fecfd"
 preserve = true
@@ -825,13 +960,13 @@ hash = "2c5645c6cb879b8f1917d4473c5b6c26fc57cc814d408703c9ac774f3b523958"
 preserve = true
 
 [[files]]
-file = "config/touhou_little_maid/info.json"
-hash = "b796821e4450c1f5c01799fb4cc49d2c8d08b8abdc20ee745934c8142bf6f84b"
+file = "config/touhou_little_maid-common.toml"
+hash = "07d26518f5fd13bddcb61661fed32c2da2c64d3a6a684c03a44ff0567c21d7d5"
 preserve = true
 
 [[files]]
-file = "config/touhou_little_maid-common.toml"
-hash = "07d26518f5fd13bddcb61661fed32c2da2c64d3a6a684c03a44ff0567c21d7d5"
+file = "config/touhou_little_maid/info.json"
+hash = "b796821e4450c1f5c01799fb4cc49d2c8d08b8abdc20ee745934c8142bf6f84b"
 preserve = true
 
 [[files]]
@@ -852,51 +987,6 @@ preserve = true
 [[files]]
 file = "config/villagertradingplus/villagertradingplus-1.0-config.json5"
 hash = "7693bc12cb99ae399db9c9719a14e4d20c1a0a90e755ce5ac1fe6cb21af34970"
-preserve = true
-
-[[files]]
-file = "config/Weather2/Debug.toml"
-hash = "0c456214161e2f212f3363fa35b04734a96c2e916e519b0b3720ab7c4d4c8f4f"
-preserve = true
-
-[[files]]
-file = "config/Weather2/Misc.toml"
-hash = "1aa0491d199ce1ed1c9f8e4b887a73e5ceb949a5a846777638841e8d510ee99c"
-preserve = true
-
-[[files]]
-file = "config/Weather2/Particle.toml"
-hash = "9ca0609a55e25e119a825890d4718d0fa464da28484b377e067d6c0c199b16a1"
-preserve = true
-
-[[files]]
-file = "config/Weather2/Sand.toml"
-hash = "0e2647731c2b961e23aa0431026b8bf854a6e245f7802b4e7638f1f748c0ad35"
-preserve = true
-
-[[files]]
-file = "config/Weather2/Snow.toml"
-hash = "8e8b8134b6e946c6ae726f5d3af7e8aeb1d2cfa946dba5b3f00fb7248d2651df"
-preserve = true
-
-[[files]]
-file = "config/Weather2/Sound.toml"
-hash = "554523c76b63c6535a5f9ff7da71def6d35ad6b0f430a1d11c20e4ee8d940fce"
-preserve = true
-
-[[files]]
-file = "config/Weather2/Storm.toml"
-hash = "c756e8c13e16d8e162dab46091b437dfad0d41d3f648dfa293a9fd8ea8e5e419"
-preserve = true
-
-[[files]]
-file = "config/Weather2/Tornado.toml"
-hash = "41ff45aaac7bbb7727194532fda8913b7344a690a2b783d132d7d067f9c0d409"
-preserve = true
-
-[[files]]
-file = "config/Weather2/Wind.toml"
-hash = "fcf642ba7de5937fc4583d99f51f99d11b9577c237e4bccbccf7f945b3365353"
 preserve = true
 
 [[files]]
@@ -950,6 +1040,11 @@ hash = "2fa512f9a89711b17e7cb1325eae3177612038dcc2b62e9a521aeb0ce66007c5"
 preserve = true
 
 [[files]]
+file = "defaultconfigs/SCPO-Server-Config.toml"
+hash = "42ce01f8c73ccb487fb0e258a5c4d3e2247019e012a19a44f5074f65a3518bda"
+preserve = true
+
+[[files]]
 file = "defaultconfigs/cave_dweller-server.toml"
 hash = "5c427e79e2e8ded6bd9c0bb9364018748237b2cb5e8271390147b7898b28dec6"
 preserve = true
@@ -985,11 +1080,6 @@ hash = "7bb21c138813044773e7b59054e0caa4b20b6031910e94c5f4feff547e45b832"
 preserve = true
 
 [[files]]
-file = "defaultconfigs/SCPO-Server-Config.toml"
-hash = "42ce01f8c73ccb487fb0e258a5c4d3e2247019e012a19a44f5074f65a3518bda"
-preserve = true
-
-[[files]]
 file = "defaultconfigs/tacz-server.toml"
 hash = "f8c4e78147eb6d51772fee54166e04713c61f83b2376845438f0e5dac7c2ace8"
 preserve = true
@@ -1018,68 +1108,223 @@ file = "michaels-belly-visuals-1.0.0-109-source.zip"
 hash = "60c86092a7bf80c0876f5f6878e4f30a6d0f0a72621e9054275a16a8921e16d7"
 
 [[files]]
-file = "MICHAELS-BELLY-VISUALS-LICENSE.txt"
-hash = "0ab6b1b75d4fb2aa6f67932fc2cc7fa7a6746487c8f94e31585de4b2efff9858"
+file = "michaels-casino-compat-0.1.0-source.zip"
+hash = "2481f4c21c7c28d03068367b56abbad62f1c5fb28526258821ac6228da7cafc9"
 
 [[files]]
 file = "michaels-client-fixes-1.0.6-source.zip"
 hash = "3b665131c41eaea2151f85b875cb9c3f3b468ce72414922a2f09cd2b2ac03fd9"
 
 [[files]]
-file = "MICHAELS-CLIENT-FIXES-LICENSE.txt"
-hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
-
-[[files]]
 file = "michaels-content-compat-1.0.0-source.zip"
 hash = "e3a0aad6648124a32ce415b5361fc70c40130fb98c17de68b8221726c919adf7"
 
 [[files]]
-file = "michaels-copper-equipment-1.0.2-source.zip"
-hash = "efc2038fb385c636f8e26e59c1351bc44bec07f163969f7c94b31d442da60f80"
+file = "michaels-copper-equipment-1.0.4-source.zip"
+hash = "9d811c6f1618c6bbe480bab09b3b76c5e23059845782a699846f8fd55ce58061"
 
 [[files]]
-file = "MICHAELS-EQUIPMENT-LICENSE.txt"
-hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+file = "michaels-makeup-smooth-grass-112-source.zip"
+hash = "67cf0ad6a3f3b4e2f44d58c79e0b65107217f4a65b0158a49d83df013192f7bc"
 
 [[files]]
 file = "michaels-menu-1.0.0-107-source.zip"
 hash = "c7d681349ad9998329dffa421fb6ce9f249db232b46bdeaaccbd1f7ef65b7608"
 
 [[files]]
-file = "MICHAELS-MENU-LICENSE.txt"
-hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
-
-[[files]]
 file = "michaels-modernfix-5.27.91-source.zip"
 hash = "5bc6871ea2adb8d2873d8970472597b8d68842917827ed0f4bc56a37b77e451f"
 
 [[files]]
-file = "MICHAELS-MODERNFIX-LICENSE.txt"
-hash = "9494320d3a22caf27a3739e959eca6d779160f209708bacde04185669b0eeed2"
+file = "michaels-pack-tweaks-1.0.2-112-source.zip"
+hash = "00289189739a8025dd49353a5211793d8c78a2693a19a6da4a39f7449478a242"
 
 [[files]]
-file = "michaels-pack-tweaks-1.0.2-source.zip"
-hash = "e69afb58157afcc8fa5dc4c494406804a7c3ce9f8a37c5fb7bdf0ed876db7c2a"
-
-[[files]]
-file = "MICHAELS-PACK-TWEAKS-LICENSE.txt"
-hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+file = "michaels-paxel-art-112-source.zip"
+hash = "1ccf64ce6fb71e721e6445a67c5aa9b522a8a3d2b7a0c0a68f04525edd978c97"
 
 [[files]]
 file = "michaels-quark-4.0-462-no-posts-source.zip"
 hash = "a3bec89c2987bfe39feef0435ca5c24c3970b287d4933431c6aa696c9df417e4"
 
 [[files]]
-file = "MICHAELS-QUARK-NO-POSTS-LICENSE.txt"
-hash = "73d18a4c6b2aebfc88288975b532a23a1f1a5504f9d1de0a19b4d8e8d45a1dfb"
-
-[[files]]
-file = "MICHAELS-SKY-DH-NOTICES.txt"
-hash = "4be7abdf78939654536fbb3ac0e8558ec1b9c92ce461751ebd16f8b3d86c6ebb"
-
-[[files]]
 file = "michaels-weekly-bloodmoon-1.0.0-source.zip"
-hash = "4c4c35717a122345cfb0df9e2bdcfb21516154c8e402d4edf2948c2b40d8d02c"
+hash = "b610b88aeb3956162fb13af55a247d3af551bdb62d7493b3d622a0965fc34809"
+
+[[files]]
+file = "mods/AmbientSounds_FORGE_v6.3.11_mc1.20.1.jar.pw.toml"
+hash = "e33780e78da82b936d97e1a0b45dda07b0d351a25e12bfbeea34db1da5c74d27"
+metafile = true
+
+[[files]]
+file = "mods/ArPhEx-5.0.2-forge-1.20.1.jar.pw.toml"
+hash = "c9f9e363e4f90fd1fb135db2f728280981f554d71d5f786c1793d5acba9c63ff"
+metafile = true
+
+[[files]]
+file = "mods/Better Cave Dweller-1.20.1.jar.pw.toml"
+hash = "ee9f0fc9a05ae7c513a3758314da4808ef973c651a060080be0fc9486226bae0"
+metafile = true
+
+[[files]]
+file = "mods/ChunkAnimator-1.20.1-1.3.7.jar.pw.toml"
+hash = "b4902f57038707fa59971d745e75e87e6588c0c4f3e2d17070c00a8727a804fc"
+metafile = true
+
+[[files]]
+file = "mods/Controlling-forge-1.20.1-12.0.2.jar.pw.toml"
+hash = "7f8daf6f629a5db6cd8cafc94ef8bd38ff39ef36545151f7ba909bfb6cdd3e60"
+metafile = true
+
+[[files]]
+file = "mods/Corgilib-Forge-1.20.1-4.0.3.6.jar.pw.toml"
+hash = "7a0a244d59a2b89115674ee0dbbaa41148a1c81b7d5c4d00c897f20b0607e41c"
+metafile = true
+
+[[files]]
+file = "mods/CreativeCore_FORGE_v2.12.40_mc1.20.1.jar.pw.toml"
+hash = "cc3e29f9468b389a02dbe0949f2a26a05d1e8da653ccd493821c69608dd3ea68"
+metafile = true
+
+[[files]]
+file = "mods/Data_Anchor-forge-1.20.1-1.0.0.24.jar.pw.toml"
+hash = "b8e36cc2f49d7d5212eddd36d12eaabac75cb25933a274b802b54db35f91c0da"
+metafile = true
+
+[[files]]
+file = "mods/DistantFriends-forge-1.20.1-0.5.6.jar.pw.toml"
+hash = "74f7ba7872a05a944e6c31d96cb554363657b01127076082e7af143f041c7c25"
+metafile = true
+
+[[files]]
+file = "mods/DistantHorizons-2.3.6-b-1.20.1-fabric-forge.jar.pw.toml"
+hash = "5d5c4be173dc57f8a0cc7a76d5cf05fc7239c1e8567c93189187fbb2ed3d23ae"
+metafile = true
+
+[[files]]
+file = "mods/EasyAnvils-v8.0.2-1.20.1-Forge.jar.pw.toml"
+hash = "0bfbbfa1a448931580be1b855bd302e2ff717f86d8286e7e98015bac08ebe775"
+metafile = true
+
+[[files]]
+file = "mods/Enhanced-Celestials-2-Core-Forge-1.20.1-1.0.3.4.jar.pw.toml"
+hash = "4d9b48d19d415a47b6bfad8cb3c550d94e104d95b8f646c37cf2fef648af5277"
+metafile = true
+
+[[files]]
+file = "mods/Enhanced-Celestials-2-Default-Lunar-Events-Forge-1.20.1-1.0.0.7.jar.pw.toml"
+hash = "ce2a39c4f412ce4787d51c3f8e4316eb87e85cb28f8ef24f355a9a1c9e65dcd9"
+metafile = true
+
+[[files]]
+file = "mods/Enhanced-Celestials-2-Shaders-Forge-1.20.1-1.0.0.5.jar.pw.toml"
+hash = "9ad756b887026d902e6c4458cfe50bec348123b19e4a3924c5f130c6b25f1af8"
+metafile = true
+
+[[files]]
+file = "mods/FallingTree-1.20.1-4.3.6.jar.pw.toml"
+hash = "acff16fc0cb6b83c0e9f2e469594d6510c76c6610f311f463a079677fa6e0f5d"
+metafile = true
+
+[[files]]
+file = "mods/From-The-Fog-1.20-v1.9.2-Forge-Fabric.jar.pw.toml"
+hash = "9eda4e65129059ca999c905429dc2a0d918ebf95a0c809f663c9a78fb36ba07b"
+metafile = true
+
+[[files]]
+file = "mods/ImmediatelyFast-Forge-1.5.5+1.20.4.jar.pw.toml"
+hash = "570dcb6c00526f36177ac6e3101f9ad42cdd64c1086d9908bb434a9cb7866790"
+metafile = true
+
+[[files]]
+file = "mods/InventoryProfilesNext-forge-1.20-1.10.20.jar.pw.toml"
+hash = "0f88eb51a9677ac6bce3e0fcbfb1a364419d5420251ee60df1431ab9ab8372fd"
+metafile = true
+
+[[files]]
+file = "mods/Jade-1.20.1-Forge-11.13.3.jar.pw.toml"
+hash = "27dec4ba30ed2ed94b58a62b56a9aedc7cad86a33529795788577cdfe0e7da55"
+metafile = true
+
+[[files]]
+file = "mods/L_Enders_Cataclysm-3.31.jar.pw.toml"
+hash = "499a21ff6edd0c5d86c408a065b9ddc65214256bf9ca607b2fd24b7ca0797016"
+metafile = true
+
+[[files]]
+file = "mods/MonstersGirls_1.3.4.3_1.20.1.jar.pw.toml"
+hash = "67f81908b9810b70a6a2db9b84e2bccf2279aecb69869b29c630f6b48311485f"
+metafile = true
+
+[[files]]
+file = "mods/MouseTweaks-forge-mc1.20.1-2.25.1.jar.pw.toml"
+hash = "7225fd661357aca6c3d4677b8eeaf748f836deb2c02084f48499716230fba7d1"
+metafile = true
+
+[[files]]
+file = "mods/MutantMonsters-v8.0.8-1.20.1-Forge.jar.pw.toml"
+hash = "7f28b404c39559ecad0b700b6aeeed8684dab485976a193610be6952c06f81e7"
+metafile = true
+
+[[files]]
+file = "mods/OpenLoader-Forge-1.20.1-19.0.5.jar.pw.toml"
+hash = "e3f9735a2af39d7d6c9d47c518696d98daef30f06294eb90b01fc37868c6dda9"
+metafile = true
+
+[[files]]
+file = "mods/Patchouli-1.20.1-85-FORGE.jar.pw.toml"
+hash = "2019d811cd030c58a1ad521cda1be5b4447ac270ef2ec56b8375a4a3cd688aaa"
+metafile = true
+
+[[files]]
+file = "mods/PuzzlesLib-v8.1.36-1.20.1-Forge.jar.pw.toml"
+hash = "989ebf8b86913b8aadd7758343eea241bc771c0550aef56509e0863ede11d1b3"
+metafile = true
+
+[[files]]
+file = "mods/Ribbits-1.20.1-Forge-3.0.5.jar.pw.toml"
+hash = "d400548a4d1a3274622af1a016d1e337210506972bad171d24618c42d7a234a8"
+metafile = true
+
+[[files]]
+file = "mods/Searchables-forge-1.20.1-1.0.3.jar.pw.toml"
+hash = "12e15735d9fb39dddf373ca663250f1e725babe711dcf2fab2f8eca8ef59eea0"
+metafile = true
+
+[[files]]
+file = "mods/SimpleStorageNetwork-1.20.1-1.13.2.jar.pw.toml"
+hash = "4c3d9dcc55b9a50eedc7df921d2bb607024294a5c05b2827ffef27fd94baf3d5"
+metafile = true
+
+[[files]]
+file = "mods/SimplyTooltips-forge-0.1.5-1.20.1.jar.pw.toml"
+hash = "8e144fcf7f6796876abed7cff0c9606441d9495cbbb3c02311e9b88919d77f81"
+metafile = true
+
+[[files]]
+file = "mods/Siren_head v1.1.4-1.20.1.jar.pw.toml"
+hash = "328a8a166992c11a1574f4c636aa55b030efdf84f1959c9f9ad082375f37cd2e"
+metafile = true
+
+[[files]]
+file = "mods/SpartanShields-1.20.1-forge-3.1.1.jar.pw.toml"
+hash = "290ea5df1d34ed5bdd674d95d686307a8428ea7e09c40e94b28dde14d06e4ded"
+metafile = true
+
+[[files]]
+file = "mods/The-Man-From-The-Fog-1.4-1.20.1.jar.pw.toml"
+hash = "c7a30cee9808b42af1a5d4c5007e8627e3430051d8e20b19b8c2631aabcbe26e"
+metafile = true
+
+[[files]]
+file = "mods/YungsApi-1.20-Forge-4.0.6.jar.pw.toml"
+hash = "83a90838afc504f61521722bde3a253919f8324a64b198ebef4442e5b0b85e57"
+metafile = true
+
+[[files]]
+file = "mods/Zeta-1.0-31.jar.pw.toml"
+hash = "fa2c1afe537aaa12511b1d779847c4f4051dc3e4094cbcf2b4ec9736cce1937c"
+metafile = true
 
 [[files]]
 file = "mods/aaa_particles-forge-1.20.1-2.2.3.jar.pw.toml"
@@ -1102,11 +1347,6 @@ hash = "e41d76a75a9bb2c2a32384f6ca50ad0d1d471f6c00358687cdf01773a05b54f7"
 metafile = true
 
 [[files]]
-file = "mods/AmbientSounds_FORGE_v6.3.11_mc1.20.1.jar.pw.toml"
-hash = "e33780e78da82b936d97e1a0b45dda07b0d351a25e12bfbeea34db1da5c74d27"
-metafile = true
-
-[[files]]
 file = "mods/appleskin-forge-mc1.20.1-2.5.1.jar.pw.toml"
 hash = "94599746d6100a88276aaafa879b51ed4b39eb538f25ceed2ce0b2117b48b11b"
 metafile = true
@@ -1114,11 +1354,6 @@ metafile = true
 [[files]]
 file = "mods/architectury-9.2.14-forge.jar.pw.toml"
 hash = "893c99f4c0cf0e0a0116cc91f176be1ad4f176a15a99d81689934d351b5cb9ae"
-metafile = true
-
-[[files]]
-file = "mods/ArPhEx-5.0.2-forge-1.20.1.jar.pw.toml"
-hash = "c9f9e363e4f90fd1fb135db2f728280981f554d71d5f786c1793d5acba9c63ff"
 metafile = true
 
 [[files]]
@@ -1132,11 +1367,6 @@ hash = "7d17523b70177e015981ab483062e74753ac6e2f13d876c2d695bfeeee07306e"
 metafile = true
 
 [[files]]
-file = "mods/Better Cave Dweller-1.20.1.jar.pw.toml"
-hash = "ee9f0fc9a05ae7c513a3758314da4808ef973c651a060080be0fc9486226bae0"
-metafile = true
-
-[[files]]
 file = "mods/born_in_chaos_[Forge]1.20.1_1.7.5.jar.pw.toml"
 hash = "8aa93a5ba671683875ba22275f5570350834ac2b8006e8f953a362a03ea9ca48"
 metafile = true
@@ -1144,11 +1374,6 @@ metafile = true
 [[files]]
 file = "mods/chat_heads-0.15.7-forge-1.20.jar.pw.toml"
 hash = "c8b5f66087a2a996b4a6a6bdad367e390bb9f5970c1828d2b8bde9f8ec951da7"
-metafile = true
-
-[[files]]
-file = "mods/ChunkAnimator-1.20.1-1.3.7.jar.pw.toml"
-hash = "b4902f57038707fa59971d745e75e87e6588c0c4f3e2d17070c00a8727a804fc"
 metafile = true
 
 [[files]]
@@ -1167,16 +1392,6 @@ hash = "7a19049dced941004305c2a6eff0b1105478d041982dc25e44bdfe85876a3095"
 metafile = true
 
 [[files]]
-file = "mods/Controlling-forge-1.20.1-12.0.2.jar.pw.toml"
-hash = "7f8daf6f629a5db6cd8cafc94ef8bd38ff39ef36545151f7ba909bfb6cdd3e60"
-metafile = true
-
-[[files]]
-file = "mods/Corgilib-Forge-1.20.1-4.0.3.6.jar.pw.toml"
-hash = "7a0a244d59a2b89115674ee0dbbaa41148a1c81b7d5c4d00c897f20b0607e41c"
-metafile = true
-
-[[files]]
 file = "mods/coroutil-forge-1.20.1-1.3.7.jar.pw.toml"
 hash = "350b803f0de99e8a1310d81d79f5f8b42ec53ecbd145df5b8ee8ed9c72e53fa8"
 metafile = true
@@ -1184,11 +1399,6 @@ metafile = true
 [[files]]
 file = "mods/create-1.20.1-6.0.8.jar.pw.toml"
 hash = "d17063247e7652ba8e6e2d0ef58ce0f5e6a119f14299bd4d7393ff802ec36354"
-metafile = true
-
-[[files]]
-file = "mods/CreativeCore_FORGE_v2.12.40_mc1.20.1.jar.pw.toml"
-hash = "cc3e29f9468b389a02dbe0949f2a26a05d1e8da653ccd493821c69608dd3ea68"
 metafile = true
 
 [[files]]
@@ -1207,28 +1417,8 @@ hash = "89a208adaa99ff01b2447604d59df5a3da0063749b28f550ca00fc167fdf90d7"
 metafile = true
 
 [[files]]
-file = "mods/Data_Anchor-forge-1.20.1-1.0.0.24.jar.pw.toml"
-hash = "b8e36cc2f49d7d5212eddd36d12eaabac75cb25933a274b802b54db35f91c0da"
-metafile = true
-
-[[files]]
-file = "mods/DistantFriends-forge-1.20.1-0.5.6.jar.pw.toml"
-hash = "74f7ba7872a05a944e6c31d96cb554363657b01127076082e7af143f041c7c25"
-metafile = true
-
-[[files]]
-file = "mods/DistantHorizons-2.3.6-b-1.20.1-fabric-forge.jar.pw.toml"
-hash = "5d5c4be173dc57f8a0cc7a76d5cf05fc7239c1e8567c93189187fbb2ed3d23ae"
-metafile = true
-
-[[files]]
 file = "mods/dungeons-and-taverns-3.0.3.f.jar.pw.toml"
 hash = "4d6275919108dfd8c843f60f4d9ca6cfec3a2b75314f90146fca2d498f6c1b56"
-metafile = true
-
-[[files]]
-file = "mods/EasyAnvils-v8.0.2-1.20.1-Forge.jar.pw.toml"
-hash = "0bfbbfa1a448931580be1b855bd302e2ff717f86d8286e7e98015bac08ebe775"
 metafile = true
 
 [[files]]
@@ -1239,21 +1429,6 @@ metafile = true
 [[files]]
 file = "mods/endertrigon-1.20.1-1.1-all.jar.pw.toml"
 hash = "793f0158e7d219ca72ccf6e564270a7656db116a20623a729162f418194648bc"
-metafile = true
-
-[[files]]
-file = "mods/Enhanced-Celestials-2-Core-Forge-1.20.1-1.0.3.4.jar.pw.toml"
-hash = "4d9b48d19d415a47b6bfad8cb3c550d94e104d95b8f646c37cf2fef648af5277"
-metafile = true
-
-[[files]]
-file = "mods/Enhanced-Celestials-2-Default-Lunar-Events-Forge-1.20.1-1.0.0.7.jar.pw.toml"
-hash = "ce2a39c4f412ce4787d51c3f8e4316eb87e85cb28f8ef24f355a9a1c9e65dcd9"
-metafile = true
-
-[[files]]
-file = "mods/Enhanced-Celestials-2-Shaders-Forge-1.20.1-1.0.0.5.jar.pw.toml"
-hash = "9ad756b887026d902e6c4458cfe50bec348123b19e4a3924c5f130c6b25f1af8"
 metafile = true
 
 [[files]]
@@ -1297,11 +1472,6 @@ hash = "e31597d2182537629852e9bcf8c8a63f43f343f1a5065555c4ea2ed6e99f3117"
 metafile = true
 
 [[files]]
-file = "mods/From-The-Fog-1.20-v1.9.2-Forge-Fabric.jar.pw.toml"
-hash = "9eda4e65129059ca999c905429dc2a0d918ebf95a0c809f663c9a78fb36ba07b"
-metafile = true
-
-[[files]]
 file = "mods/fzzy_config-0.7.7+1.20.1+forge.jar.pw.toml"
 hash = "1186a8ab87fbe216d3026ead6a15c603ec190fc8cd936ce93c5a02578f2b7b81"
 metafile = true
@@ -1327,18 +1497,8 @@ hash = "42527e3d04a55529bbc97ffe8c90ab7fde83e2c64327a8c23d865a81ad64626b"
 metafile = true
 
 [[files]]
-file = "mods/ImmediatelyFast-Forge-1.5.5+1.20.4.jar.pw.toml"
-hash = "570dcb6c00526f36177ac6e3101f9ad42cdd64c1086d9908bb434a9cb7866790"
-metafile = true
-
-[[files]]
 file = "mods/integrated_api-forge-1.20.1-1.9.1.jar.pw.toml"
 hash = "3917c143fdc27aa962e5601d2474f4bc37d162623797c3bc6433e985e5923b11"
-metafile = true
-
-[[files]]
-file = "mods/InventoryProfilesNext-forge-1.20-1.10.20.jar.pw.toml"
-hash = "0f88eb51a9677ac6bce3e0fcbfb1a364419d5420251ee60df1431ab9ab8372fd"
 metafile = true
 
 [[files]]
@@ -1352,23 +1512,18 @@ hash = "d05e40a4fc81131a44abedc5f319f4ced87d16c1ed2aa75fe3f70b80d5d9c845"
 metafile = true
 
 [[files]]
-file = "mods/Jade-1.20.1-Forge-11.13.3.jar.pw.toml"
-hash = "27dec4ba30ed2ed94b58a62b56a9aedc7cad86a33529795788577cdfe0e7da55"
-metafile = true
-
-[[files]]
 file = "mods/jei-1.20.1-forge-15.56.0.205.jar.pw.toml"
 hash = "e00b6d7613d4d92ec767cf10fdeb123d4ad296c875faad0890793b9bc7aa2455"
 metafile = true
 
 [[files]]
-file = "mods/kotlinforforge-4.12.0-all.jar.pw.toml"
-hash = "a8af9e0ba249bde8879d7485d86b7503c40729ed94886f700e12a1cc497dd964"
+file = "mods/kirriscasino-forge-1.20.1-0.10.0.jar.pw.toml"
+hash = "33adff37f43917ccc5f7eacacbccefe721f0c4abcd7da0be9d592a50913eeb34"
 metafile = true
 
 [[files]]
-file = "mods/L_Enders_Cataclysm-3.31.jar.pw.toml"
-hash = "499a21ff6edd0c5d86c408a065b9ddc65214256bf9ca607b2fd24b7ca0797016"
+file = "mods/kotlinforforge-4.12.0-all.jar.pw.toml"
+hash = "a8af9e0ba249bde8879d7485d86b7503c40729ed94886f700e12a1cc497dd964"
 metafile = true
 
 [[files]]
@@ -1410,6 +1565,10 @@ file = "mods/michaels-belly-visuals-1.0.0.jar"
 hash = "a5d859b5732b6acd61f49ab6ac16cce71f76203d3372cec4a32565b26a3a9aad"
 
 [[files]]
+file = "mods/michaels-casino-compat-0.1.0.jar"
+hash = "4403e11bac95de71001faed32f2a73fec6cebd224728e1181db6a92c60ddd735"
+
+[[files]]
 file = "mods/michaels-client-fixes-1.0.6.jar"
 hash = "7c2f2e8a1a2347dd02d25ae2d67f2b49d1535a621c41e7de676a885f96e09428"
 
@@ -1418,8 +1577,8 @@ file = "mods/michaels-content-compat-1.0.0.jar"
 hash = "e546f6449fbcb2d1389aa5819601eb0edd138005b05532aa41d619965ff6b3b1"
 
 [[files]]
-file = "mods/michaels-copper-equipment-1.0.2.jar"
-hash = "8c2a53b273a6f8825044dc98ab2c1d4a290063cb6bb9f8dcf896f941660a11df"
+file = "mods/michaels-copper-equipment-1.0.4.jar"
+hash = "6b16425d0f9603644b9722fc7d0be11ed3cef023672bf35cf2922e8a85a9a62a"
 
 [[files]]
 file = "mods/michaels-menu-1.0.0.jar"
@@ -1432,30 +1591,15 @@ metafile = true
 
 [[files]]
 file = "mods/michaels-pack-tweaks-1.0.2.jar"
-hash = "2fbfc115ce1683c3f0a6436d4561dcdb28423b39ae71178fc58d272c35f9d49c"
+hash = "d90c717b7046b501d7b8e7b68626cf1b9f0ad76a165ea157a0731813b24d4458"
 
 [[files]]
 file = "mods/michaels-quark-4.0-462-no-posts.jar"
 hash = "f65503f392bf86546b944f56e37d23fe51125c8406606e5cdb5d76296d941328"
 
 [[files]]
-file = "mods/MonstersGirls_1.3.4.3_1.20.1.jar.pw.toml"
-hash = "67f81908b9810b70a6a2db9b84e2bccf2279aecb69869b29c630f6b48311485f"
-metafile = true
-
-[[files]]
 file = "mods/moonlight-1.20-2.16.38B-forge.jar.pw.toml"
 hash = "71d45442061d6c41f686aeab7e2e57a69a1135a00069b37251dbbfacbdc67cc4"
-metafile = true
-
-[[files]]
-file = "mods/MouseTweaks-forge-mc1.20.1-2.25.1.jar.pw.toml"
-hash = "7225fd661357aca6c3d4677b8eeaf748f836deb2c02084f48499716230fba7d1"
-metafile = true
-
-[[files]]
-file = "mods/MutantMonsters-v8.0.8-1.20.1-Forge.jar.pw.toml"
-hash = "7f28b404c39559ecad0b700b6aeeed8684dab485976a193610be6952c06f81e7"
 metafile = true
 
 [[files]]
@@ -1466,16 +1610,6 @@ metafile = true
 [[files]]
 file = "mods/oculus-mc1.20.1-1.8.0.jar.pw.toml"
 hash = "aa01e640ab4debd51bcc71404f1b1258552f7693a59b1a514ce07be7e67847bc"
-metafile = true
-
-[[files]]
-file = "mods/OpenLoader-Forge-1.20.1-19.0.5.jar.pw.toml"
-hash = "e3f9735a2af39d7d6c9d47c518696d98daef30f06294eb90b01fc37868c6dda9"
-metafile = true
-
-[[files]]
-file = "mods/Patchouli-1.20.1-85-FORGE.jar.pw.toml"
-hash = "2019d811cd030c58a1ad521cda1be5b4447ac270ef2ec56b8375a4a3cd688aaa"
 metafile = true
 
 [[files]]
@@ -1491,16 +1625,6 @@ metafile = true
 [[files]]
 file = "mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar.pw.toml"
 hash = "bbd991a2c5d677bf2ee480eabf01a3d4d208d19403508d100e8b5db0fd9152d4"
-metafile = true
-
-[[files]]
-file = "mods/PuzzlesLib-v8.1.36-1.20.1-Forge.jar.pw.toml"
-hash = "989ebf8b86913b8aadd7758343eea241bc771c0550aef56509e0863ede11d1b3"
-metafile = true
-
-[[files]]
-file = "mods/Ribbits-1.20.1-Forge-3.0.5.jar.pw.toml"
-hash = "d400548a4d1a3274622af1a016d1e337210506972bad171d24618c42d7a234a8"
 metafile = true
 
 [[files]]
@@ -1524,33 +1648,13 @@ hash = "24b62d485e68937e5337f69545f189831a4c09f9e46866bc9f0a632c80b5a3dd"
 metafile = true
 
 [[files]]
-file = "mods/Searchables-forge-1.20.1-1.0.3.jar.pw.toml"
-hash = "12e15735d9fb39dddf373ca663250f1e725babe711dcf2fab2f8eca8ef59eea0"
-metafile = true
-
-[[files]]
 file = "mods/simpledrills-1.6.1-forge-1.20.1.jar.pw.toml"
 hash = "14068379a793db1c65126deef98ea8c41e8f590ba419a33edd34ea8a8aa98a54"
 metafile = true
 
 [[files]]
-file = "mods/SimpleStorageNetwork-1.20.1-1.13.2.jar.pw.toml"
-hash = "4c3d9dcc55b9a50eedc7df921d2bb607024294a5c05b2827ffef27fd94baf3d5"
-metafile = true
-
-[[files]]
 file = "mods/simplyswords-forge-neoforge-1.70.2-1.20.1.jar.pw.toml"
 hash = "b2018dd2028e81ea4ccafb25807cfa517a60b18c98b530ea3a378ebab41eead9"
-metafile = true
-
-[[files]]
-file = "mods/SimplyTooltips-forge-0.1.5-1.20.1.jar.pw.toml"
-hash = "8e144fcf7f6796876abed7cff0c9606441d9495cbbb3c02311e9b88919d77f81"
-metafile = true
-
-[[files]]
-file = "mods/Siren_head v1.1.4-1.20.1.jar.pw.toml"
-hash = "328a8a166992c11a1574f4c636aa55b030efdf84f1959c9f9ad082375f37cd2e"
 metafile = true
 
 [[files]]
@@ -1584,11 +1688,6 @@ hash = "18abb1c3904a554cb5124cbe84f88f71db1bccaaed2a6fb5686149a494411795"
 metafile = true
 
 [[files]]
-file = "mods/SpartanShields-1.20.1-forge-3.1.1.jar.pw.toml"
-hash = "290ea5df1d34ed5bdd674d95d686307a8428ea7e09c40e94b28dde14d06e4ded"
-metafile = true
-
-[[files]]
 file = "mods/structure_gel-1.20.1-2.16.2.jar.pw.toml"
 hash = "1528e6cb6f008fcec74cf2ea77ef91d5b42d29f72f7e8e11f1ba1aac5c2eed4a"
 metafile = true
@@ -1606,11 +1705,6 @@ metafile = true
 [[files]]
 file = "mods/the-conjurer-1.20.1-1.1.6.jar.pw.toml"
 hash = "505760287f39ddf9a7af962537d338cfab0662a7ec6b86520444b5512f8c95a4"
-metafile = true
-
-[[files]]
-file = "mods/The-Man-From-The-Fog-1.4-1.20.1.jar.pw.toml"
-hash = "c7a30cee9808b42af1a5d4c5007e8627e3430051d8e20b19b8c2631aabcbe26e"
 metafile = true
 
 [[files]]
@@ -1679,16 +1773,6 @@ hash = "ba05138b96df7c018d5cb51ba8e4ae42eac7249fa8e806d76e46328bc8ccf5b3"
 metafile = true
 
 [[files]]
-file = "mods/YungsApi-1.20-Forge-4.0.6.jar.pw.toml"
-hash = "83a90838afc504f61521722bde3a253919f8324a64b198ebef4442e5b0b85e57"
-metafile = true
-
-[[files]]
-file = "mods/Zeta-1.0-31.jar.pw.toml"
-hash = "fa2c1afe537aaa12511b1d779847c4f4051dc3e4094cbcf2b4ec9736cce1937c"
-metafile = true
-
-[[files]]
 file = "options.txt"
 hash = "6cd486eea13da4d4e66086dc3e0aa25702f0fe1fd971c180d3613f8f52e57d43"
 preserve = true
@@ -1709,17 +1793,17 @@ hash = "4e5104e753ce85c52ff46db2470c5f9014223d1d6faf3ea9bcf56d44a9a52841"
 metafile = true
 
 [[files]]
-file = "resourcepacks/michaels-light-skies-overlay.zip"
-hash = "baf8a2dbaf0600cadc87f9183b641ee056582c6c60ab822ecc3bced2321560b6"
-
-[[files]]
 file = "resourcepacks/MyMonsterGirls.zip.pw.toml"
 hash = "a735b32eb03dc19eda6e22a94ad7bde3341eaff4eb48f9bd57af0bf73faf3286"
 metafile = true
 
 [[files]]
+file = "resourcepacks/michaels-light-skies-overlay.zip"
+hash = "baf8a2dbaf0600cadc87f9183b641ee056582c6c60ab822ecc3bced2321560b6"
+
+[[files]]
 file = "shaderpacks/MakeUp-UltraFast-9.6-Enhanced.zip.pw.toml"
-hash = "74c7cbaceb4901a5eca7e3953d96e16d333d891bf12ff7d5d2d1d7db62e56c21"
+hash = "6c695486b85fb1d7f5104a7e556dbc0ba7a6e4855f2c77ab93f462a356457dc2"
 metafile = true
 
 [[files]]
@@ -1729,7 +1813,7 @@ preserve = true
 
 [[files]]
 file = "shaderpacks/MakeUp-UltraFast-9.6.zip.pw.toml"
-hash = "4be311b0599a91b2c77372888f2cb73638df1ea84753c43fb6ec69e3050fb813"
+hash = "bebd59c2e762624469bae8c82e9995d9007f02c5b9ad2b4e2fff6730d8ebf9df"
 metafile = true
 
 [[files]]

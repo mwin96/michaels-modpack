@@ -1,0 +1,22 @@
+{
+  "maxItemsPerSpot": 4,
+  "maxSpotsPerPlayer": 4,
+  "allowAnyMaterial": false,
+  "acceptAllIngots": false,
+  "acceptedMaterials": ["minecraft:emerald"],
+  "currency": "minecraft:emerald",
+  "slotMaterial": "minecraft:emerald",
+  "slotBets": [1, 2, 4],
+  "slotJackpot": 20,
+  "slotProgressivePercent": 5,
+  "luckBonusPercent": 0,
+  "pokerMaxBet": 8,
+  "craftingEnabled": false,
+  "ownedTables": true,
+  "dailyWagerLimit": 128,
+  "winEffects": false,
+  "arcadeMaxBet": 4,
+  "casinoBuilderSurvival": false,
+  "dealers": "none",
+  "questNpcs": false
+}

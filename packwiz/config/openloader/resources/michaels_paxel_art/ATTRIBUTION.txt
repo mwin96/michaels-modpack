@@ -1,0 +1,14 @@
+Paxel art attribution and modification notice
+
+Four unchanged16x16PNG assets from MekanismTools, MIT License.
+Copyright(c)2017-2023 Aidan C. Brady; full upstream notice in MEKANISM-MIT-LICENSE.txt.
+Repository:https://github.com/mekanism/Mekanism
+Commit:96c736241e308a9cf1c73f7dcfa9aa221ea559d3
+Paths:src/tools/resources/assets/mekanismtools/textures/item/{iron_paxel.png,diamond_paxel.png,netherite_paxel.png,bronze/paxel.png}
+
+Copper references original bronze art, using the existing copper color handler.
+Emerald references the unchanged iron image: an original JSON model assigns
+existing green tint only to gray metal faces; brown wood is left untinted.
+This is model geometry/material assignment, not bitmap editing. Other item
+classes, registries, properties, recipes and the rest of the equipment art are unchanged.
+No Mekanism mod or API is installed. Original JSON/model-generation code is MIT.
