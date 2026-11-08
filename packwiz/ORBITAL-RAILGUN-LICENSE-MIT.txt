@@ -1,0 +1,25 @@
+Orbital Railgun Reforged (orbital_railgun 1.4.2, CurseForge file 7292536)
+Authors: Mishkis, Forge port by TysonTheEmber
+Source: https://www.curseforge.com/minecraft/mc-mods/orbital-railgun-reforged
+The 1.1 intro animation is made from the gallery images of the original Orbital Railgun project by Mishkis
+(https://modrinth.com/mod/orbital-railgun), which is also MIT licensed.
+Michael's Modpack changes the bundled crafting recipe in this jar. A datapack override loses to the mod's own recipe on
+existing worlds, because a newly added mod is appended to the end of the world's datapack order.
+Published under the MIT License as declared by the publisher:
+
+The MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
+associated documentation files (the "Software"), to deal in the Software without restriction,
+including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial
+portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO
+EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
+USE OR OTHER DEALINGS IN THE SOFTWARE.

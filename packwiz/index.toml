@@ -1093,10 +1093,6 @@ file = "michaels-makeup-clean-terrain-1121-source.zip"
 hash = "bc5e1d34997a4a7ff6faa3c1c02b871405be3b76e4b15b5629113900c95cb5df"
 
 [[files]]
-file = "michaels-menu-1.0.0-1121-source.zip"
-hash = "dfa72429bddd4f5c38dff6cb282705dc18aac05aef6d86aa8040a0589d13bab4"
-
-[[files]]
 file = "michaels-modernfix-5.27.91-source.zip"
 hash = "5bc6871ea2adb8d2873d8970472597b8d68842917827ed0f4bc56a37b77e451f"
 
@@ -1546,10 +1542,6 @@ file = "mods/michaels-copper-equipment-1.0.4.jar"
 hash = "6b16425d0f9603644b9722fc7d0be11ed3cef023672bf35cf2922e8a85a9a62a"
 
 [[files]]
-file = "mods/michaels-menu-1.0.0.jar"
-hash = "18812fbd53d11ec35f80c97a3ed0cdea9feced04f0ea28b710f950e5619d3d83"
-
-[[files]]
 file = "mods/michaels-modernfix-forge-5.27.91+mc1.20.1.jar.pw.toml"
 hash = "26687781bd60c7c2236366a854d56c004d29664fb80cc808b85ad88978594fe6"
 metafile = true
@@ -1851,5 +1843,21 @@ file = "config/openloader/data/michaels_pack_fixes/data/watching/predicates/chan
 hash = "033f72c64908d6c1ed521584a3d9b902726e83c2ea0d239396fab71678408ba4"
 
 [[files]]
-file = "mods/michaels-world-welcome-1.0.3.jar"
-hash = "3b2cfcbb828513d2395ef26bcea1c9bed14519a20121aa687d4557888f50a6c4"
+file = "ORBITAL-RAILGUN-LICENSE-MIT.txt"
+hash = "156089620dbcedfe79eb32cdaf9bdbbbda60eb5597f9e0d76823358bea23d9d8"
+
+[[files]]
+file = "michaels-menu-1.0.1-source.zip"
+hash = "8e27fe52d608df1df4ad4a85074093ed7e0a8a166f1bcf61a53452967c45e97f"
+
+[[files]]
+file = "mods/michaels-menu-1.0.1.jar"
+hash = "17cd9c6174e068f4fe8321348e701be391b6e756b5753ba5517eb7dfddd7d412"
+
+[[files]]
+file = "mods/michaels-world-welcome-1.1.0.jar"
+hash = "3b83a891052a3650759f22150dbb65032c25d20f18161dd2b91a8e4d7b7aeb43"
+
+[[files]]
+file = "mods/orbital_railgun-1.4.2-michaels.jar"
+hash = "2d0c63efbc6f5bb27ac50b36fc006912cb0d4fb4538e029c98c412915cd328ab"
