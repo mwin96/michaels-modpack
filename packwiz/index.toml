@@ -1855,9 +1855,13 @@ file = "mods/michaels-menu-1.0.1.jar"
 hash = "17cd9c6174e068f4fe8321348e701be391b6e756b5753ba5517eb7dfddd7d412"
 
 [[files]]
-file = "mods/michaels-world-welcome-1.1.0.jar"
-hash = "3b83a891052a3650759f22150dbb65032c25d20f18161dd2b91a8e4d7b7aeb43"
+file = "config/openloader/resources/michaels_pack_fixes/assets/cataclysm/textures/item/monstrous_horn.png"
+hash = "c14e68889a04270dc1724ead61e61d4832d8be2c98570163297de5767e410ba4"
 
 [[files]]
-file = "mods/orbital_railgun-1.4.2-michaels.jar"
-hash = "2d0c63efbc6f5bb27ac50b36fc006912cb0d4fb4538e029c98c412915cd328ab"
+file = "mods/michaels-world-welcome-1.1.1.jar"
+hash = "ceded702a5c2b2154e1cec7c0d8dab2352f5896711068188976ed7c1b8112098"
+
+[[files]]
+file = "mods/orbital_railgun-1.4.2-michaels-2.jar"
+hash = "1efdc901ee7895e73689dd2f2368c6261e24baa3283d4abc210ad1ec5ab097c2"

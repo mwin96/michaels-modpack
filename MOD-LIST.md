@@ -64,7 +64,7 @@ Third-party archives are downloaded from their publishers rather than rehosted i
 | [Nyf's Spiders](https://modrinth.com/mod/nyfs-spiders) | 3.0.2 | both | LGPL-2.1-only |
 | [Oculus](https://modrinth.com/mod/oculus) | 1.20.1-1.8.0 | client | LGPL-3.0-only |
 | [Open Loader](https://modrinth.com/mod/open-loader) | 19.0.5 | both | LGPL-2.1-only |
-| [Orbital Railgun Reforged](https://www.curseforge.com/minecraft/mc-mods/orbital-railgun-reforged) | 1.4.3 (file orbital_railgun-1.4.2-michaels.jar, recipe changed for this pack) | both | MIT |
+| [Orbital Railgun Reforged](https://www.curseforge.com/minecraft/mc-mods/orbital-railgun-reforged) | 1.4.3 (file orbital_railgun-1.4.2-michaels-2.jar, recipe changed for this pack) | both | MIT |
 | [Patchouli](https://modrinth.com/mod/patchouli) | 1.20.1-85-forge | both | CC-BY-NC-SA-3.0 |
 | [Pigzilla](https://modrinth.com/mod/pigzilla) | 1.3.2 | both | LicenseRef-All-Rights-Reserved |
 | [playerAnimator](https://modrinth.com/mod/playeranimator) | 1.0.2-rc1+1.20-forge | both | MIT |
@@ -245,3 +245,9 @@ Ender Trigon enhances the first Dragon fight with three heads and new attacks; t
 - World Progress headlines the first Orbital Railgun crafter. Server milestones and player stats track kills of the Netherite Monstrosity, the Wither and the Ender Dragon, alongside mobs killed and deaths. Players within 128 blocks of a boss when it dies share the kill.
 - A one-time 1.1 goal popup appears over World Progress for each account on each install.
 - The title screen no longer shows the old Dragon goal line.
+
+## Update 1.1.1
+
+- Added /progress to reopen the milestones.
+- Shorter join message.
+- Server performance tuning and visual touch-ups.
