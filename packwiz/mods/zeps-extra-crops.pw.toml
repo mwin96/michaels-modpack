@@ -1,0 +1,8 @@
+name = "Zeps' Extra Crops"
+filename = "zecrops-0.2-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/gRvLG8hC/versions/ZpjoYZRo/zecrops-0.2-1.20.1.jar"
+hash-format = "sha512"
+hash = "d7bd2fe42ba36dadcb7a6569279c15bbd6ac52151cd8d03514d7ef25bf1565bcefffe938cf7b5e353291fb5ef5688006d795cd2e416d19ac42b8523e912ed5a7"

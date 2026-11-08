@@ -1113,7 +1113,7 @@ hash = "2481f4c21c7c28d03068367b56abbad62f1c5fb28526258821ac6228da7cafc9"
 
 [[files]]
 file = "michaels-client-fixes-1.0.6-source.zip"
-hash = "921c5be22e78fd96396ad434fe4d58cd117c39347f2250d3fc25a4a9ba6b232c"
+hash = "220f49578e552267e5c8216c3eddef1128ea97a0c67d0763aa605119ab68253d"
 
 [[files]]
 file = "michaels-content-compat-1.0.0-source.zip"
@@ -1570,7 +1570,7 @@ hash = "4403e11bac95de71001faed32f2a73fec6cebd224728e1181db6a92c60ddd735"
 
 [[files]]
 file = "mods/michaels-client-fixes-1.0.6.jar"
-hash = "8fba241c42c0171d0b440f0cffd3e63a0f4f6ce296ace56a3c8c45e572523386"
+hash = "99b8c86404788f24619447a4524a0e1bb50f1f897de76a6d28a4855f3c188d3c"
 
 [[files]]
 file = "mods/michaels-content-compat-1.0.0.jar"
@@ -1848,3 +1848,8 @@ hash = "f4847d494f733c9a007ce64b86c18b3e80836e6a60362307b035cf07038018ea"
 [[files]]
 file = "tacz/michaels_loot/gunpack.meta.json"
 hash = "5e13da4f2531a8f910499484bb8012274c5b7c5243b74b61130b47cb5daba994"
+
+[[files]]
+file = "mods/zeps-extra-crops.pw.toml"
+hash = "992e9dc7e55fed7dc6829e82c7bd87c574d9cfafa6e0b0780dced56f7da255b5"
+metafile = true
