@@ -1853,3 +1853,7 @@ hash = "5e13da4f2531a8f910499484bb8012274c5b7c5243b74b61130b47cb5daba994"
 file = "mods/zeps-extra-crops.pw.toml"
 hash = "992e9dc7e55fed7dc6829e82c7bd87c574d9cfafa6e0b0780dced56f7da255b5"
 metafile = true
+
+[[files]]
+file = "mods/michaels-double-or-nothing-1.0.0.jar"
+hash = "80d791825e651e6739118722edac28c5691bde224e357680152f0286f07ebd34"
