@@ -6,11 +6,11 @@ hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
 
 [[files]]
 file = "CMM-NormalAnimals-MODIFICATION-NOTICE.txt"
-hash = "2933e6a1f1046ea87602fed27a3cbdaacf988fd879cd881c4a0c4e8d36e06622"
+hash = "d9f874e49c8e0dded80513ae20e3f02d915248b28832c6a9377d2a3574b38c8b"
 
 [[files]]
 file = "CMMRP-NormalAnimals-GPL-source.zip"
-hash = "81750e664c6b263f4cccb2a4afe29e87280cc3180e7ce1ec4ad18334d8fba230"
+hash = "3ef38ff6288af27ce65df18faf95552eac09dffb8505de90b46f32c5b85818e9"
 
 [[files]]
 file = "MICHAELS-BELLY-VISUALS-LICENSE.txt"
@@ -683,7 +683,7 @@ hash = "6bfcde9c744481dc0d9c0783e679b8abf82904ed75ed5ebded3549a1bb7fba17"
 
 [[files]]
 file = "config/openloader/resources/michaels_pack_fixes/assets/michaelspack/custom/michaels_loot/data/michaelspack/tacz_loot_injectors/utility_artifacts.json"
-hash = "f4847d494f733c9a007ce64b86c18b3e80836e6a60362307b035cf07038018ea"
+hash = "27e92ace5e046c81b4e5ac982f75dee5b8cf8f84edc88176bded07751119c598"
 preserve = true
 
 [[files]]
@@ -1113,7 +1113,7 @@ hash = "2481f4c21c7c28d03068367b56abbad62f1c5fb28526258821ac6228da7cafc9"
 
 [[files]]
 file = "michaels-client-fixes-1.0.6-source.zip"
-hash = "220f49578e552267e5c8216c3eddef1128ea97a0c67d0763aa605119ab68253d"
+hash = "96a270b6d34607fbb6e253f5a90d4417d81e584967b3ec7d2ab45cbaa5a9df05"
 
 [[files]]
 file = "michaels-content-compat-1.0.0-source.zip"
@@ -1125,7 +1125,7 @@ hash = "9d811c6f1618c6bbe480bab09b3b76c5e23059845782a699846f8fd55ce58061"
 
 [[files]]
 file = "michaels-makeup-clean-terrain-1121-source.zip"
-hash = "0675c014b2f10c6363d8551ba6ee741999fd72188d972a7d217fe320956f3369"
+hash = "bc5e1d34997a4a7ff6faa3c1c02b871405be3b76e4b15b5629113900c95cb5df"
 
 [[files]]
 file = "michaels-menu-1.0.0-1121-source.zip"
@@ -1137,7 +1137,7 @@ hash = "5bc6871ea2adb8d2873d8970472597b8d68842917827ed0f4bc56a37b77e451f"
 
 [[files]]
 file = "michaels-pack-tweaks-1.0.2-112-source.zip"
-hash = "00289189739a8025dd49353a5211793d8c78a2693a19a6da4a39f7449478a242"
+hash = "62251b8eecf1c325cbf70ff07fef31249de4e0ebb4a5ef5194e847c656a000ec"
 
 [[files]]
 file = "michaels-paxel-art-112-source.zip"
@@ -1570,7 +1570,7 @@ hash = "4403e11bac95de71001faed32f2a73fec6cebd224728e1181db6a92c60ddd735"
 
 [[files]]
 file = "mods/michaels-client-fixes-1.0.6.jar"
-hash = "99b8c86404788f24619447a4524a0e1bb50f1f897de76a6d28a4855f3c188d3c"
+hash = "fee59950d28e3650bfaaf25d030aad937dc3787ef490d353eaa47ae7234f870f"
 
 [[files]]
 file = "mods/michaels-content-compat-1.0.0.jar"
@@ -1591,7 +1591,7 @@ metafile = true
 
 [[files]]
 file = "mods/michaels-pack-tweaks-1.0.2.jar"
-hash = "d90c717b7046b501d7b8e7b68626cf1b9f0ad76a165ea157a0731813b24d4458"
+hash = "fa93906d72058b91e35f6e7a662560bbd9c11c727899f848463bd9359085bac2"
 
 [[files]]
 file = "mods/michaels-quark-4.0-462-no-posts.jar"
@@ -1779,7 +1779,7 @@ preserve = true
 
 [[files]]
 file = "resourcepacks/CMMRP_Release_1.0_NormalAnimals.zip.pw.toml"
-hash = "128de4b5e199221113ba11da662464365fee715bb849854003251a6c67c225d6"
+hash = "a0f76d8a37b1a71edf73451ebcffbfbf5f6509248673682942525c7d553729b7"
 metafile = true
 
 [[files]]
@@ -1803,7 +1803,7 @@ hash = "baf8a2dbaf0600cadc87f9183b641ee056582c6c60ab822ecc3bced2321560b6"
 
 [[files]]
 file = "shaderpacks/MakeUp-UltraFast-9.6-Enhanced.zip.pw.toml"
-hash = "51a85761a0308d41fea1b70967c90f404f44aecc54a5d81c477c69d58dc5af9e"
+hash = "bb5edc96829422c0c7dc722af69cdae943277b74fbedddcc45f9f62cac1b60ed"
 metafile = true
 
 [[files]]
@@ -1813,7 +1813,7 @@ preserve = true
 
 [[files]]
 file = "shaderpacks/MakeUp-UltraFast-9.6.zip.pw.toml"
-hash = "f13dded104d625f7f19a83df937d5fe64839c359b8491551475988f0f01c929c"
+hash = "051ff969b2fb1237705f15393c5b51f61cf1590ac5f554f7f6b76b9b37e5854d"
 metafile = true
 
 [[files]]
@@ -1843,7 +1843,7 @@ hash = "6bfcde9c744481dc0d9c0783e679b8abf82904ed75ed5ebded3549a1bb7fba17"
 
 [[files]]
 file = "tacz/michaels_loot/data/michaelspack/tacz_loot_injectors/utility_artifacts.json"
-hash = "f4847d494f733c9a007ce64b86c18b3e80836e6a60362307b035cf07038018ea"
+hash = "27e92ace5e046c81b4e5ac982f75dee5b8cf8f84edc88176bded07751119c598"
 
 [[files]]
 file = "tacz/michaels_loot/gunpack.meta.json"
@@ -1856,4 +1856,40 @@ metafile = true
 
 [[files]]
 file = "mods/michaels-double-or-nothing-1.0.0.jar"
-hash = "72ed614fa2c232e622595d74871ab132da328e8a3edf5fc6d412226069672eb4"
+hash = "d99128de026acbe8913215b1577e936a92336b30753d7c13a37a5ac590670b7f"
+
+[[files]]
+file = "config/openloader/data/michaels_pack_fixes/data/touhou_little_maid/loot_tables/chest/power_point.json"
+hash = "8bf880d7d4d6e461980917da33dcc74277e1885bf758f17722d329fb9e48490f"
+
+[[files]]
+file = "config/openloader/data/michaels_pack_fixes/data/touhou_little_maid/loot_tables/chest/spawn_bonus.json"
+hash = "b3edb0cc71ff92b0ed616689c87fd0f6a2054a08165c77604b01682e6e6e7fbe"
+
+[[files]]
+file = "config/openloader/data/michaels_pack_fixes/data/watching/predicates/chances/sighting_chances/common_sighting_chance_day.json"
+hash = "033f72c64908d6c1ed521584a3d9b902726e83c2ea0d239396fab71678408ba4"
+
+[[files]]
+file = "config/openloader/data/michaels_pack_fixes/data/watching/predicates/chances/sighting_chances/common_sighting_chance_night.json"
+hash = "656dbc0436a993b9b2cbb7602d952076ab96959b2fbcf883c5b2d6f210313ceb"
+
+[[files]]
+file = "config/openloader/data/michaels_pack_fixes/data/watching/predicates/chances/sighting_chances/rare_sighting_chance_day.json"
+hash = "2e598a5020a52fa7d2e6cd9279424f5ef8b59e4d9c6b8e236a65de2db4af6863"
+
+[[files]]
+file = "config/openloader/data/michaels_pack_fixes/data/watching/predicates/chances/sighting_chances/rare_sighting_chance_night.json"
+hash = "e10802180deff13b4d2ea70fbd67afce2bc96dea183fc6e9fe8f972216058ecc"
+
+[[files]]
+file = "config/openloader/data/michaels_pack_fixes/data/watching/predicates/chances/sighting_chances/uncommon_sighting_chance_day.json"
+hash = "3acdee9dc8973abfaa147b5eaa1dea327807a8dbf5c7244f512d60f6abc8ecc6"
+
+[[files]]
+file = "config/openloader/data/michaels_pack_fixes/data/watching/predicates/chances/sighting_chances/uncommon_sighting_chance_night.json"
+hash = "033f72c64908d6c1ed521584a3d9b902726e83c2ea0d239396fab71678408ba4"
+
+[[files]]
+file = "mods/michaels-world-welcome-1.0.2.jar"
+hash = "ac9561149bc74c015c0b6b29c86f6edc0d4616bf4cf1169a44142989f8c1be5b"

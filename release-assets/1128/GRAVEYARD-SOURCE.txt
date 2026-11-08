@@ -1,0 +1,3 @@
+Modified Graveyard 4.0.1 structure templates remove Eyes of Ender and Blaze Powder from prefilled urns.
+Copyright finallion and contributors. GPL-3.0. https://github.com/finallion/The-Graveyard-FORGE
+The editable NBT templates are included in server-overrides/config/openloader/data/michaels_pack_fixes.

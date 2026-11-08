@@ -6,3 +6,5 @@ License: GNU GPL version3 only (publisher project metadata).
 Modified for Michael's modpack on 2026-11-05: removed only custom bat, chicken, ordinary cow, pig and sheep models, textures, random variants and blink animations. Their vanilla models/textures now fall back to the user's installed Minecraft. All other original entries are unchanged. No Mojang assets are included or rehosted.
 Corresponding editable source is the original resource archive plus build_variant.py and removal audit, supplied alongside this variant. The original Minecraft asset pack is not part of this distribution.
 MyMonsterGirls remains an unchanged separate MIT-licensed pack by its original authors; it does not replace these five animals.
+
+1.0.12.8 removes the custom bee model and its matching textures and blink frames. The base game renders bees, with Quark's bee variants supported.

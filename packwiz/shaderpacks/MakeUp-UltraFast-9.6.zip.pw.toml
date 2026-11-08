@@ -3,6 +3,6 @@ filename = "MakeUp-UltraFast-9.6.zip"
 side = "client"
 
 [download]
-url = "https://github.com/mwin96/michaels-modpack/releases/download/v1.0.12.1/MakeUp-UltraFast-9.6.zip"
+url = "https://raw.githubusercontent.com/mwin96/michaels-modpack/v1.0.12.8/release-assets/1128/MakeUp-UltraFast-9.6.zip"
 hash-format = "sha512"
-hash = "e0b7c20a4edbb2727cc9065c5ca29b275bc3fae31dcce06b5d3cdd2bd5b4e8ca156e15b576e9e971ab9044479faa56554a8f6548cfb7816b4d25579f13afbf8a"
+hash = "338a7ac30d3ae1437c6721a0458704410822567343e43314ab02c1194ad20a3ad0d06f0041b2a93b09d28dac13434f225fdc3889f185f69a579e87050582f181"

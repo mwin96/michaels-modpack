@@ -3,6 +3,6 @@ filename = "CMMRP_Release_1.0_NormalAnimals.zip"
 side = "client"
 
 [download]
-url = "https://github.com/mwin96/michaels-modpack/releases/download/v1.0.3/CMMRP_Release_1.0_NormalAnimals.zip"
+url = "https://raw.githubusercontent.com/mwin96/michaels-modpack/v1.0.12.8/release-assets/1128/CMMRP_Release_1.0_NormalAnimals.zip"
 hash-format = "sha512"
-hash = "7ee6847539fc7b6e0300682c4e1c94efce03bed147390b6d835c0104f62ec6f3c56bab5acb9d247ac889471a26d88ae7dd56f2a34196a7e2c6b557b5cb0a3e16"
+hash = "31bf67b60f4c93bf984ca1225453e1ea14bfe3cc441ac34771084f2be2605ed7afec697979913a3bb0c9e3b5043acc804ad77b31316f08ccb473230d6d8c92c9"
