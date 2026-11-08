@@ -65,7 +65,6 @@ Third-party archives are downloaded from their publishers rather than rehosted i
 | [Oculus](https://modrinth.com/mod/oculus) | 1.20.1-1.8.0 | client | LGPL-3.0-only |
 | [Open Loader](https://modrinth.com/mod/open-loader) | 19.0.5 | both | LGPL-2.1-only |
 | [Patchouli](https://modrinth.com/mod/patchouli) | 1.20.1-85-forge | both | CC-BY-NC-SA-3.0 |
-| [Physics Mod Pro](https://www.patreon.com/Haubna/posts/physics-mod-pro-89202866) | v171o | client | Author public download; referenced, not rehosted |
 | [Pigzilla](https://modrinth.com/mod/pigzilla) | 1.3.2 | both | LicenseRef-All-Rights-Reserved |
 | [playerAnimator](https://modrinth.com/mod/playeranimator) | 1.0.2-rc1+1.20-forge | both | MIT |
 | [Quark](https://modrinth.com/mod/quark) | 1.20.1-4.0-462 | both | CC-BY-NC-SA-3.0 |
@@ -111,7 +110,7 @@ Third-party archives are downloaded from their publishers rather than rehosted i
 - **Faithful Backrooms** — consolidate redundant Backrooms mods. Retain Meulti's Backrooms for the requested feature. Faithful's dependency chain adds experimental Immersive Portals, alternate worlds, and renderer changes that compete with the shader/physics stack; the client emitted portal timer errors. Removing the duplicate and orphaned dependencies favors the 60+ FPS requirement.
 - **Baablu's Natural Disasters** — omit redundant incompatible disaster project. The relevant 1.20.1 build is Fabric-only. Weather2 and Extreme Natural Disasters already cover the disaster role; introducing a loader bridge or a full port for a third disaster system adds cost and instability without a needed progression feature.
 - **Extreme Natural Disasters** — install on both sides. Runtime Forge handshake rejects clients without its network channel, despite server-side metadata. Matching client/server versions resolve the connection failure.
-- **Physics Mod Pro** — client visual effects with performance preset. Author public attachment v171o; ocean waves only. Block, mob, item, cloth, smoke, weather particles, collapse and the separate fluid-particle simulator are disabled.
+- **Water** uses regular shaded Minecraft water with either MakeUp profile.
 
 ## Playability patch 1.0.2
 

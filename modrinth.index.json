@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
   "game": "minecraft",
-  "versionId": "1.0.11",
+  "versionId": "1.0.12.9",
   "name": "michael's modpack",
   "summary": "Vanilla progression interrupted by horror, meme mobs, giants and disasters; guns, swords and artifacts to fight back.",
   "dependencies": {
@@ -297,17 +297,17 @@
     {
       "path": "resourcepacks/CMMRP_Release_1.0_NormalAnimals.zip",
       "hashes": {
-        "sha1": "8f1178d80f4cb859e8d2df105a455aac3808af68",
-        "sha512": "7ee6847539fc7b6e0300682c4e1c94efce03bed147390b6d835c0104f62ec6f3c56bab5acb9d247ac889471a26d88ae7dd56f2a34196a7e2c6b557b5cb0a3e16"
+        "sha1": "fd490954d82aece69f90ab9c31dbd9aed91dceff",
+        "sha512": "31bf67b60f4c93bf984ca1225453e1ea14bfe3cc441ac34771084f2be2605ed7afec697979913a3bb0c9e3b5043acc804ad77b31316f08ccb473230d6d8c92c9"
       },
       "env": {
         "client": "required",
         "server": "unsupported"
       },
       "downloads": [
-        "https://github.com/mwin96/michaels-modpack/releases/download/v1.0.3/CMMRP_Release_1.0_NormalAnimals.zip"
+        "https://raw.githubusercontent.com/mwin96/michaels-modpack/v1.0.12.8/release-assets/1128/CMMRP_Release_1.0_NormalAnimals.zip"
       ],
-      "fileSize": 1436040
+      "fileSize": 1426884
     },
     {
       "path": "mods/MonstersGirls_1.3.4.3_1.20.1.jar",
@@ -687,17 +687,17 @@
     {
       "path": "shaderpacks/MakeUp-UltraFast-9.6.zip",
       "hashes": {
-        "sha1": "e2a930f1ffb7ca6a56cf466c13c9e36193425a38",
-        "sha512": "fa7af14ac14bd77bc1c5d8abf5243e9f3dae08777272790de62b9f388db2f5383f8b00c61da358a356a43635afb7cab80ea7196ffd3a97e22d3184b76e9f3fd3"
+        "sha1": "c425671471ac22d2fe075d0eff6b027f69ae61e7",
+        "sha512": "338a7ac30d3ae1437c6721a0458704410822567343e43314ab02c1194ad20a3ad0d06f0041b2a93b09d28dac13434f225fdc3889f185f69a579e87050582f181"
       },
       "env": {
         "client": "required",
         "server": "unsupported"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/izsIPI7a/versions/t4YRxQug/MakeUp-UltraFast-9.6.zip"
+        "https://raw.githubusercontent.com/mwin96/michaels-modpack/v1.0.12.8/release-assets/1128/MakeUp-UltraFast-9.6.zip"
       ],
-      "fileSize": 406830
+      "fileSize": 446955
     },
     {
       "path": "mods/SimpleStorageNetwork-1.20.1-1.13.2.jar",
@@ -1390,21 +1390,6 @@
       "fileSize": 1105891
     },
     {
-      "path": "mods/physics-mod-pro-v171o-forge-mc-1.20.1.jar",
-      "hashes": {
-        "sha1": "d4ed5d97f2d60bb1dc7226b42e3d28a979e7c40a",
-        "sha512": "c1412c8d5b261ac23a7873e0e4014d2f01a9476ee21d41df8230d26cde3827242125fd58eb5cf8dc2c50dd6249632a7e21aa8106e2ebc42986e31276faf139f0"
-      },
-      "env": {
-        "client": "required",
-        "server": "unsupported"
-      },
-      "downloads": [
-        "https://www.patreon.com/file?h=89202866&m=698320435"
-      ],
-      "fileSize": 139266324
-    },
-    {
       "path": "mods/Jade-1.20.1-Forge-11.13.3.jar",
       "hashes": {
         "sha512": "72025c4ad6d26522bafe3d5d6ac9d4702c006a868312cb34df8a7a2398a4618205839607b129c167fd176e58cb7655f08e3afbf1993925c80d4fcc559c45a037",
@@ -1467,17 +1452,17 @@
     {
       "path": "shaderpacks/MakeUp-UltraFast-9.6-Enhanced.zip",
       "hashes": {
-        "sha1": "e2a930f1ffb7ca6a56cf466c13c9e36193425a38",
-        "sha512": "fa7af14ac14bd77bc1c5d8abf5243e9f3dae08777272790de62b9f388db2f5383f8b00c61da358a356a43635afb7cab80ea7196ffd3a97e22d3184b76e9f3fd3"
+        "sha1": "c425671471ac22d2fe075d0eff6b027f69ae61e7",
+        "sha512": "338a7ac30d3ae1437c6721a0458704410822567343e43314ab02c1194ad20a3ad0d06f0041b2a93b09d28dac13434f225fdc3889f185f69a579e87050582f181"
       },
       "env": {
         "client": "required",
         "server": "unsupported"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/izsIPI7a/versions/t4YRxQug/MakeUp-UltraFast-9.6.zip"
+        "https://raw.githubusercontent.com/mwin96/michaels-modpack/v1.0.12.8/release-assets/1128/MakeUp-UltraFast-9.6-Enhanced.zip"
       ],
-      "fileSize": 406830
+      "fileSize": 446955
     },
     {
       "path": "mods/chat_heads-0.15.7-forge-1.20.jar",
@@ -2003,6 +1988,51 @@
         "client": "required",
         "server": "required"
       }
+    },
+    {
+      "path": "mods/kirriscasino-forge-1.20.1-0.10.0.jar",
+      "hashes": {
+        "sha512": "ba1748983b4f936e3e4bd3cd358383616608e85bb30e4646c0496057752518da6650936f43e1bbb09a5ef6d9f32a7910f3edcdc651b71001713b80a6a5c09096",
+        "sha1": "ec598babfe255aca7f1f64ac1b3063d6712dc981"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://mediafilez.forgecdn.net/files/9435/630/kirriscasino-forge-1.20.1-0.10.0.jar"
+      ],
+      "fileSize": 2315761
+    },
+    {
+      "path": "mods/FallingTree-1.20.1-4.3.6.jar",
+      "hashes": {
+        "sha512": "5379f6161037d94190b040639f077314f151035b804f432a0f9082271a9fddd630eeee4a599ce4ff26a1a6fa57eedfc7b25c551d2d68cd130823f18bd2145ad9",
+        "sha1": "0d02a649a1a7713ae5d88a4408e3f389d40a6031"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/Fb4jn8m6/versions/SLGqTNx5/FallingTree-1.20.1-4.3.6.jar"
+      ],
+      "fileSize": 401913
+    },
+    {
+      "path": "mods/zecrops-0.2-1.20.1.jar",
+      "hashes": {
+        "sha1": "4468d1c4be17246731db1549f91c83a9d278c406",
+        "sha512": "d7bd2fe42ba36dadcb7a6569279c15bbd6ac52151cd8d03514d7ef25bf1565bcefffe938cf7b5e353291fb5ef5688006d795cd2e416d19ac42b8523e912ed5a7"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/gRvLG8hC/versions/ZpjoYZRo/zecrops-0.2-1.20.1.jar"
+      ],
+      "fileSize": 60578
     }
   ]
 }

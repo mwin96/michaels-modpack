@@ -750,41 +750,6 @@ hash = "d289f4c7540e3e24bcf6bbf3f5a2aaaf87ccf58027d2213e40497fc627422068"
 preserve = true
 
 [[files]]
-file = "config/physicsmod/physics_animations_client_config.json"
-hash = "d8a629b25da461374926b02b6649ed90154cb1bb6ab7e5208f519b5bcf29b08b"
-preserve = true
-
-[[files]]
-file = "config/physicsmod/physics_blocks_client_config.json"
-hash = "5ffbdb5efb37d1a04844be71b46d0d3ec1540abd443041a62ea7c14e0a607499"
-preserve = true
-
-[[files]]
-file = "config/physicsmod/physics_client_config.json"
-hash = "c4e6ebaa03cc66449f79334b0fb578f9d910dd3381afb2a539c95f9926b67355"
-preserve = true
-
-[[files]]
-file = "config/physicsmod/physics_cloth_config.json"
-hash = "c004242898b912a2ad1a836a4e017d921c1e8660180565ce56dc4cadc027e939"
-preserve = true
-
-[[files]]
-file = "config/physicsmod/physics_mobs_client_config.json"
-hash = "0932f01049091180c5b0106543a37631b4361c09a4ae84121fc9986c5f10118c"
-preserve = true
-
-[[files]]
-file = "config/physicsmod/physics_server_config.json"
-hash = "8386c87d6aeaebe680643c17884bef58d3e4fdd7b0ee6eb109fd25b58fefac32"
-preserve = true
-
-[[files]]
-file = "config/physicsmod/physics_vines_client_config.json"
-hash = "f56290fa9e5c056db98a2c7abdab996106691b54040320bd525df459146a43b7"
-preserve = true
-
-[[files]]
 file = "config/pigzilla_mod_config.toml"
 hash = "7dbba89c336b9370bb8c7f706fee8c35ff6b83501f81c5bac650739a2925e1a8"
 preserve = true
@@ -1613,11 +1578,6 @@ hash = "aa01e640ab4debd51bcc71404f1b1258552f7693a59b1a514ce07be7e67847bc"
 metafile = true
 
 [[files]]
-file = "mods/physics-mod-pro-v171o-forge-mc-1.20.1.jar.pw.toml"
-hash = "89ea31f90b13429b5ec3f5e62a33793013de9eeeca01e6c80482a7cb4ead863b"
-metafile = true
-
-[[files]]
 file = "mods/pigzilla-1.3.2-forge-1.20.1.jar.pw.toml"
 hash = "f1910d3bf2a33c0ecce5ec42e0b84384f1369d0a511a1c4587b50303177dfa60"
 metafile = true
@@ -1891,5 +1851,5 @@ file = "config/openloader/data/michaels_pack_fixes/data/watching/predicates/chan
 hash = "033f72c64908d6c1ed521584a3d9b902726e83c2ea0d239396fab71678408ba4"
 
 [[files]]
-file = "mods/michaels-world-welcome-1.0.2.jar"
-hash = "ac9561149bc74c015c0b6b29c86f6edc0d4616bf4cf1169a44142989f8c1be5b"
+file = "mods/michaels-world-welcome-1.0.3.jar"
+hash = "3b2cfcbb828513d2395ef26bcea1c9bed14519a20121aa687d4557888f50a6c4"
