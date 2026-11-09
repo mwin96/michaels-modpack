@@ -1803,10 +1803,6 @@ file = "config/openloader/resources/michaels_pack_fixes/assets/cataclysm/texture
 hash = "c14e68889a04270dc1724ead61e61d4832d8be2c98570163297de5767e410ba4"
 
 [[files]]
-file = "mods/orbital_railgun-1.4.2-michaels-2.jar"
-hash = "1efdc901ee7895e73689dd2f2368c6261e24baa3283d4abc210ad1ec5ab097c2"
-
-[[files]]
 file = "config/openloader/data/michaels_pack_fixes/data/michaels_pack_fixes/forge/biome_modifier/more_vanilla_nether.json"
 hash = "21fff7d1420e5c0b075a46ed6eb2f730826240a71e33dd4795c3d06082882d3f"
 
@@ -1853,11 +1849,6 @@ hash = "b7b3aa14dc7c8f273dd67a420b75b4868a251c204ebef4e2f93b9a338afb524c"
 [[files]]
 file = "config/inventoryprofilesnext/integrationHints/michaels_pack.json"
 hash = "18ca425d1498ff16b753bdeb628c50f431b634c3a4f3bf2962165c7d795658b5"
-
-[[files]]
-file = "config/man_config.toml"
-hash = "3b0081ff2aa1de604d8ea943e5934bbe6277e794ed764c6f65f7c4da476fe70f"
-preserve = true
 
 [[files]]
 file = "config/openloader/resources/michaels_audio_balance/assets/minecraft/sounds/ambient/weather/thunder1.ogg"
@@ -1926,3 +1917,16 @@ metafile = true
 file = "mods/trashslot-forge-1.20.1-15.1.5.jar.pw.toml"
 hash = "7b5a3f315b2813996491a0e87d115423de82dab0b563a233a1ac5d3d3e045d30"
 metafile = true
+
+[[files]]
+file = "config/man_config.toml"
+hash = "3162f604decafd8c3cab6b85b34a5ef73e9575b3ab1c71f5ef6b63242c33a35f"
+preserve = true
+
+[[files]]
+file = "mods/michaels-join-hold-1.0.0.jar"
+hash = "2d9629ad12a4f0bced03f1b9a94cbcad7965632e051459575db1c4df4190ed91"
+
+[[files]]
+file = "mods/orbital_railgun-1.4.2-michaels-3.jar"
+hash = "dc64d2d925756c4b7275aca7025f6329a73461a3928f4569a93159c530b36bbb"
