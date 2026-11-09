@@ -251,3 +251,8 @@ Ender Trigon enhances the first Dragon fight with three heads and new attacks; t
 - Added /progress to reopen the milestones.
 - Shorter join message.
 - Server performance tuning and visual touch-ups.
+
+## Update 1.2
+
+- Combat rebalance, including stronger melee weapons.
+- Equipped gear and hotbar weapons lose durability on death.

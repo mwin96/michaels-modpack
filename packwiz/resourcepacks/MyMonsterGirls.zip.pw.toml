@@ -1,8 +1,0 @@
-name = "MyMonsterGirls.zip"
-filename = "MyMonsterGirls.zip"
-side = "client"
-
-[download]
-url = "https://cdn.modrinth.com/data/rt3HXdnx/versions/OHcyaMHu/MyMonsterGirls.zip"
-hash-format = "sha512"
-hash = "f0dbc45eebd86be494f9d22c8d16cd4d68545c89bc86b8f6237a3a63cb2371738c1cd9d56d66dea37a5e95e89161d97d28e681a8ebabe39b98b7e31b2d82bda6"

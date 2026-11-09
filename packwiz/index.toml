@@ -1745,11 +1745,6 @@ hash = "4e5104e753ce85c52ff46db2470c5f9014223d1d6faf3ea9bcf56d44a9a52841"
 metafile = true
 
 [[files]]
-file = "resourcepacks/MyMonsterGirls.zip.pw.toml"
-hash = "a735b32eb03dc19eda6e22a94ad7bde3341eaff4eb48f9bd57af0bf73faf3286"
-metafile = true
-
-[[files]]
 file = "resourcepacks/michaels-light-skies-overlay.zip"
 hash = "baf8a2dbaf0600cadc87f9183b641ee056582c6c60ab822ecc3bced2321560b6"
 
@@ -1859,9 +1854,53 @@ file = "config/openloader/resources/michaels_pack_fixes/assets/cataclysm/texture
 hash = "c14e68889a04270dc1724ead61e61d4832d8be2c98570163297de5767e410ba4"
 
 [[files]]
-file = "mods/michaels-world-welcome-1.1.1.jar"
-hash = "ceded702a5c2b2154e1cec7c0d8dab2352f5896711068188976ed7c1b8112098"
-
-[[files]]
 file = "mods/orbital_railgun-1.4.2-michaels-2.jar"
 hash = "1efdc901ee7895e73689dd2f2368c6261e24baa3283d4abc210ad1ec5ab097c2"
+
+[[files]]
+file = "config/openloader/data/michaels_pack_fixes/data/michaels_pack_fixes/forge/biome_modifier/more_vanilla_nether.json"
+hash = "21fff7d1420e5c0b075a46ed6eb2f730826240a71e33dd4795c3d06082882d3f"
+
+[[files]]
+file = "config/openloader/data/michaels_pack_fixes/data/michaels_pack_fixes/forge/biome_modifier/more_vanilla_overworld.json"
+hash = "3f26a480ac0286b5f1564b89d2afae562bad2d4de509328d4271a5d0487881fa"
+
+[[files]]
+file = "mods/michaels-world-welcome-1.2.0.jar"
+hash = "d682cca3a2b447051e42d435f81df7111d64179fe866436c42323a425ba32fa6"
+
+[[files]]
+file = "resourcepacks/MyMonsterGirls.zip"
+hash = "8b695a59ac565567fe8a621abf78e6c61ba01c5966309a3fe744d752617def6f"
+
+[[files]]
+file = "tacz/zz_michaels_guns/data/tacz/data/guns/aa12_data.json"
+hash = "e6593f8f9f321e56eebe5067ce93534dd0580f24b10e42e4cd0aa7df88644588"
+
+[[files]]
+file = "tacz/zz_michaels_guns/data/tacz/data/guns/hk_mk23_data.json"
+hash = "9cafc191b422834b12671ff315d6449012607255ffcb7e90f38a1c4f01d4ea0f"
+
+[[files]]
+file = "tacz/zz_michaels_guns/data/tacz/data/guns/lonetrail_data.json"
+hash = "df0c4ab4536583c99478581dcde7940e3ff67fd9f62f860e5752ef85d8da2722"
+
+[[files]]
+file = "tacz/zz_michaels_guns/data/tacz/data/guns/m107_data.json"
+hash = "9493b10de5f84b642a9d040bb9184167ec23ae4631ff4a94625b8de8cee90c28"
+
+[[files]]
+file = "tacz/zz_michaels_guns/data/tacz/data/guns/rhino357_data.json"
+hash = "bde4697b2a8ff4cff1e00f57529d912cb7cf0fabbb1fef7247fdc2c9ccc3c0a1"
+
+[[files]]
+file = "tacz/zz_michaels_guns/data/tacz/data/guns/spas_12_data.json"
+hash = "7b74a32fd1579f129883718c505aa9b77556f383129fc7384d37355d82244861"
+
+[[files]]
+file = "tacz/zz_michaels_guns/data/tacz/data/guns/taurus943_data.json"
+hash = "d7031636b8056277622dfe0c6eebd6c327faea8fc729957560e40499f7b84dec"
+
+[[files]]
+file = "tacz/zz_michaels_guns/gunpack.meta.json"
+hash = "b7b3aa14dc7c8f273dd67a420b75b4868a251c204ebef4e2f93b9a338afb524c"

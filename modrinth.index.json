@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
   "game": "minecraft",
-  "versionId": "1.1.1",
+  "versionId": "1.2",
   "name": "michael's modpack",
   "summary": "Vanilla progression interrupted by horror, meme mobs, giants and disasters; guns, swords and artifacts to fight back.",
   "dependencies": {
@@ -323,21 +323,6 @@
         "https://mediafilez.forgecdn.net/files/7071/708/MonstersGirls_1.3.4.3_1.20.1.jar"
       ],
       "fileSize": 5651424
-    },
-    {
-      "path": "resourcepacks/MyMonsterGirls.zip",
-      "hashes": {
-        "sha1": "b5933995aadaeac696d82e149240f34fb35f8198",
-        "sha512": "f0dbc45eebd86be494f9d22c8d16cd4d68545c89bc86b8f6237a3a63cb2371738c1cd9d56d66dea37a5e95e89161d97d28e681a8ebabe39b98b7e31b2d82bda6"
-      },
-      "env": {
-        "client": "required",
-        "server": "unsupported"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/rt3HXdnx/versions/OHcyaMHu/MyMonsterGirls.zip"
-      ],
-      "fileSize": 3301122
     },
     {
       "path": "resourcepacks/Melodys Cute Villagers v1.11.1_pre-26.1.zip",

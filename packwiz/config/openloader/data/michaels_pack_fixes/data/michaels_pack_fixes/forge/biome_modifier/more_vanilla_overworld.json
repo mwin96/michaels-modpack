@@ -1,0 +1,36 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#minecraft:is_overworld",
+  "spawners": [
+    {
+      "type": "minecraft:zombie",
+      "weight": 23,
+      "minCount": 4,
+      "maxCount": 4
+    },
+    {
+      "type": "minecraft:skeleton",
+      "weight": 24,
+      "minCount": 4,
+      "maxCount": 4
+    },
+    {
+      "type": "minecraft:spider",
+      "weight": 25,
+      "minCount": 4,
+      "maxCount": 4
+    },
+    {
+      "type": "minecraft:creeper",
+      "weight": 25,
+      "minCount": 4,
+      "maxCount": 4
+    },
+    {
+      "type": "minecraft:slime",
+      "weight": 24,
+      "minCount": 4,
+      "maxCount": 4
+    }
+  ]
+}
