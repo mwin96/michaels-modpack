@@ -405,11 +405,6 @@ hash = "4d7541b1485762b5ec2fcce926032ca43681ef67dc725383ce84ff823b14ef49"
 preserve = true
 
 [[files]]
-file = "config/man_config.toml"
-hash = "937d078d825e0c9db28448577c20fc35394b4abe781a5633fe6dbb7fa9e5e0ad"
-preserve = true
-
-[[files]]
 file = "config/mbackrooms/Mbackrooms-Config-Common.toml"
 hash = "8e6745502aaca3a3ade550569b6fc4d9beca1a1bb98b9a3ab9278772cf502850"
 preserve = true
@@ -652,10 +647,6 @@ preserve = true
 [[files]]
 file = "config/openloader/resources/michaels_audio_balance/assets/eternaljesus/sounds.json"
 hash = "78839969aa2b4279e9f1ca393fcc147bc64c1c138efb1327f9f1456216bf313c"
-
-[[files]]
-file = "config/openloader/resources/michaels_audio_balance/assets/siren_head/sounds.json"
-hash = "e8b9a0f5eaa096234c24e727a8a29c8ef9d98020d4ddf4b43cd23c80e0eb5bf2"
 
 [[files]]
 file = "config/openloader/resources/michaels_audio_balance/pack.mcmeta"
@@ -925,16 +916,6 @@ hash = "2c5645c6cb879b8f1917d4473c5b6c26fc57cc814d408703c9ac774f3b523958"
 preserve = true
 
 [[files]]
-file = "config/touhou_little_maid-common.toml"
-hash = "07d26518f5fd13bddcb61661fed32c2da2c64d3a6a684c03a44ff0567c21d7d5"
-preserve = true
-
-[[files]]
-file = "config/touhou_little_maid/info.json"
-hash = "b796821e4450c1f5c01799fb4cc49d2c8d08b8abdc20ee745934c8142bf6f84b"
-preserve = true
-
-[[files]]
 file = "config/trender.json"
 hash = "fe0bed19bd0927b3d519816c73378730689080a8f07e66a6167c266ffde29dd2"
 preserve = true
@@ -1047,11 +1028,6 @@ preserve = true
 [[files]]
 file = "defaultconfigs/tacz-server.toml"
 hash = "f8c4e78147eb6d51772fee54166e04713c61f83b2376845438f0e5dac7c2ace8"
-preserve = true
-
-[[files]]
-file = "defaultconfigs/touhou_little_maid-server.toml"
-hash = "7fbfad1bd71b1840ea0a022618a5ec17597ef7ce87d2b655c9dc92b8d0ce4118"
 preserve = true
 
 [[files]]
@@ -1675,11 +1651,6 @@ hash = "700425e4c118c6c92dd685b74d3de3a08635348bd60222ec7cd2e2dae363bb9d"
 metafile = true
 
 [[files]]
-file = "mods/touhoulittlemaid-1.5.3-forge+mc1.20.1.jar.pw.toml"
-hash = "2b72fb74a69e0a28149fb4d75cd469c06e39185fca736c84ad8544fef65881f6"
-metafile = true
-
-[[files]]
 file = "mods/unmannedonlinetickstasis-1.0.0.jar.pw.toml"
 hash = "4e8831c48b89538c1a323ca64bc27dafaafdde306727c7449fc194e0702d7ec1"
 metafile = true
@@ -1749,19 +1720,9 @@ file = "resourcepacks/michaels-light-skies-overlay.zip"
 hash = "baf8a2dbaf0600cadc87f9183b641ee056582c6c60ab822ecc3bced2321560b6"
 
 [[files]]
-file = "shaderpacks/MakeUp-UltraFast-9.6-Enhanced.zip.pw.toml"
-hash = "bb5edc96829422c0c7dc722af69cdae943277b74fbedddcc45f9f62cac1b60ed"
-metafile = true
-
-[[files]]
 file = "shaderpacks/MakeUp-UltraFast-9.6-Enhanced.zip.txt"
 hash = "077c2b2a35d0a145be305d7cc8e1f04e087bee83cd4ec22b930ef147f8440298"
 preserve = true
-
-[[files]]
-file = "shaderpacks/MakeUp-UltraFast-9.6.zip.pw.toml"
-hash = "051ff969b2fb1237705f15393c5b51f61cf1590ac5f554f7f6b76b9b37e5854d"
-metafile = true
 
 [[files]]
 file = "shaderpacks/MakeUp-UltraFast-9.6.zip.txt"
@@ -1800,18 +1761,6 @@ hash = "5e13da4f2531a8f910499484bb8012274c5b7c5243b74b61130b47cb5daba994"
 file = "mods/zeps-extra-crops.pw.toml"
 hash = "992e9dc7e55fed7dc6829e82c7bd87c574d9cfafa6e0b0780dced56f7da255b5"
 metafile = true
-
-[[files]]
-file = "mods/michaels-double-or-nothing-1.0.0.jar"
-hash = "d99128de026acbe8913215b1577e936a92336b30753d7c13a37a5ac590670b7f"
-
-[[files]]
-file = "config/openloader/data/michaels_pack_fixes/data/touhou_little_maid/loot_tables/chest/power_point.json"
-hash = "8bf880d7d4d6e461980917da33dcc74277e1885bf758f17722d329fb9e48490f"
-
-[[files]]
-file = "config/openloader/data/michaels_pack_fixes/data/touhou_little_maid/loot_tables/chest/spawn_bonus.json"
-hash = "b3edb0cc71ff92b0ed616689c87fd0f6a2054a08165c77604b01682e6e6e7fbe"
 
 [[files]]
 file = "config/openloader/data/michaels_pack_fixes/data/watching/predicates/chances/sighting_chances/common_sighting_chance_day.json"
@@ -1866,10 +1815,6 @@ file = "config/openloader/data/michaels_pack_fixes/data/michaels_pack_fixes/forg
 hash = "3f26a480ac0286b5f1564b89d2afae562bad2d4de509328d4271a5d0487881fa"
 
 [[files]]
-file = "mods/michaels-world-welcome-1.2.0.jar"
-hash = "d682cca3a2b447051e42d435f81df7111d64179fe866436c42323a425ba32fa6"
-
-[[files]]
 file = "resourcepacks/MyMonsterGirls.zip"
 hash = "8b695a59ac565567fe8a621abf78e6c61ba01c5966309a3fe744d752617def6f"
 
@@ -1904,3 +1849,80 @@ hash = "d7031636b8056277622dfe0c6eebd6c327faea8fc729957560e40499f7b84dec"
 [[files]]
 file = "tacz/zz_michaels_guns/gunpack.meta.json"
 hash = "b7b3aa14dc7c8f273dd67a420b75b4868a251c204ebef4e2f93b9a338afb524c"
+
+[[files]]
+file = "config/inventoryprofilesnext/integrationHints/michaels_pack.json"
+hash = "18ca425d1498ff16b753bdeb628c50f431b634c3a4f3bf2962165c7d795658b5"
+
+[[files]]
+file = "config/man_config.toml"
+hash = "3b0081ff2aa1de604d8ea943e5934bbe6277e794ed764c6f65f7c4da476fe70f"
+preserve = true
+
+[[files]]
+file = "config/openloader/resources/michaels_audio_balance/assets/minecraft/sounds/ambient/weather/thunder1.ogg"
+hash = "304820a6e7f4b995585a10ef0cc3599dec6fb1d34219e6b579c6a40b11717fbb"
+
+[[files]]
+file = "config/openloader/resources/michaels_audio_balance/assets/minecraft/sounds/ambient/weather/thunder2.ogg"
+hash = "f1a6a4cffc4a156b5c322960ce2f70819ae0c165ad4a8ce4500c4971a6407b5b"
+
+[[files]]
+file = "config/openloader/resources/michaels_audio_balance/assets/minecraft/sounds/ambient/weather/thunder3.ogg"
+hash = "9534d056fadf4c3df303fb7bd55a2d1973b5b631f475e9bb5a0312935ce5c09a"
+
+[[files]]
+file = "config/openloader/resources/michaels_audio_balance/assets/scp_additions/sounds.json"
+hash = "f48917fd04c455c75f409979b346748c8ad7b60d039cd505744d2c8c79072a1a"
+
+[[files]]
+file = "config/openloader/resources/michaels_audio_balance/assets/scp_ultimate/sounds.json"
+hash = "e5ff8a9046b33148cc1f24d2fb28a234a829ce6f0fe1a39724e3dc15f636582f"
+
+[[files]]
+file = "config/openloader/resources/michaels_audio_balance/assets/scpinventory/sounds.json"
+hash = "9c535cf0ac128151ab374f14ad3a39aaa4e04ee32533633a94c4b48991f0a0f2"
+
+[[files]]
+file = "config/openloader/resources/michaels_audio_balance/assets/scpo/sounds.json"
+hash = "0b2534dc7300480c8dadb661b5a363cbd9418f2f5abccbe3bb895c69bb95d9ea"
+
+[[files]]
+file = "config/openloader/resources/michaels_audio_balance/assets/siren_head/sounds.json"
+hash = "2e5ac3a6877c0a64f0bea1b7c4fbb93eae713ac942ec733c9f0160e430ed7041"
+
+[[files]]
+file = "mods/michaels-double-or-nothing-1.0.1.jar"
+hash = "00723d721d34ae575c1b004475a25518070003099feb8dbdddaa1686ec30b05b"
+
+[[files]]
+file = "mods/michaels-world-welcome-1.2.1.jar"
+hash = "4dd4ebea2f150f2c2d412e2e2e0254bcf09fbf4e2e1ca5f19ffb782c1287b3f1"
+
+[[files]]
+file = "shaderpacks/MakeUp-UltraFast-9.6-Enhanced.zip"
+hash = "088ebe89778cdfac90ca5dd4d13eefd2f1e66e353eef1dcd09f24287efd8c39f"
+
+[[files]]
+file = "shaderpacks/MakeUp-UltraFast-9.6.zip"
+hash = "088ebe89778cdfac90ca5dd4d13eefd2f1e66e353eef1dcd09f24287efd8c39f"
+
+[[files]]
+file = "mods/disenchanting_table-merged-1.20.1-5.0.2.jar.pw.toml"
+hash = "1b8c5a7d6708e0027933ffa0521bde6f7e394fef2be06b02d1c4fea5be907a50"
+metafile = true
+
+[[files]]
+file = "mods/extra_enchantments-1.20.1-1.7.2.jar.pw.toml"
+hash = "d8e598ec9adb82550eb542cfd9a14983a9cc7998528e705b1e13326f39a6e1a6"
+metafile = true
+
+[[files]]
+file = "mods/monolib-forge-1.20.1-4.1.2.jar.pw.toml"
+hash = "0e7675a1960f099847e25e8face21bd8b380e2e21c08b9f0b9f9740219a7f4b4"
+metafile = true
+
+[[files]]
+file = "mods/trashslot-forge-1.20.1-15.1.5.jar.pw.toml"
+hash = "7b5a3f315b2813996491a0e87d115423de82dab0b563a233a1ac5d3d3e045d30"
+metafile = true

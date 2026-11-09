@@ -1,0 +1,42 @@
+{
+  "stonedrag": {
+    "sounds": [
+      {
+        "name": "scp_ultimate:stonedrag",
+        "stream": false,
+        "volume": 0.65
+      }
+    ],
+    "replace": true
+  },
+  "stonedrag1": {
+    "sounds": [
+      {
+        "name": "scp_ultimate:stonedrag1",
+        "stream": false,
+        "volume": 0.65
+      }
+    ],
+    "replace": true
+  },
+  "necksnap2": {
+    "sounds": [
+      {
+        "name": "scp_ultimate:necksnap2",
+        "stream": false,
+        "volume": 0.65
+      }
+    ],
+    "replace": true
+  },
+  "scp173song": {
+    "sounds": [
+      {
+        "name": "scp_ultimate:scp173song",
+        "stream": false,
+        "volume": 0.65
+      }
+    ],
+    "replace": true
+  }
+}

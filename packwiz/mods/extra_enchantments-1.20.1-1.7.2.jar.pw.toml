@@ -1,0 +1,8 @@
+name = "extra_enchantments-1.20.1-1.7.2.jar"
+filename = "extra_enchantments-1.20.1-1.7.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ybgcuKbF/versions/GEce1syN/extra_enchantments-1.20.1-1.7.2.jar"
+hash-format = "sha512"
+hash = "2a47b10d911a614661d9cb5503b126689dde27703682f80b3745e507db2cdeb30be25e2499026857444224a39b226fd7643a9fba34773b8c882ac4f2f75cef7e"

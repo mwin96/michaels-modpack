@@ -1,0 +1,8 @@
+name = "disenchanting_table-merged-1.20.1-5.0.2.jar"
+filename = "disenchanting_table-merged-1.20.1-5.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/9BgYgXE4/versions/DgDhbN2s/disenchanting_table-merged-1.20.1-5.0.2.jar"
+hash-format = "sha512"
+hash = "ff002f71fa093723ffd0d3ea55f96b0d8a90386ec82b3eee52798b8e68a043cfb4c54635733b9d193df495640301ac062df92852aeae8bd3ca522a094fec46eb"

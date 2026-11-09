@@ -1,0 +1,58 @@
+{
+  "stone_scrap": {
+    "subtitle": "subtitles.scpinventory.stone_scrap",
+    "sounds": [
+      {
+        "name": "scpinventory:stone_scrap_1",
+        "volume": 0.975
+      },
+      {
+        "name": "scpinventory:stone_scrap_2",
+        "volume": 0.975
+      },
+      {
+        "name": "scpinventory:stone_scrap_3",
+        "volume": 0.975
+      },
+      {
+        "name": "scpinventory:stone_scrap_4",
+        "volume": 0.975
+      },
+      {
+        "name": "scpinventory:stone_scrap_5",
+        "volume": 0.975
+      }
+    ],
+    "replace": true
+  },
+  "stone_drag": {
+    "subtitle": "subtitles.scpinventory.stone_drag",
+    "sounds": [
+      {
+        "name": "scpinventory:stone_drag",
+        "volume": 1.3
+      }
+    ],
+    "replace": true
+  },
+  "statue_death": {
+    "subtitle": "subtitles.scpinventory.statue_death",
+    "sounds": [
+      {
+        "name": "scpinventory:statue_death",
+        "volume": 1.3
+      }
+    ],
+    "replace": true
+  },
+  "neck_snap": {
+    "subtitle": "subtitles.scpinventory.neck_snap",
+    "sounds": [
+      {
+        "name": "scpinventory:neck_snap",
+        "volume": 1.3
+      }
+    ],
+    "replace": true
+  }
+}

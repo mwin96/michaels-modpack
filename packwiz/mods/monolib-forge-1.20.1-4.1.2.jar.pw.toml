@@ -1,0 +1,8 @@
+name = "monolib-forge-1.20.1-4.1.2.jar"
+filename = "monolib-forge-1.20.1-4.1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/9leXt4A5/versions/njYIJ5XO/monolib-forge-1.20.1-4.1.2.jar"
+hash-format = "sha512"
+hash = "135737876289114a43b5ffbd94d0159324fccaf752677e509d84052cb31126a3034542531b48a64cdd5f9c1521895a5c6e05e919b8c294c71bf81fb210c81e5f"

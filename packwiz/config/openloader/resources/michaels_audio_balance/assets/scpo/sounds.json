@@ -1,0 +1,67 @@
+{
+  "scp_173_hurt": {
+    "sounds": [
+      {
+        "name": "scpo:scp_173_hurt_2",
+        "stream": false,
+        "volume": 0.65
+      },
+      {
+        "name": "scpo:scp_173_hurt_1",
+        "stream": false,
+        "volume": 0.65
+      }
+    ],
+    "replace": true
+  },
+  "scp_173_tantrum": {
+    "sounds": [
+      {
+        "name": "scpo:scp_173_tantrum",
+        "stream": false,
+        "volume": 0.65
+      }
+    ],
+    "replace": true
+  },
+  "scp_173_step": {
+    "sounds": [
+      {
+        "name": "scpo:scp_173_step-01",
+        "stream": false,
+        "volume": 0.65
+      },
+      {
+        "name": "scpo:scp_173_step-02",
+        "stream": false,
+        "volume": 0.65
+      },
+      {
+        "name": "scpo:scp_173_step-03",
+        "stream": false,
+        "volume": 0.65
+      }
+    ],
+    "replace": true
+  },
+  "scp_173_necksnap": {
+    "sounds": [
+      {
+        "name": "scpo:scp_173_kill-01",
+        "stream": false,
+        "volume": 0.65
+      },
+      {
+        "name": "scpo:scp_173_kill-02",
+        "stream": false,
+        "volume": 0.65
+      },
+      {
+        "name": "scpo:scp_173_kill-03",
+        "stream": false,
+        "volume": 0.65
+      }
+    ],
+    "replace": true
+  }
+}

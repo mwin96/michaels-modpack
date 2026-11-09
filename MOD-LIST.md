@@ -90,7 +90,10 @@ Third-party archives are downloaded from their publishers rather than rehosted i
 | [The Knocker](https://modrinth.com/mod/the-knocker) | 1.5.2 | both | LicenseRef-All-Rights-Reserved |
 | [The Man From The Fog](https://modrinth.com/mod/the-man-from-the-fog) | 1.4 | both | LicenseRef-All-Rights-Reserved |
 | [Threateningly mobs](https://modrinth.com/mod/threateningly-mobs) | 1.1.1 | both | MIT |
-| [Touhou Little Maid](https://modrinth.com/mod/touhou-little-maid) | 1.5.3-forge+mc1.20.1 | both | CC-BY-NC-SA-4.0 |
+| [Dis-Enchanting Table](https://modrinth.com/mod/dis-enchanting-table) | 5.0.2 | both | All-Rights-Reserved |
+| [Extra Enchantments and Curses](https://modrinth.com/mod/extra-enchantments-and-curses) | 1.7.2 | both | MIT |
+| [MonoLib](https://modrinth.com/mod/monolib) | forge-1.20.1-4.1.2 | both | Unlicense |
+| [TrashSlot](https://modrinth.com/mod/trashslot) | 15.1.5+forge-1.20.1 | both | All-Rights-Reserved |
 | [unmannedonlinetickstasis](https://modrinth.com/mod/unmannedonlinetickstasis) | 1.0.0 | both | LicenseRef-All-Rights-Reserved |
 | [Valhelsia Core](https://modrinth.com/mod/valhelsia-core) | 1.1.2 | both | LicenseRef-Custom |
 | [Valhelsia Structures](https://modrinth.com/mod/valhelsia-structures) | 1.1.2 | both | LicenseRef-Valhelsia-Structures-License |
@@ -115,7 +118,7 @@ Third-party archives are downloaded from their publishers rather than rehosted i
 
 ## Playability patch 1.0.2
 
-The retained third-party projects and versions are unchanged. New players start in the natural wilderness at the original world spawn, with no starter items or compulsory guidebooks. Rats remains available as an optional system. Touhou Little Maid's starter gifts are disabled.
+The retained third-party projects and versions are unchanged. New players start in the natural wilderness at the original world spawn, with no starter items or compulsory guidebooks. Rats remains available as an optional system.
 
 Xaero's minimap stays small, with mob radar and coordinate/status rows hidden; update 1.0.3 enables friend tracking. The advanced geology overlay starts off and can be toggled with F4. Game master volume defaults to 100%; Windows sound settings are unchanged.
 
@@ -256,3 +259,10 @@ Ender Trigon enhances the first Dragon fight with three heads and new attacks; t
 
 - Combat rebalance, including stronger melee weapons.
 - Equipped gear and hotbar weapons lose durability on death.
+
+## Update 1.2.1
+
+- Added a trash slot, a disenchanting table and more enchantments.
+- Softer sunsets and less see-through water.
+- Audio, spawn and interface touch-ups.
+- Removed Touhou Little Maid.
