@@ -1887,10 +1887,6 @@ file = "mods/michaels-double-or-nothing-1.0.1.jar"
 hash = "00723d721d34ae575c1b004475a25518070003099feb8dbdddaa1686ec30b05b"
 
 [[files]]
-file = "mods/michaels-world-welcome-1.2.1.jar"
-hash = "4dd4ebea2f150f2c2d412e2e2e0254bcf09fbf4e2e1ca5f19ffb782c1287b3f1"
-
-[[files]]
 file = "shaderpacks/MakeUp-UltraFast-9.6-Enhanced.zip"
 hash = "088ebe89778cdfac90ca5dd4d13eefd2f1e66e353eef1dcd09f24287efd8c39f"
 
@@ -1930,3 +1926,53 @@ hash = "2d9629ad12a4f0bced03f1b9a94cbcad7965632e051459575db1c4df4190ed91"
 [[files]]
 file = "mods/orbital_railgun-1.4.2-michaels-3.jar"
 hash = "dc64d2d925756c4b7275aca7025f6329a73461a3928f4569a93159c530b36bbb"
+
+[[files]]
+file = "config/hardcorerevival-common.toml"
+hash = "5963c10a21ccc080dc0cc794fa89c44705120f09932cbc7fa7341821afea9107"
+
+[[files]]
+file = "config/openloader/data/michaels_pack_fixes/data/alexsmobs/loot_tables/entities/void_worm.json"
+hash = "98ba61df0ac976e3eba335f8289c26d8407325e1d57268a99ae186efcad20776"
+
+[[files]]
+file = "config/openloader/data/michaels_pack_fixes/data/arphex/loot_tables/entities/spider_infestor.json"
+hash = "0be41726332a6eaa990b9d042f547ccd47f6f73b67f0536f1c139afce9aeb5d1"
+
+[[files]]
+file = "config/openloader/data/michaels_pack_fixes/data/arphex/loot_tables/entities/spider_matriarch.json"
+hash = "c19c406eb759aa88eb80127fcea8cf3501494445f3ed1fd82bfa0340c2fd5a8f"
+
+[[files]]
+file = "config/openloader/data/michaels_pack_fixes/data/arphex/loot_tables/entities/spider_moth.json"
+hash = "9bf8db02460b3108e57055953465623e89379059c2234b7165337badb1762c47"
+
+[[files]]
+file = "config/openloader/data/michaels_pack_fixes/data/arphex/loot_tables/entities/spider_reaper.json"
+hash = "ac29afdb3f4e069b97ec0e71225386c2bdcffa0a9f3a5f31b67c3ee4e75f8fa0"
+
+[[files]]
+file = "config/openloader/data/michaels_pack_fixes/data/arphex/loot_tables/entities/termite_tunneler_queen.json"
+hash = "b333919bda88530e91246ca948e9678f30f333f100e326c7924eee936e7dc229"
+
+[[files]]
+file = "config/openloader/data/michaels_pack_fixes/data/threateningly_mobs/loot_tables/entities/ice_brood_mother.json"
+hash = "d35ee76ef556d5c390b39f10e9167729f4eb01ec441f011f3769b28df25cfa8e"
+
+[[files]]
+file = "config/openloader/resources/michaels_audio_balance/assets/hardcorerevival/lang/en_us.json"
+hash = "1458d2a0cb1d56eb863cbc7024d3e819243f96b4ed615c7896bf8fb5d61ea45b"
+
+[[files]]
+file = "mods/michaels-world-welcome-1.2.3.jar"
+hash = "43f86209963defd742c8498f2eedaeade43fa866824ba3f5c6ba376a4c8d6c34"
+
+[[files]]
+file = "mods/fwa+1.20.1-forge-1.3.4.jar.pw.toml"
+hash = "d1200f427e577ecdb8ccd39aa052b237783c866930f7ff657fcbf79cd52a245f"
+metafile = true
+
+[[files]]
+file = "mods/hardcorerevival-forge-1.20.1-20.1.19.jar.pw.toml"
+hash = "d45b5796764f06ad1e0ec466ae4a7ec67225ac78f04b8109a8b9859cd9553e23"
+metafile = true

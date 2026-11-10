@@ -1,0 +1,10 @@
+{
+  "gui.hardcorerevival.knocked_out": "You're down!",
+  "gui.hardcorerevival.wait_for_rescue": "Hang on, a friend can still save you.",
+  "gui.hardcorerevival.rescue_time_left": "%d seconds until you bleed out",
+  "gui.hardcorerevival.hold_to_rescue": "Hold %s to pick them up.",
+  "gui.hardcorerevival.being_rescued": "Getting you back up...",
+  "gui.hardcorerevival.die": "%1$s Respawn %1$s",
+  "death.attack.not_rescued_in_time": "%1$s bled out",
+  "death.attack.not_rescued_in_time.player": "%1$s bled out"
+}

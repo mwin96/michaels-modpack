@@ -105,6 +105,8 @@ Third-party archives are downloaded from their publishers rather than rehosted i
 | [YetAnotherConfigLib (YACL)](https://modrinth.com/mod/yacl) | 3.6.6+1.20.1-forge | both | LGPL-3.0-or-later |
 | [YUNG's API](https://modrinth.com/mod/yungs-api) | 1.20-Forge-4.0.6 | both | LGPL-3.0-only |
 | [Zeta](https://modrinth.com/mod/zeta) | 1.20.1-1.0-31 | both | CC-BY-NC-SA-3.0 |
+| [Fancy World Animations](https://modrinth.com/mod/fancy-world-animations) | 1.3.4 | client | MIT |
+| [Hardcore Revival](https://modrinth.com/mod/hardcore-revival) | 20.1.19+forge-1.20.1 | both | LicenseRef-All-Rights-Reserved |
 
 ## Integration choices
 
@@ -272,3 +274,9 @@ Ender Trigon enhances the first Dragon fight with three heads and new attacks; t
 - The Man From The Fog appears more often than in 1.2.1, but not as often as before.
 - Fixed the Orbital Railgun shot looking wrong with shaders on.
 - Fixed the first connection sometimes timing out when the game starts.
+
+## Update 1.2.3
+
+- Added Hardcore Revival: when you would die, you go down for 60 seconds and a friend can pick you up. Gear only loses durability if you actually die.
+- Doors, chests, bells and other blocks now animate smoothly (Fancy World Animations).
+- Bugs are now only the boss bugs, and those bosses drop the rare materials the smaller bugs used to.

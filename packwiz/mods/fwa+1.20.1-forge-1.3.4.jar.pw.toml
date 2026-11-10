@@ -1,0 +1,8 @@
+name = "Fancy World Animations"
+filename = "fwa+1.20.1-forge-1.3.4.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/IAzUFvS6/versions/gpbASJi7/fwa%2B1.20.1-forge-1.3.4.jar"
+hash-format = "sha512"
+hash = "eb36a69106116f80ac891f6858087f1a8e099aedd4c2107d2fcd55dc389d16343b982fb8fb3f5809626825462262a24d835d0230e08fe39d4e9cb01f6425f4e5"

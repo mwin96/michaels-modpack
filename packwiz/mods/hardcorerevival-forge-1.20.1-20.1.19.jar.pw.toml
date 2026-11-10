@@ -1,0 +1,8 @@
+name = "Hardcore Revival"
+filename = "hardcorerevival-forge-1.20.1-20.1.19.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/HqKoXaXz/versions/7WqVfW0w/hardcorerevival-forge-1.20.1-20.1.19.jar"
+hash-format = "sha512"
+hash = "342f8245f3896d8b67e0e921d68f411f23b980ac6eb9167f13f360a1da389712e0a817f18e8ea588f9ec93fb22ec6a59b0ce2afd3b92cdfd5a3fb3cf89de2908"
