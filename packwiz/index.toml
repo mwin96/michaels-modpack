@@ -1974,9 +1974,18 @@ hash = "d45b5796764f06ad1e0ec466ae4a7ec67225ac78f04b8109a8b9859cd9553e23"
 metafile = true
 
 [[files]]
-file = "mods/michaels-world-welcome-1.2.6.jar"
-hash = "eef6d20db6847c297bd7af468d26c9ca89d228b75310a188590c9bd5ef7ec2ba"
-
-[[files]]
 file = "mods/michaels-zeta-lock-1.0.0.jar"
 hash = "7595f362d0418a57d96cd9e6e00f008937979b01d21a84ccf5b862ffeddf3dba"
+
+[[files]]
+file = "mods/michaels-companions-1.0.0.jar"
+hash = "eff427eb1c53c7673d52439736db72bb1f5c9eeb3915b58ff56f85321937663f"
+
+[[files]]
+file = "mods/michaels-world-welcome-1.2.7.jar"
+hash = "6f2bbbc08cc88d1d4a60fe10aebc76a71a91242b87546139f4299f48978eae4a"
+
+[[files]]
+file = "mods/mobcapture-forge-1.0.0.jar.pw.toml"
+hash = "0eac669479f3e96ad9712914447194e69e52b7e035ae5249331679a6c6f7d7d8"
+metafile = true

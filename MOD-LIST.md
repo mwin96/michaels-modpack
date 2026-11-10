@@ -287,3 +287,8 @@ Ender Trigon enhances the first Dragon fight with three heads and new attacks; t
 - Gear durability on death works again for items kept through death.
 - Items kept through death go back to the right player in multiplayer.
 - Siren Head leaves after knocking a player down, like it does after a kill.
+
+## Update 1.2.5
+
+- Added the Mob Capture Orb: capture a mob and release it as an ally that fights hostile mobs for you. Craft it or find it in structure chests.
+- Added a one-time "What's new" popup for returning players.
