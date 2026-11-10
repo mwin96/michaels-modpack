@@ -1964,10 +1964,6 @@ file = "config/openloader/resources/michaels_audio_balance/assets/hardcorereviva
 hash = "1458d2a0cb1d56eb863cbc7024d3e819243f96b4ed615c7896bf8fb5d61ea45b"
 
 [[files]]
-file = "mods/michaels-world-welcome-1.2.3.jar"
-hash = "43f86209963defd742c8498f2eedaeade43fa866824ba3f5c6ba376a4c8d6c34"
-
-[[files]]
 file = "mods/fwa+1.20.1-forge-1.3.4.jar.pw.toml"
 hash = "d1200f427e577ecdb8ccd39aa052b237783c866930f7ff657fcbf79cd52a245f"
 metafile = true
@@ -1976,3 +1972,11 @@ metafile = true
 file = "mods/hardcorerevival-forge-1.20.1-20.1.19.jar.pw.toml"
 hash = "d45b5796764f06ad1e0ec466ae4a7ec67225ac78f04b8109a8b9859cd9553e23"
 metafile = true
+
+[[files]]
+file = "mods/michaels-world-welcome-1.2.6.jar"
+hash = "eef6d20db6847c297bd7af468d26c9ca89d228b75310a188590c9bd5ef7ec2ba"
+
+[[files]]
+file = "mods/michaels-zeta-lock-1.0.0.jar"
+hash = "7595f362d0418a57d96cd9e6e00f008937979b01d21a84ccf5b862ffeddf3dba"

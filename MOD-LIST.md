@@ -280,3 +280,10 @@ Ender Trigon enhances the first Dragon fight with three heads and new attacks; t
 - Added Hardcore Revival: when you would die, you go down for 60 seconds and a friend can pick you up. Gear only loses durability if you actually die.
 - Doors, chests, bells and other blocks now animate smoothly (Fancy World Animations).
 - Bugs are now only the boss bugs, and those bosses drop the rare materials the smaller bugs used to.
+
+## Update 1.2.4
+
+- Fixed a random crash when starting the game (Quark and Supplementaries loading at the same time).
+- Gear durability on death works again for items kept through death.
+- Items kept through death go back to the right player in multiplayer.
+- Siren Head leaves after knocking a player down, like it does after a kill.
